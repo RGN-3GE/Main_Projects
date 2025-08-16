@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VisioDocument>
+	<DocumentProperties>
+		<Title></Title>
+		<HyperlinkBase href=""></HyperlinkBase>
+	</DocumentProperties>
+	<Pages>
+		<Page ID="0" Name="Página-1" NameU="Page-1">
+			<Shapes>
+				<Shape ID="1" UniqueID="{31F57539-C4E7-4125-8954-FFF711C954F5}" Name="Sheet.1" NameU="Sheet.1">
+					<XForm>
+						<PinX Unit="MM">4.250000000000000</PinX>
+						<PinY Unit="MM">5.499999999999999</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="2" UniqueID="{98E555A7-5204-4DA5-8C7D-578D7123C735}" Name="Sheet.2" NameU="Sheet.2">
+					<Text>REPOSITORIO DE PROYECTOS WEB DE 3GE LTDA.</Text>
+					<XForm>
+						<PinX Unit="MM">4.250000000000000</PinX>
+						<PinY Unit="MM">10.294181977252844</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="3" UniqueID="{BE410A81-824C-4019-9B50-64E7B68D22BA}" Name="Sheet.3" NameU="Sheet.3">
+					<Text>Proyectos:</Text>
+					<XForm>
+						<PinX Unit="MM">1.377952755905512</PinX>
+						<PinY Unit="MM">9.586614173228346</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="4" UniqueID="{0426F6B0-8F15-49E9-9F79-0B3A827FF512}" Name="Sheet.4" NameU="Sheet.4">
+					<Text>- Arc Flash Demo</Text>
+					<XForm>
+						<PinX Unit="MM">1.377952755905512</PinX>
+						<PinY Unit="MM">8.996062992125985</PinY>
+					</XForm>
+					<Scratch>
+						<B>
+							<SolutionXML>
+								<HLURL:Hyperlinks xmlns:HLURL="urn:schemas-microsoft-com:office:visio:dghlinkext">
+									<HLURL:Hyperlink ID="1">
+										<HLURL:Description></HLURL:Description>
+										<HLURL:Address>https://3geprojects.cl/arc-flash-relay-project/Builds/WebApp_Default%20Web%20Server/index_2.html</HLURL:Address>
+										<HLURL:SubAddress></HLURL:SubAddress>
+										<HLURL:ExtraInfo></HLURL:ExtraInfo>
+										<HLURL:Default>0</HLURL:Default>
+										<HLURL:NewWindow>0</HLURL:NewWindow>
+										<HLURL:AbsoluteURL>https://3geprojects.cl/arc-flash-relay-project/Builds/WebApp_Default%20Web%20Server/index_2.html</HLURL:AbsoluteURL>
+									</HLURL:Hyperlink>
+								</HLURL:Hyperlinks>
+							</SolutionXML>
+						</B>
+					</Scratch>
+				</Shape>
+			</Shapes>
+		</Page>
+	</Pages>
+</VisioDocument>
