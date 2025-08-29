@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="A1A88E031F76FE9102960DE59055FBAE1435CE11FA8BC2DE596B5BAF43FC7293A715EE81ECBFB9FE89BD3F7BB8FEDA31335802F43F954A95ED8199E9AE0955CF" Timestamp="1DC189008DC444C" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="9.5.0.49854" FeatureSetName="GComponentFeatureSet" Name="http://www.ni.com/GComponent.xsd" OldestCompatibleVersion="9.0.0.0" Version="9.0.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="9.5.0.49854" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ApplicationVersionInfo Build="9.5.0.49854" Name="G Web Development Software" Version="22.3.0" />
+	</SourceModelFeatureSet>
+	<DistributionDefinition Company="3GE LTDA" OutputDirectory="&quot;D:\\RESPALDO PROYECTOS\\LABVIEW DEMO ESTANQUE SGS\\G WEB APP\\demo-estanque-project\\Builds\\WebApp_Web_Server&quot;" Product="LevelTank_WebApp" ShortDescription="demo-estanque_v1" TargetedProduct="LabVIEW" Version="1.0.0.1" xmlns="http://www.ni.com/GComponent.xsd">
+		<DistributionDependencyContent DisplayName="ni-certificates" Id="17577b8755da47af9af2bdcda94f34ef" Included="False" Name="ni-certificates" RequirementType="Recommended" VersionRequirement="None" />
+		<DistributionOutput CachedDisplayName="Package Installer" Id="40383095d99465b8ba42c06a3edbdba" p3:CustomNipmPackageName="demo-estanque-v1" p3:DistributionCategory="Application" p3:MaintainerEmail="rodrigo.gonzalez@3ge.cl" p3:MaintainerName="RGN" p3:PackageDisplayName="LevelTank_WebApp" xmlns:p3="http://www.ni.com/GComponent.xsd" />
+		<DistributionBuildTarget Id="449f05c1cbb447db91677d473993b912" Target="::VireoDevSystem" />
+		<DistributionMemberDependencySource Id="da29c212e653452eb7dd56680671315c" MemberContentType="{http://www.ni.com/GComponent.xsd}Component_Rebuild" RelativeLocation="&quot;Web Server\\htdocs\\WebApp&quot;" RootLocation="NISharedDirectory64" Target="::VireoDevSystem::Interactive::WebApp.gcomp" />
+		<DistributionDependencyContent DisplayName="NI Web Server" Id="9b216d6111e24a74a423af7d2a22e033" Included="False" MaintainerName="National Instruments" Name="ni-webserver" Version="21.3.0.49152-0+f0" />
+	</DistributionDefinition>
+</SourceFile>
