@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="F93412318A646113344E801557DE96CC9D6176873B3C0E742103DAC9991AF69C4AD237D94EE649A25B4217D43A9AB04CAC521CDC9D7F2B7E71341AC8FC543EE7" Timestamp="1DC2AA7C25FDD92" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="E5EF1C8176852A370341AB9D07A869AA3C475503942FE2A436F674A9A3C643E39FEA066343D63E1F8026BCAF01DC7C2E897DB8CFC1A37DAAA46F91D3EDBAB03C" Timestamp="1DC2AA80B23CD35" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="9.5.0.49854" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="9.5.0.49854" FeatureSetName="LabVIEW Virtual Instrument" Name="http://www.ni.com/LabVIEW.VI" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
@@ -1224,9 +1224,9 @@
 			</NodeLabel>
 		</BlockDiagram>
 		<HtmlFrontPanel Background="[SMSolidColorBrush]#ffffffff" Height="[float]885" Id="15" Left="[float]0" MaxWidth="[float]16000" MinHeight="[float]0" MinWidth="[float]0" PanelSizeMode="Fixed" Top="[float]0" Width="[float]1600" xmlns="http://www.ni.com/NationalInstruments.LabVIEW.HtmlVI">
-			<TabControl BaseName="[string]Tab" Height="[float]870" Id="24b8c35e328643628a9faf2ea61cfd3e" IncludeInCapture="[bool]False" Label="[UIModel]93cb089f08ec42a38223a2296ef42265" Left="[float]11" SelectedIndex="{DataItemBinding Id=6664d0eb76e74e13b431729c94a580fa}" TabIndex="[int]0" TabSelectorVisibility="[SMVisibility]Visible" TabStripPlacement="[Dock]Bottom" Top="[float]5" Width="[float]1580" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+			<TabControl BaseName="[string]Tab" Height="[float]870" Id="24b8c35e328643628a9faf2ea61cfd3e" IncludeInCapture="[bool]False" Label="[UIModel]93cb089f08ec42a38223a2296ef42265" Left="[float]11" SelectedIndex="{DataItemBinding Id=6664d0eb76e74e13b431729c94a580fa}" TabIndex="[int]0" TabSelectorVisibility="[SMVisibility]Collapsed" TabStripPlacement="[Dock]Bottom" Top="[float]5" Width="[float]1580" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
 				<TabItem Header="[string]Access" Id="1f4f5a97242e4f029d9ec2c5af73dead" Left="[float]0" TabIndex="[int]0" Top="[float]0">
-					<LayoutPanel Height="[float]845" Id="d13d82401fff4116b95aee35d6bfe0e6" Left="[float]1" MinHeight="[float]30" Top="[float]1" Width="[float]1578">
+					<LayoutPanel Height="[float]868" Id="d13d82401fff4116b95aee35d6bfe0e6" Left="[float]1" MinHeight="[float]30" Top="[float]1" Width="[float]1578">
 						<StringControl AcceptsReturn="[bool]True" BaseName="[string]String" Height="[float]24" HorizontalScrollBarVisibility="[ScrollBarVisibility]Hidden" Id="974d7f03ae1f47a2a3beae9abf65e79b" Label="[UIModel]de185bebc8ed4fbea9c1a4328117cfa0" Left="[float]704" TabIndex="[int]0" Text="{DataItemBinding Id=9f7c44fefe8f4937a9a388ae4a5c7e25}" Top="[float]264" VerticalScrollBarVisibility="[ScrollBarVisibility]Auto" Width="[float]168" />
 						<Label Height="[float]16" Id="de185bebc8ed4fbea9c1a4328117cfa0" LabelOwner="[UIModel]974d7f03ae1f47a2a3beae9abf65e79b" Left="[float]704" Text="[string]Usuario" Top="[float]244" Width="[float]41" xmlns="http://www.ni.com/PanelCommon" />
 						<MaskedInput BaseName="[string]Masked Input" Height="[float]24" Id="85d9b7e27265472baac3f9ac20cfc419" Label="[UIModel]8ac7cccbb12c43e89faefa50195c21a8" Left="[float]704" MaskedValue="{DataItemBinding Id=781589b36b2141eb9202d9d8a6e252e5}" TabIndex="[int]1" Top="[float]328" Width="[float]168" />
@@ -1245,11 +1245,11 @@
 						<LVCheckBox BaseName="[string]Checkbox" Content="[string]Vista SmartPhone" Height="[float]23" Id="6620d92ed1404216a684dd16fa15f5b6" Label="[UIModel]4eb53e0c08424d53b5f318f34391c890" Left="[float]733" TabIndex="[int]4" Top="[float]358" Value="{DataItemBinding Id=a3483ecae9ac4f97b0cb163062300b78}" Width="[float]111" />
 						<Label Height="[float]16" Id="4eb53e0c08424d53b5f318f34391c890" LabelOwner="[UIModel]6620d92ed1404216a684dd16fa15f5b6" Left="[float]733" Text="[string]SmartPhone" Top="[float]338" Visible="[bool]False" Width="[float]65" xmlns="http://www.ni.com/PanelCommon" />
 						<UrlImage Alternate="[string]" BaseName="[string]UrlImage" Height="[float]40" Id="bb0d2f8cbdc045929dc358d092cba261" Label="[UIModel]6e9e92f82e2c45a7a5ee85410d92e679" Left="[float]792" Source="{DataItemBinding Id=9acae0090bc04b20834a53bcbddc6cb9}" Stretch="[SMStretch]Uniform" TabIndex="[int]5" Top="[float]480" Width="[float]100" />
-						<Label Height="[float]0" Id="6e9e92f82e2c45a7a5ee85410d92e679" LabelOwner="[UIModel]bb0d2f8cbdc045929dc358d092cba261" Left="[float]792" Text="[string]URL Image_2" Top="[float]460" Visible="[bool]False" Width="[float]0" xmlns="http://www.ni.com/PanelCommon" />
+						<Label Height="[float]16" Id="6e9e92f82e2c45a7a5ee85410d92e679" LabelOwner="[UIModel]bb0d2f8cbdc045929dc358d092cba261" Left="[float]792" Text="[string]URL Image_2" Top="[float]460" Visible="[bool]False" Width="[float]69" xmlns="http://www.ni.com/PanelCommon" />
 					</LayoutPanel>
 				</TabItem>
 				<TabItem Header="[string]Main" Id="8c2fdcff1bba4125a35d90e489e79e84" Left="[float]0" TabIndex="[int]0" Top="[float]0">
-					<LayoutPanel Height="[float]845" Id="ad61633b9a3b47d0b6feaf775204c83d" Left="[float]1" MinHeight="[float]30" Top="[float]1" Width="[float]1578">
+					<LayoutPanel Height="[float]868" Id="ad61633b9a3b47d0b6feaf775204c83d" Left="[float]1" MinHeight="[float]30" Top="[float]1" Width="[float]1578">
 						<Text BaseName="[string]Text" Height="[float]72" Id="39e8352580c84efe93fc0c3468f2e2bd" Left="[float]559" SizeMode="[TextModelSizeMode]Fixed" Text="[string]MONITOREO REMOTO DE CONSUMO&#xD;&#xA;DE ENERGÍA ELÉCTRICA" TextAlignment="[TextAlignment]Center" TextWrapping="[TextWrapping]Wrap" Top="[float]16" Width="[float]456" xmlns="http://www.ni.com/PlatformFramework">
 							<FontSetting FontFamily="Segoe UI" FontSize="18" FontStyle="Bold" Id="8f4d02602929451d861aa578a7bd5d1c" />
 						</Text>
@@ -1379,7 +1379,7 @@
 					</LayoutPanel>
 				</TabItem>
 				<TabItem Header="[string]Main2" Id="74dba3a0c2574b549c63c98b3b2a6e23" Left="[float]0" Top="[float]0">
-					<LayoutPanel Height="[float]845" Id="8a6a4b49e8274df68b7fda9576872258" Left="[float]1" MinHeight="[float]30" Top="[float]1" Width="[float]1578">
+					<LayoutPanel Height="[float]868" Id="8a6a4b49e8274df68b7fda9576872258" Left="[float]1" MinHeight="[float]30" Top="[float]1" Width="[float]1578">
 						<Text BaseName="[string]Text" Height="[float]32" Id="65206a3e9df9469ea60bc8ba30936c8b" Left="[float]279" SizeMode="[TextModelSizeMode]Fixed" Text="[string]MONITORING ARC-FLASH SYSTEM" TextAlignment="[TextAlignment]Center" TextWrapping="[TextWrapping]Wrap" Top="[float]20" Width="[float]400" xmlns="http://www.ni.com/PlatformFramework">
 							<FontSetting FontFamily="Segoe UI" FontSize="18" FontStyle="Bold" Id="fbff11f2ae36407eb15c33fe3e777fbf" />
 						</Text>

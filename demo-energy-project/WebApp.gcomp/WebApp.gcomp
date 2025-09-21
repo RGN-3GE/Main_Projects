@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="03EB5E50F830F0D2E526FF5585F3662F47077D64714A90A37C49419EDF2333B91C627FFF6A9E6ED022818ED9BDC49AE6CD4A1C6E0597B9D18E8BA53997C4A10A" Timestamp="1DC2AA7CEC0ACA7" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="6288646FE5F83856916F984D0EBDEE0AC59DB0F544015F4F7209C26EE4F429CA814132EB4056985022DC614590FCC30369E1DCC6D967E1CB2290EC4144DF2169" Timestamp="1DC2AA810466EC3" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="9.5.0.49854" FeatureSetName="GComponentFeatureSet" Name="http://www.ni.com/GComponent.xsd" OldestCompatibleVersion="9.0.0.0" Version="9.0.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="9.5.0.49854" FeatureSetName="Web Module: WebVI" Name="http://www.ni.com/NationalInstruments.LabVIEW.HtmlVI" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="9.5.0.49854" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
 		<ApplicationVersionInfo Build="9.5.0.49854" Name="G Web Development Software" Version="22.3.0" />
 	</SourceModelFeatureSet>
-	<ComponentDefinition AutoIncrementOnBuild="True" Company="3GE Ltda." DefaultConfigurationName="Configuration1" Id="ba65447f549348958fbb221cb6a0147f" Product="Energy-System" RootNamespaceId="f31c3c7667c54cc086044d1af43f647d" UserVersion="1.0.0.11" xmlns="http://www.ni.com/GComponent.xsd">
+	<ComponentDefinition AutoIncrementOnBuild="True" Company="3GE Ltda." DefaultConfigurationName="Configuration1" Id="ba65447f549348958fbb221cb6a0147f" Product="Energy-System" RootNamespaceId="f31c3c7667c54cc086044d1af43f647d" UserVersion="1.0.0.12" xmlns="http://www.ni.com/GComponent.xsd">
 		<Icon Id="ade0a1c927f648d882e9d9b653b1e627" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
 			<IconPanel Height="[float]40" Id="ed4e8e4206eb495f9679989cf1f6eace" Left="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
 				<IconTemplate Height="[float]40" Id="db72708454044837a9c0181a518a165a" Left="[float]0" TemplateName="[string]Blank" Top="[float]0" Width="[float]40" />
