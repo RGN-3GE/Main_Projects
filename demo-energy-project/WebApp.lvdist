@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="9037F8B5D65774188DE106AD7A25050C393B60A43054C31464E891522A31B3F50EF481CE19759DEE854AB5E3D5D750FFAE321CD1442B5E8DE0DC83B9FF0444AF" Timestamp="1DC29CB9717656F" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="9.5.0.49854" FeatureSetName="GComponentFeatureSet" Name="http://www.ni.com/GComponent.xsd" OldestCompatibleVersion="9.0.0.0" Version="9.0.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="9.5.0.49854" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ApplicationVersionInfo Build="9.5.0.49854" Name="G Web Development Software" Version="22.3.0" />
+	</SourceModelFeatureSet>
+	<DistributionDefinition Company="3GE LTDA" OutputDirectory="&quot;D:\\RESPALDO PROYECTOS\\LABVIEW DEMO ESTANQUE SGS\\G WEB APP\\demo-estanque-project\\Builds\\WebApp_Web_Server&quot;" Product="Energy_WebApp" ShortDescription="demo-energy_v1" TargetedProduct="LabVIEW" Version="1.0.0.1" xmlns="http://www.ni.com/GComponent.xsd">
+		<DistributionOutput CachedDisplayName="Package Installer" Id="40383095d99465b8ba42c06a3edbdba" p3:CustomNipmPackageName="energy-v1" p3:DistributionCategory="Application" p3:MaintainerEmail="rodrigo.gonzalez@3ge.cl" p3:MaintainerName="RGN" p3:PackageDisplayName="Energy_WebApp" xmlns:p3="http://www.ni.com/GComponent.xsd" />
+		<DistributionBuildTarget Id="449f05c1cbb447db91677d473993b912" Target="::VireoDevSystem" />
+		<DistributionMemberDependencySource Id="da29c212e653452eb7dd56680671315c" MemberContentType="{http://www.ni.com/GComponent.xsd}Component_Rebuild" RelativeLocation="&quot;Web Server\\htdocs\\WebApp&quot;" RootLocation="NISharedDirectory64" Target="::VireoDevSystem::Interactive::WebApp.gcomp" />
+		<DistributionDependencyContent DisplayName="NI Web Server" Id="9b216d6111e24a74a423af7d2a22e033" Included="False" MaintainerName="National Instruments" Name="ni-webserver" Version="21.3.0.49152-0+f0" />
+		<DistributionDependencyContent DisplayName="ni-certificates" Id="9f5cdfc644c341b290d59319d9ae0fb0" Included="False" Name="ni-certificates" RequirementType="Recommended" VersionRequirement="None" />
+	</DistributionDefinition>
+</SourceFile>
