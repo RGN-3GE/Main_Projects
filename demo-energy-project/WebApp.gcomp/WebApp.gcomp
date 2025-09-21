@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="A02220B0C2677F3094DE024951C30ADE5F41611C053852B0D7E1C1B7B159AC216C47DC096F93E9770D1232E761C392FEDE0F9741D7E389B7D8F5F914BBB1BAEB" Timestamp="1DC2AA38CC9CA17" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="3519E0F7C411DA1FB5E8FF8888D0555ADA34AED13DE7E28FB85030DFB3244269F07FB6DCE54088910EB335C1F4A5C7D8DE65EDB97673E5A4F2466141DCB4C5AC" Timestamp="1DC2AA562EC56B9" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="9.5.0.49854" FeatureSetName="GComponentFeatureSet" Name="http://www.ni.com/GComponent.xsd" OldestCompatibleVersion="9.0.0.0" Version="9.0.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="9.5.0.49854" FeatureSetName="Web Module: WebVI" Name="http://www.ni.com/NationalInstruments.LabVIEW.HtmlVI" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="9.5.0.49854" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
 		<ApplicationVersionInfo Build="9.5.0.49854" Name="G Web Development Software" Version="22.3.0" />
 	</SourceModelFeatureSet>
-	<ComponentDefinition AutoIncrementOnBuild="True" Company="3GE Ltda." DefaultConfigurationName="Configuration1" Id="ba65447f549348958fbb221cb6a0147f" Product="Energy-System" RootNamespaceId="f31c3c7667c54cc086044d1af43f647d" UserVersion="1.0.0.4" xmlns="http://www.ni.com/GComponent.xsd">
+	<ComponentDefinition AutoIncrementOnBuild="True" Company="3GE Ltda." DefaultConfigurationName="Configuration1" Id="ba65447f549348958fbb221cb6a0147f" Product="Energy-System" RootNamespaceId="f31c3c7667c54cc086044d1af43f647d" UserVersion="1.0.0.5" xmlns="http://www.ni.com/GComponent.xsd">
 		<Icon Id="ade0a1c927f648d882e9d9b653b1e627" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
 			<IconPanel Height="[float]40" Id="ed4e8e4206eb495f9679989cf1f6eace" Left="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
 				<IconTemplate Height="[float]40" Id="db72708454044837a9c0181a518a165a" Left="[float]0" TemplateName="[string]Blank" Top="[float]0" Width="[float]40" />
