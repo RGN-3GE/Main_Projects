@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="24057FD55C8A2D46000A67CAD8292D32BFF4F46E053E10E132782188762F3812742826C956971A47B242EE699FA2A7A146352D76F94FCB9EB9342744F3E098B0" Timestamp="1DC2C3A9DC23455" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="DA20C0A759385B9830C7F53C7E2D83AF58C339281513FD424FD190AA6187E386B32D2357CB8C35AC6EB68F1128AFC5D36B1F73947CEC2D1B5DEF7FD848153CAB" Timestamp="1DC2CFAC594641E" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="9.5.0.49854" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="9.5.0.49854" FeatureSetName="LabVIEW Virtual Instrument" Name="http://www.ni.com/LabVIEW.VI" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
@@ -78,10 +78,19 @@
 			<NodeLabel AttachedTo="5cd1d4a0a58b479dbdb083e865c1853b" Bounds="45 0 30 15" Id="ef99cbad4a0c453d8effac2a446cb838" xmlns="http://www.ni.com/PlatformFramework">
 				<p.Text>URL Image_2</p.Text>
 			</NodeLabel>
+			<DataAccessor Bounds="0 0 40 15" DataItem="5163e21d72b5460cbf4e6a28d0e550f0" Id="f82c6a4dc1a149b3a22f41b238ec65a0" Label="971eda8a7b854613a4353cb5c9edd240">
+				<Terminal DataType="Int32" Direction="Output" Hotspot="40 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+			</DataAccessor>
+			<NodeLabel AttachedTo="f82c6a4dc1a149b3a22f41b238ec65a0" Bounds="-35 0 30 15" Id="971eda8a7b854613a4353cb5c9edd240" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>Tab_3</p.Text>
+			</NodeLabel>
 		</DiagramUnplacedItems>
 		<FrontPanelUnplacedItems Id="11" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" PanelSizeMode="Fixed" Top="[float]0">
 			<NumericText BaseName="[string]Numeric" Height="[float]24" Id="1174e4ed4dc047c2a11552e772fe3060" Interval="[int]1" IsReadOnly="[bool]True" Label="[UIModel]6c9296e40d3e4ce4ab4672b48ae36bfd" Left="[float]55" RadixBase="[RadixBase]Decimal" TabIndex="[int]0" Top="[float]926" Value="{DataItemBinding Id=a41046f88810452eae505bd6e7fbde7e}" ValueFormatter="[string]DisplayFormat=Decimal:Digits=6:DigitDisplayType=SignificantDigits:MinimumFieldWidth=0:AlwaysShowSign=False:ShowThousandsSeparator=False" ValueType="[Type]Int32" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
 			<Label Height="[float]16" Id="6c9296e40d3e4ce4ab4672b48ae36bfd" LabelOwner="[UIModel]1174e4ed4dc047c2a11552e772fe3060" Left="[float]55" Text="[string]loop iteration" Top="[float]906" Width="[float]72" xmlns="http://www.ni.com/PanelCommon" />
+			<NumericText BaseName="[string]Numeric" Height="[float]24" Id="6e0512dbe0aa43fb9b87564e329c529c" Interval="[int]1" IsReadOnly="[bool]True" Label="[UIModel]5fe04433150846d8b5c39c7ebf7ffbc5" Left="[float]8" RadixBase="[RadixBase]Decimal" TabIndex="[int]1" Top="[float]900" Value="{DataItemBinding Id=8f069f812bec40f995a250e3c9a7ace5}" ValueFormatter="[string]DisplayFormat=Decimal:Digits=6:DigitDisplayType=SignificantDigits:MinimumFieldWidth=0:AlwaysShowSign=False:ShowThousandsSeparator=False" ValueType="[Type]Int32" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+				<Label Height="[float]16" Id="5fe04433150846d8b5c39c7ebf7ffbc5" IsVisualChild="[bool]False" LabelOwner="[UIModel]6e0512dbe0aa43fb9b87564e329c529c" Left="[float]8" Text="[string]loop iteration" Top="[float]880" Width="[float]72" xmlns="http://www.ni.com/PanelCommon" />
+			</NumericText>
 		</FrontPanelUnplacedItems>
 		<BlockDiagram Id="12">
 			<MethodCall Bounds="-685 230 40 40" Id="8655407269714745881a2b28781b701f" ResolveFailedHint="Open HTTP Handle.gvi, Package: (G Web Development Software HTTP Library Files, Version: 2022 Q3)" Signature="@4685d26350d14827a3385252395a6214" Target="NI::HTTP::Open HTTP Handle.gvi" xmlns="http://www.ni.com/MocCommon">
@@ -681,7 +690,7 @@
 			<Wire Id="764b5119a0c54dc8b4de82d7a545241d" Joints="N(9cdd99f83acf48838f18d8a5244b3106:queue out)|(265,535) h(15) B(1) N(96ee65e514584dc68da35c3a6d9c4daf:o0)|(306,535) B(1) v(115) B(3) h(1310) v(-115) N(d9e62f83fc5a4a1fb1b98652141363c9:queue)|(1620,535) B(3) v(90) N(e14ef5679137425e839548f79857a4d0:o0)|(286,740)" xmlns="http://www.ni.com/PlatformFramework" />
 			<ReleaseQueue Bounds="1620 530 40 40" Id="d9e62f83fc5a4a1fb1b98652141363c9" />
 			<Wire Id="64186312b38c42e3a79ff20dac9062bb" Joints="N(b6cf4e268b094af79608eb80a2bbe72e:16)|(1549,565) N(d9e62f83fc5a4a1fb1b98652141363c9:error in)|(1620,565)" xmlns="http://www.ni.com/PlatformFramework" />
-			<WhileLoop Bounds="290 670 1300 865" DiagramId="cdb1428ea755450b852aa9e9d9a8d35b" Id="200cf0a141de427780783c46389e2827">
+			<WhileLoop Bounds="290 670 1300 905" DiagramId="cdb1428ea755450b852aa9e9d9a8d35b" Id="200cf0a141de427780783c46389e2827">
 				<LoopIteration Bounds="5 515 15 15" Id="30e570bf328f46c7ae79efdcd6ace9e1" />
 				<LoopCondition Bounds="1265 470 15 15" Id="8f0d4fc6522847e598ca701901f37684" />
 				<DequeueElement Bounds="80 60 40 40" Id="3fd4b22f09644262a0a900a60d6edc4c" />
@@ -693,15 +702,15 @@
 				<NodeLabel AttachedTo="5d3ad02141c3463691c9c3bd71329448" Bounds="5 62 30 15" Id="a5eb10dbfa145078613bbf05aeb09c9" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
 					<p.Text>timeout in milliseconds</p.Text>
 				</NodeLabel>
-				<CaseStructure Bounds="235 30 1015 815" DataType="Error" Default="2dab97c6dc73473ea30cd8408336b8b8" Id="4c74640be10841b0b72099b33bf8e14e" Selected="303c3f0f4e81497aa47cea94c51e54be" UserSelectorBounds="454 0 106 17">
-					<CaseStructure.Case Bounds="5 5 1005 805" Id="2dab97c6dc73473ea30cd8408336b8b8" Pattern="Error">
+				<CaseStructure Bounds="235 30 1015 845" DataType="Error" Default="2dab97c6dc73473ea30cd8408336b8b8" Id="4c74640be10841b0b72099b33bf8e14e" Selected="303c3f0f4e81497aa47cea94c51e54be" UserSelectorBounds="454 0 106 17">
+					<CaseStructure.Case Bounds="5 5 1005 835" Id="2dab97c6dc73473ea30cd8408336b8b8" Pattern="Error">
 						<Literal Bounds="965 435 25 15" DataType="Boolean" Id="76f1cfbfe5784a109f154082d8dcd5b2" xmlns="http://www.ni.com/MocCommon">
 							<p.Data>True</p.Data>
 							<BooleanBehavior />
 						</Literal>
 						<Wire Id="8778e1b06db24c11abd3aeb966b59d0b" Joints="N(76f1cfbfe5784a109f154082d8dcd5b2:Out)|(990,440) N(50af2d49d07a4e7f94cd7818019d273a:2dab97c6dc73473ea30cd8408336b8b8)|(1001,440)" xmlns="http://www.ni.com/PlatformFramework" />
 					</CaseStructure.Case>
-					<CaseStructure.Case Bounds="5 5 1005 805" Id="303c3f0f4e81497aa47cea94c51e54be" Pattern="No Error">
+					<CaseStructure.Case Bounds="5 5 1005 835" Id="303c3f0f4e81497aa47cea94c51e54be" Pattern="No Error">
 						<PropertyNode Bounds="10 35 276 200" HasErrorTerminals="False" Id="885b133477dc4189bd3855e48df0f7d6" InstanceDataType="@f3e7165635ea4270b6b2a7345953a21f" xmlns="http://www.ni.com/MocCommon">
 							<PropertyItemTerminal DataType="String" Hotspot="276 15" Id="c0t0v" Path="Date | Time" PathElementMemberKinds="Field" Usage="Optional" />
 							<PropertyItemTerminal DataType="Boolean" Hotspot="276 30" Id="c1t0v" Path="app-active" PathElementMemberKinds="Field" Usage="Optional" />
@@ -767,14 +776,14 @@
 						<NodeLabel AttachedTo="5711c5ea63c7440bb25914480375e1b8" Bounds="610 60 74 14" Id="55d1fdc4b2084ee7837b943227fa6e23" xmlns="http://www.ni.com/PlatformFramework">
 							<p.Text>Server Active</p.Text>
 						</NodeLabel>
-						<Wire Id="a6a0c1582ae64590bd3fb3b43fb7a35c" Joints="N(16afb0cb01274174a7beb925474c11c5:output waveform)|(695,205) N(d023f32776704898bead69faf4e75472:Value)|(718,205)" xmlns="http://www.ni.com/PlatformFramework" />
+						<Wire Id="a6a0c1582ae64590bd3fb3b43fb7a35c" Joints="N(16afb0cb01274174a7beb925474c11c5:output waveform)|(695,205) h(10) B(1) N(d023f32776704898bead69faf4e75472:Value)|(718,205) B(1) v(15) N(7daad5283d2842729249d9ff6d0798d1:Value)|(718,220)" xmlns="http://www.ni.com/PlatformFramework" />
 						<DataAccessor Bounds="720 260 40 15" DataItem="d2031ee8bd8b4ad99d57ff1016e67f6d" Id="976afa785ffa45b48da4931308a0366d" Label="4f9a15d1515e4a1c84b132159a0ea96f" xmlns="http://www.ni.com/MocCommon">
 							<Terminal DataType="Wfm(Single)" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
 						</DataAccessor>
 						<NodeLabel AttachedTo="976afa785ffa45b48da4931308a0366d" Bounds="765 260 75 14" Id="4f9a15d1515e4a1c84b132159a0ea96f" xmlns="http://www.ni.com/PlatformFramework">
 							<p.Text>CURRENT (A)</p.Text>
 						</NodeLabel>
-						<Wire Id="fc838e20682f4a66af57a6ebd7f087a0" Joints="N(12310c37de914d239a47b6c920e9b66a:output waveform)|(695,265) N(976afa785ffa45b48da4931308a0366d:Value)|(723,265)" xmlns="http://www.ni.com/PlatformFramework" />
+						<Wire Id="fc838e20682f4a66af57a6ebd7f087a0" Joints="N(12310c37de914d239a47b6c920e9b66a:output waveform)|(695,265) h(15) B(1) N(976afa785ffa45b48da4931308a0366d:Value)|(723,265) B(1) v(15) N(33e9db5cd9d241498f88abf44b252201:Value)|(723,280)" xmlns="http://www.ni.com/PlatformFramework" />
 						<Wire Id="6d208472c45048c4b8c92bfdd8c6e563" Joints="N(885b133477dc4189bd3855e48df0f7d6:c1t0v)|(286,65) N(5711c5ea63c7440bb25914480375e1b8:Value)|(568,65)" xmlns="http://www.ni.com/PlatformFramework" />
 						<Wire Id="3d34187980e04e2885e36ad0aed0bc8b" Joints="N(885b133477dc4189bd3855e48df0f7d6:c2t0v)|(286,80) h(189) v(185) N(2060e59745d44361bc193289da93f4c4:c0t0v)|(555,265)" xmlns="http://www.ni.com/PlatformFramework" />
 						<DataAccessor Bounds="490 520 40 15" DataItem="f09ef11902de4593816d906611a9e5a5" Id="ac22272565c24cb7a9709be51a50ea20" Label="9610f6686604496695f28a73f8d0b6a1" xmlns="http://www.ni.com/MocCommon">
@@ -826,8 +835,8 @@
 						<NodeLabel AttachedTo="74ef482ed59d43959cecad1bb5f85ec7" Bounds="605 352 30 15" Id="37c174f119e149bd884b28c4320967fc" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
 							<p.Text>dt</p.Text>
 						</NodeLabel>
-						<Wire Id="269c01b7d81a4f7ca1b80c12026febe0" Joints="N(aaa1e34036ce4f79914f0774603b8314:output waveform)|(695,315) N(cd636a7e590b4c5dbcc868d245645b1c:Value)|(723,315)" xmlns="http://www.ni.com/PlatformFramework" />
-						<Wire Id="fefdd9a227d7410f8813fd0ba4850a6d" Joints="N(2586595ffefd465eb48257409017384d:output waveform)|(695,365) N(9f32d72e1eab4a3e88ebcfe1b0425129:Value)|(723,365)" xmlns="http://www.ni.com/PlatformFramework" />
+						<Wire Id="269c01b7d81a4f7ca1b80c12026febe0" Joints="N(aaa1e34036ce4f79914f0774603b8314:output waveform)|(695,315) h(15) B(1) N(cd636a7e590b4c5dbcc868d245645b1c:Value)|(723,315) B(1) v(15) N(32f005b0e69940288ba2f777d63551f2:Value)|(723,330)" xmlns="http://www.ni.com/PlatformFramework" />
+						<Wire Id="fefdd9a227d7410f8813fd0ba4850a6d" Joints="N(2586595ffefd465eb48257409017384d:output waveform)|(695,365) h(15) B(1) N(9f32d72e1eab4a3e88ebcfe1b0425129:Value)|(723,365) B(1) v(15) N(2f9ef1e230db4b8d8bc53c7588efa8ae:Value)|(723,380)" xmlns="http://www.ni.com/PlatformFramework" />
 						<Wire Id="d708d9f66f6644bcaa47c5b532836eb8" Joints="N(885b133477dc4189bd3855e48df0f7d6:c4t0v)|(286,110) h(174) v(205) N(a9bbae7d79f44751bbb8c79a97af0393:c0t0v)|(555,315)" xmlns="http://www.ni.com/PlatformFramework" />
 						<Wire Id="cee124e6e5bc40c1a0fa73cb952d32a2" Joints="N(885b133477dc4189bd3855e48df0f7d6:c3t0v)|(286,95) h(209) v(110) N(d60bdbb369424ea08b10a929db220520:c0t0v)|(555,205)" xmlns="http://www.ni.com/PlatformFramework" />
 						<Wire Id="ae25949c7b5848f996421995a117cb27" Joints="N(885b133477dc4189bd3855e48df0f7d6:c5t0v)|(286,125) h(159) v(240) N(54e889ffb23a4db0b09ba3e370021c7f:c0t0v)|(555,365)" xmlns="http://www.ni.com/PlatformFramework" />
@@ -881,8 +890,8 @@
 						<Wire Id="93e5ae4733d4470981503ff35b9b3c9e" Joints="N(35cc8520fac344b889c63ee145c09f61:outArray)|(595,460) N(f06d8d22c4ce43f0bc9ba6239dcea6ef:Y)|(655,460)" xmlns="http://www.ni.com/PlatformFramework" />
 						<Wire Id="e0ae659cc7354d72baf9613c18942d60" Joints="N(885b133477dc4189bd3855e48df0f7d6:c6t0v)|(286,140) h(144) v(275) N(b40b34a3a47742d1af79ed6b6b5e9da4:c0t0v)|(555,415)" xmlns="http://www.ni.com/PlatformFramework" />
 						<Wire Id="e5338570fc394df19e28915348dfdbb3" Joints="N(885b133477dc4189bd3855e48df0f7d6:c7t0v)|(286,155) h(129) v(305) N(35cc8520fac344b889c63ee145c09f61:c0t0v)|(555,460)" xmlns="http://www.ni.com/PlatformFramework" />
-						<Wire Id="c2a88901c9f04d77b3723521cafa3574" Joints="N(59d350ac305046d1bb2653732e27f288:output waveform)|(695,415) N(12201e9008aa4d82a51147617ab4dbfa:Value)|(723,415)" xmlns="http://www.ni.com/PlatformFramework" />
-						<Wire Id="825ae1e6c9a041d898d2dd7421d02651" Joints="N(f06d8d22c4ce43f0bc9ba6239dcea6ef:output waveform)|(695,460) N(17530a280b394a8bb25f3925eccbde5f:Value)|(723,460)" xmlns="http://www.ni.com/PlatformFramework" />
+						<Wire Id="c2a88901c9f04d77b3723521cafa3574" Joints="N(59d350ac305046d1bb2653732e27f288:output waveform)|(695,415) h(15) B(1) N(12201e9008aa4d82a51147617ab4dbfa:Value)|(723,415) B(1) v(15) N(99afa6080bfc462899853fd73a04d707:Value)|(723,430)" xmlns="http://www.ni.com/PlatformFramework" />
+						<Wire Id="825ae1e6c9a041d898d2dd7421d02651" Joints="N(f06d8d22c4ce43f0bc9ba6239dcea6ef:output waveform)|(695,460) h(15) B(1) N(17530a280b394a8bb25f3925eccbde5f:Value)|(723,460) B(1) v(15) N(9fc0ce38ddd044879d9e8c84f721c24f:Value)|(723,475)" xmlns="http://www.ni.com/PlatformFramework" />
 						<DataAccessor Bounds="490 585 40 15" DataItem="7d5e3eb07b2d431c8cbb2e6fe3ddc777" Id="f7a43a09af97489d91c4848d81acb62b" Label="e8a374ef9b2d4d8cba400e35d0becd20" xmlns="http://www.ni.com/MocCommon">
 							<Terminal DataType="@ce81a2007e074973ae317820c30a162e" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
 						</DataAccessor>
@@ -890,6 +899,42 @@
 							<p.Text>data cluster 3</p.Text>
 						</NodeLabel>
 						<Wire Id="8620db2887fa46e591908bac5ef8fb12" Joints="N(885b133477dc4189bd3855e48df0f7d6:c11t0v)|(286,215) h(14) v(375) N(f7a43a09af97489d91c4848d81acb62b:Value)|(493,590)" xmlns="http://www.ni.com/PlatformFramework" />
+						<DataAccessor Bounds="715 215 40 15" DataItem="f1699a811c794ae8a350f55497a8b337" Id="7daad5283d2842729249d9ff6d0798d1" Label="288659ace8174c388d0288b63f50c809" xmlns="http://www.ni.com/MocCommon">
+							<Terminal DataType="Wfm(Double)" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+						</DataAccessor>
+						<NodeLabel AttachedTo="7daad5283d2842729249d9ff6d0798d1" Bounds="760 215 156 14" Id="288659ace8174c388d0288b63f50c809" xmlns="http://www.ni.com/PlatformFramework">
+							<p.Text>ELECTRIC ENERGY (kWh)_2</p.Text>
+						</NodeLabel>
+						<DataAccessor Bounds="720 275 40 15" DataItem="385b2ee340f84a6baaa8779f47cf60d6" Id="33e9db5cd9d241498f88abf44b252201" Label="6d2e01a8c0714450b28e621382b6147d" xmlns="http://www.ni.com/MocCommon">
+							<Terminal DataType="Wfm(Single)" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+						</DataAccessor>
+						<NodeLabel AttachedTo="33e9db5cd9d241498f88abf44b252201" Bounds="765 275 89 14" Id="6d2e01a8c0714450b28e621382b6147d" xmlns="http://www.ni.com/PlatformFramework">
+							<p.Text>CURRENT (A)_2</p.Text>
+						</NodeLabel>
+						<DataAccessor Bounds="720 325 40 15" DataItem="99d962aa87a34ef885aec36e5d7cdc60" Id="32f005b0e69940288ba2f777d63551f2" Label="1092eaadef574d9f812794f0d211709f" xmlns="http://www.ni.com/MocCommon">
+							<Terminal DataType="Wfm(Single)" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+						</DataAccessor>
+						<NodeLabel AttachedTo="32f005b0e69940288ba2f777d63551f2" Bounds="765 325 131 14" Id="1092eaadef574d9f812794f0d211709f" xmlns="http://www.ni.com/PlatformFramework">
+							<p.Text>ACTIVE POWER [kW]_2</p.Text>
+						</NodeLabel>
+						<DataAccessor Bounds="720 375 40 15" DataItem="7bd82c73e7f946c5a05d15a73809a432" Id="2f9ef1e230db4b8d8bc53c7588efa8ae" Label="cc211c910834196b14460118b09956c" xmlns="http://www.ni.com/MocCommon">
+							<Terminal DataType="Wfm(Single)" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+						</DataAccessor>
+						<NodeLabel AttachedTo="2f9ef1e230db4b8d8bc53c7588efa8ae" Bounds="765 375 152 14" Id="cc211c910834196b14460118b09956c" xmlns="http://www.ni.com/PlatformFramework">
+							<p.Text>APPARENT POWER (kVA)_2</p.Text>
+						</NodeLabel>
+						<DataAccessor Bounds="720 425 40 15" DataItem="93d63224965b4622b02fc9056776afac" Id="99afa6080bfc462899853fd73a04d707" Label="9b4d9544d9ff40f49b1ff6b1b07933b6" xmlns="http://www.ni.com/MocCommon">
+							<Terminal DataType="Wfm(Double)" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+						</DataAccessor>
+						<NodeLabel AttachedTo="99afa6080bfc462899853fd73a04d707" Bounds="765 425 123 14" Id="9b4d9544d9ff40f49b1ff6b1b07933b6" xmlns="http://www.ni.com/PlatformFramework">
+							<p.Text>TEMPERATURE [°C]_2</p.Text>
+						</NodeLabel>
+						<DataAccessor Bounds="720 470 40 15" DataItem="16752047b30c48d59b05f2644a2469ad" Id="9fc0ce38ddd044879d9e8c84f721c24f" Label="924bf4688d584266a11bf78e99e5bab0" xmlns="http://www.ni.com/MocCommon">
+							<Terminal DataType="Wfm(Double)" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+						</DataAccessor>
+						<NodeLabel AttachedTo="9fc0ce38ddd044879d9e8c84f721c24f" Bounds="765 470 97 14" Id="924bf4688d584266a11bf78e99e5bab0" xmlns="http://www.ni.com/PlatformFramework">
+							<p.Text>HUMIDITY [%]_2</p.Text>
+						</NodeLabel>
 					</CaseStructure.Case>
 					<CaseStructure.Selector Bounds="-4 60 13 10" Docking="Left" Id="f38c53f0c44d5b9a9963c03affd341" Terminals="4c74640be10841b0b72099b33bf8e14e=bbb67a169c394aea81e125b17a460fb8, 2dab97c6dc73473ea30cd8408336b8b8, 303c3f0f4e81497aa47cea94c51e54be" />
 					<CaseStructure.Tunnel Bounds="-4 40 13 10" Docking="Left" Id="76d084eb36034de4a10716f83d52ccf8" Terminals="4c74640be10841b0b72099b33bf8e14e=c32f15dae30b414191d8bdf4e5adea56, 2dab97c6dc73473ea30cd8408336b8b8, 303c3f0f4e81497aa47cea94c51e54be=7df24c51e6f042a0b52dc80abd06a59f" />
@@ -1293,92 +1338,311 @@
 				<p.Text>data-send</p.Text>
 			</NodeLabel>
 		</BlockDiagram>
-		<HtmlFrontPanel Background="[SMSolidColorBrush]#ffffffff" Height="[float]885" Id="15" Left="[float]0" MaxWidth="[float]16000" MinHeight="[float]0" MinWidth="[float]0" PanelSizeMode="Fixed" Top="[float]0" Width="[float]1600" xmlns="http://www.ni.com/NationalInstruments.LabVIEW.HtmlVI">
-			<TabControl BaseName="[string]Tab" Height="[float]870" Id="24b8c35e328643628a9faf2ea61cfd3e" IncludeInCapture="[bool]False" Label="[UIModel]93cb089f08ec42a38223a2296ef42265" Left="[float]11" SelectedIndex="{DataItemBinding Id=6664d0eb76e74e13b431729c94a580fa}" TabIndex="[int]0" TabSelectorVisibility="[SMVisibility]Collapsed" TabStripPlacement="[Dock]Bottom" Top="[float]5" Width="[float]1580" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+		<HtmlFrontPanel Background="[SMSolidColorBrush]#ffffffff" Height="[float]885" Id="15" Left="[float]0" MaxWidth="[float]16000" MinHeight="[float]0" MinWidth="[float]0" PanelSizeMode="Fixed" Top="[float]0" Width="[float]1800" xmlns="http://www.ni.com/NationalInstruments.LabVIEW.HtmlVI">
+			<TabControl BaseName="[string]Tab" Height="[float]880" Id="24b8c35e328643628a9faf2ea61cfd3e" IncludeInCapture="[bool]False" Label="[UIModel]93cb089f08ec42a38223a2296ef42265" Left="[float]11" SelectedIndex="{DataItemBinding Id=6664d0eb76e74e13b431729c94a580fa}" TabIndex="[int]0" TabSelectorVisibility="[SMVisibility]Visible" TabStripPlacement="[Dock]Bottom" Top="[float]4" Width="[float]1780" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
 				<TabItem Header="[string]Access" Id="1f4f5a97242e4f029d9ec2c5af73dead" Left="[float]0" TabIndex="[int]0" Top="[float]0">
-					<LayoutPanel Height="[float]868" Id="d13d82401fff4116b95aee35d6bfe0e6" Left="[float]1" MinHeight="[float]53" Top="[float]1" Width="[float]1578">
-						<StringControl AcceptsReturn="[bool]True" BaseName="[string]String" Height="[float]24" HorizontalScrollBarVisibility="[ScrollBarVisibility]Hidden" Id="974d7f03ae1f47a2a3beae9abf65e79b" Label="[UIModel]de185bebc8ed4fbea9c1a4328117cfa0" Left="[float]704" TabIndex="[int]0" Text="{DataItemBinding Id=9f7c44fefe8f4937a9a388ae4a5c7e25}" Top="[float]264" VerticalScrollBarVisibility="[ScrollBarVisibility]Auto" Width="[float]168" />
-						<Label Height="[float]16" Id="de185bebc8ed4fbea9c1a4328117cfa0" LabelOwner="[UIModel]974d7f03ae1f47a2a3beae9abf65e79b" Left="[float]704" Text="[string]Usuario" Top="[float]244" Width="[float]41" xmlns="http://www.ni.com/PanelCommon" />
-						<MaskedInput BaseName="[string]Masked Input" Height="[float]24" Id="85d9b7e27265472baac3f9ac20cfc419" Label="[UIModel]8ac7cccbb12c43e89faefa50195c21a8" Left="[float]704" MaskedValue="{DataItemBinding Id=781589b36b2141eb9202d9d8a6e252e5}" TabIndex="[int]1" Top="[float]328" Width="[float]168" />
-						<Label Height="[float]16" Id="8ac7cccbb12c43e89faefa50195c21a8" LabelOwner="[UIModel]85d9b7e27265472baac3f9ac20cfc419" Left="[float]704" Text="[string]Contraseña" Top="[float]308" Width="[float]60" xmlns="http://www.ni.com/PanelCommon" />
-						<Button BaseName="[string]Button" Content="[string]Confirmar" Height="[float]28" Id="dd76a94db174435fbc91b1264213593a" Label="[UIModel]8d95a88a14c049cfa28a1f52ac291d3d" Left="[float]752" TabIndex="[int]2" Top="[float]392" Value="{DataItemBinding Id=aa6fd08c9c3a4725844b290bee6771b1}" Width="[float]72" />
-						<Label Height="[float]16" Id="8d95a88a14c049cfa28a1f52ac291d3d" LabelOwner="[UIModel]dd76a94db174435fbc91b1264213593a" Left="[float]752" Text="[string]Confirm Button" Top="[float]372" Visible="[bool]False" Width="[float]82" xmlns="http://www.ni.com/PanelCommon" />
-						<Text BaseName="[string]Text" Height="[float]104" Id="e0d01977f22b4cf0b67000c9d99b9d09" Left="[float]552" SizeMode="[TextModelSizeMode]Fixed" Text="[string]Bienvenido al sistema de control y monitoreo remoto&#xD;&#xA;3GE CORE.&#xD;&#xA;&#xD;&#xA;Ingrese su nombre de usuario y contraseña&#xD;&#xA;para poder ingresar." TextAlignment="[TextAlignment]Center" TextWrapping="[TextWrapping]Wrap" Top="[float]119" Width="[float]472" xmlns="http://www.ni.com/PlatformFramework">
+					<LayoutPanel Height="[float]855" Id="d13d82401fff4116b95aee35d6bfe0e6" Left="[float]1" MinHeight="[float]53" Top="[float]1" Width="[float]1778">
+						<StringControl AcceptsReturn="[bool]True" BaseName="[string]String" Height="[float]24" HorizontalScrollBarVisibility="[ScrollBarVisibility]Hidden" Id="974d7f03ae1f47a2a3beae9abf65e79b" Label="[UIModel]de185bebc8ed4fbea9c1a4328117cfa0" Left="[float]704" TabIndex="[int]0" Text="{DataItemBinding Id=9f7c44fefe8f4937a9a388ae4a5c7e25}" Top="[float]318" VerticalScrollBarVisibility="[ScrollBarVisibility]Auto" Width="[float]168" />
+						<Label Height="[float]16" Id="de185bebc8ed4fbea9c1a4328117cfa0" LabelOwner="[UIModel]974d7f03ae1f47a2a3beae9abf65e79b" Left="[float]704" Text="[string]Usuario" Top="[float]298" Width="[float]41" xmlns="http://www.ni.com/PanelCommon" />
+						<MaskedInput BaseName="[string]Masked Input" Height="[float]24" Id="85d9b7e27265472baac3f9ac20cfc419" Label="[UIModel]8ac7cccbb12c43e89faefa50195c21a8" Left="[float]704" MaskedValue="{DataItemBinding Id=781589b36b2141eb9202d9d8a6e252e5}" TabIndex="[int]1" Top="[float]382" Width="[float]168" />
+						<Label Height="[float]16" Id="8ac7cccbb12c43e89faefa50195c21a8" LabelOwner="[UIModel]85d9b7e27265472baac3f9ac20cfc419" Left="[float]704" Text="[string]Contraseña" Top="[float]362" Width="[float]60" xmlns="http://www.ni.com/PanelCommon" />
+						<Button BaseName="[string]Button" Content="[string]Confirmar" Height="[float]28" Id="dd76a94db174435fbc91b1264213593a" Label="[UIModel]8d95a88a14c049cfa28a1f52ac291d3d" Left="[float]752" TabIndex="[int]2" Top="[float]446" Value="{DataItemBinding Id=aa6fd08c9c3a4725844b290bee6771b1}" Width="[float]72" />
+						<Label Height="[float]16" Id="8d95a88a14c049cfa28a1f52ac291d3d" LabelOwner="[UIModel]dd76a94db174435fbc91b1264213593a" Left="[float]752" Text="[string]Confirm Button" Top="[float]426" Visible="[bool]False" Width="[float]82" xmlns="http://www.ni.com/PanelCommon" />
+						<Text BaseName="[string]Text" Height="[float]104" Id="e0d01977f22b4cf0b67000c9d99b9d09" Left="[float]552" SizeMode="[TextModelSizeMode]Fixed" Text="[string]Bienvenido al sistema de control y monitoreo remoto&#xD;&#xA;3GE CORE.&#xD;&#xA;&#xD;&#xA;Ingrese su nombre de usuario y contraseña&#xD;&#xA;para poder ingresar." TextAlignment="[TextAlignment]Center" TextWrapping="[TextWrapping]Wrap" Top="[float]173" Width="[float]472" xmlns="http://www.ni.com/PlatformFramework">
 							<FontSetting FontFamily="Segoe UI" FontSize="11" FontStyle="Bold" Id="1ee0ccb51ea9481d9ccd93876c14fe31" />
 						</Text>
-						<Text BaseName="[string]Text" Foreground="[SMColor]#ffff0000" Height="[float]16" Id="c5868801dea64e6cbbfb986499fc95ec" Left="[float]704" SizeMode="[TextModelSizeMode]Fixed" Text="[string]Usuario o contraseña inválido" TextAlignment="[TextAlignment]Center" TextWrapping="[TextWrapping]Wrap" Top="[float]440" Width="[float]168" xmlns="http://www.ni.com/PlatformFramework" />
-						<Text BaseName="[string]Text" Height="[float]72" Id="7764b3c30f2a43ffa3c20fa12d69c0e3" Left="[float]552" SizeMode="[TextModelSizeMode]Fixed" Text="[string]MONITOREO REMOTO DE CONSUMO&#xD;&#xA;DE ENERGÍA ELÉCTRICA" TextAlignment="[TextAlignment]Center" TextWrapping="[TextWrapping]Wrap" Top="[float]32" Width="[float]472" xmlns="http://www.ni.com/PlatformFramework">
+						<Text BaseName="[string]Text" Foreground="[SMColor]#ffff0000" Height="[float]16" Id="c5868801dea64e6cbbfb986499fc95ec" Left="[float]704" SizeMode="[TextModelSizeMode]Fixed" Text="[string]Usuario o contraseña inválido" TextAlignment="[TextAlignment]Center" TextWrapping="[TextWrapping]Wrap" Top="[float]494" Width="[float]168" xmlns="http://www.ni.com/PlatformFramework" />
+						<Text BaseName="[string]Text" Height="[float]72" Id="7764b3c30f2a43ffa3c20fa12d69c0e3" Left="[float]552" SizeMode="[TextModelSizeMode]Fixed" Text="[string]MONITOREO REMOTO DE CONSUMO&#xD;&#xA;DE ENERGÍA ELÉCTRICA" TextAlignment="[TextAlignment]Center" TextWrapping="[TextWrapping]Wrap" Top="[float]86" Width="[float]472" xmlns="http://www.ni.com/PlatformFramework">
 							<FontSetting FontFamily="Segoe UI" FontSize="18" FontStyle="Bold" Id="942df707faa641de8e8ccc3f841b486c" />
 						</Text>
-						<UrlImage Alternate="[string]" BaseName="[string]UrlImage" Height="[float]40" Id="5f3067384fcb404e9c925fbd34d54104" Label="[UIModel]3bddcd94db1543489d597c8f48049dd1" Left="[float]677" Source="{DataItemBinding Id=f50a24d80c3c4866ae35b5c0de802650}" Stretch="[SMStretch]Uniform" TabIndex="[int]3" Top="[float]480" Width="[float]100" />
-						<Label Height="[float]16" Id="3bddcd94db1543489d597c8f48049dd1" LabelOwner="[UIModel]5f3067384fcb404e9c925fbd34d54104" Left="[float]677" Text="[string]Logo3G_Image_2" Top="[float]460" Visible="[bool]False" Width="[float]91" xmlns="http://www.ni.com/PanelCommon" />
-						<LVCheckBox BaseName="[string]Checkbox" Content="[string]Vista SmartPhone" Height="[float]23" Id="6620d92ed1404216a684dd16fa15f5b6" Label="[UIModel]4eb53e0c08424d53b5f318f34391c890" Left="[float]733" TabIndex="[int]4" Top="[float]358" Value="{DataItemBinding Id=a3483ecae9ac4f97b0cb163062300b78}" Width="[float]111" />
-						<Label Height="[float]16" Id="4eb53e0c08424d53b5f318f34391c890" LabelOwner="[UIModel]6620d92ed1404216a684dd16fa15f5b6" Left="[float]733" Text="[string]SmartPhone" Top="[float]338" Visible="[bool]False" Width="[float]65" xmlns="http://www.ni.com/PanelCommon" />
-						<UrlImage Alternate="[string]" BaseName="[string]UrlImage" Height="[float]40" Id="bb0d2f8cbdc045929dc358d092cba261" Label="[UIModel]6e9e92f82e2c45a7a5ee85410d92e679" Left="[float]792" Source="{DataItemBinding Id=9acae0090bc04b20834a53bcbddc6cb9}" Stretch="[SMStretch]Uniform" TabIndex="[int]5" Top="[float]480" Width="[float]100" />
-						<Label Height="[float]16" Id="6e9e92f82e2c45a7a5ee85410d92e679" LabelOwner="[UIModel]bb0d2f8cbdc045929dc358d092cba261" Left="[float]792" Text="[string]URL Image_2" Top="[float]460" Visible="[bool]False" Width="[float]69" xmlns="http://www.ni.com/PanelCommon" />
+						<UrlImage Alternate="[string]" BaseName="[string]UrlImage" Height="[float]40" Id="5f3067384fcb404e9c925fbd34d54104" Label="[UIModel]3bddcd94db1543489d597c8f48049dd1" Left="[float]677" Source="{DataItemBinding Id=f50a24d80c3c4866ae35b5c0de802650}" Stretch="[SMStretch]Uniform" TabIndex="[int]3" Top="[float]534" Width="[float]100" />
+						<Label Height="[float]16" Id="3bddcd94db1543489d597c8f48049dd1" LabelOwner="[UIModel]5f3067384fcb404e9c925fbd34d54104" Left="[float]677" Text="[string]Logo3G_Image_2" Top="[float]514" Visible="[bool]False" Width="[float]91" xmlns="http://www.ni.com/PanelCommon" />
+						<LVCheckBox BaseName="[string]Checkbox" Content="[string]Vista SmartPhone" Height="[float]23" Id="6620d92ed1404216a684dd16fa15f5b6" Label="[UIModel]4eb53e0c08424d53b5f318f34391c890" Left="[float]733" TabIndex="[int]4" Top="[float]412" Value="{DataItemBinding Id=a3483ecae9ac4f97b0cb163062300b78}" Width="[float]111" />
+						<Label Height="[float]16" Id="4eb53e0c08424d53b5f318f34391c890" LabelOwner="[UIModel]6620d92ed1404216a684dd16fa15f5b6" Left="[float]733" Text="[string]SmartPhone" Top="[float]392" Visible="[bool]False" Width="[float]65" xmlns="http://www.ni.com/PanelCommon" />
+						<UrlImage Alternate="[string]" BaseName="[string]UrlImage" Height="[float]40" Id="bb0d2f8cbdc045929dc358d092cba261" Label="[UIModel]6e9e92f82e2c45a7a5ee85410d92e679" Left="[float]792" Source="{DataItemBinding Id=9acae0090bc04b20834a53bcbddc6cb9}" Stretch="[SMStretch]Uniform" TabIndex="[int]5" Top="[float]534" Width="[float]100" />
+						<Label Height="[float]16" Id="6e9e92f82e2c45a7a5ee85410d92e679" LabelOwner="[UIModel]bb0d2f8cbdc045929dc358d092cba261" Left="[float]792" Text="[string]URL Image_2" Top="[float]514" Visible="[bool]False" Width="[float]69" xmlns="http://www.ni.com/PanelCommon" />
 					</LayoutPanel>
 				</TabItem>
 				<TabItem Header="[string]Main" Id="8c2fdcff1bba4125a35d90e489e79e84" Left="[float]0" TabIndex="[int]0" Top="[float]0">
-					<LayoutPanel Height="[float]868" Id="ad61633b9a3b47d0b6feaf775204c83d" Left="[float]1" MinHeight="[float]53" Top="[float]1" Width="[float]1578">
-						<Text BaseName="[string]Text" Height="[float]72" Id="39e8352580c84efe93fc0c3468f2e2bd" Left="[float]559" SizeMode="[TextModelSizeMode]Fixed" Text="[string]MONITOREO REMOTO DE CONSUMO&#xD;&#xA;DE ENERGÍA ELÉCTRICA" TextAlignment="[TextAlignment]Center" TextWrapping="[TextWrapping]Wrap" Top="[float]16" Width="[float]456" xmlns="http://www.ni.com/PlatformFramework">
+					<LayoutPanel Height="[float]855" Id="ad61633b9a3b47d0b6feaf775204c83d" Left="[float]1" MinHeight="[float]53" Top="[float]1" Width="[float]1778">
+						<Text BaseName="[string]Text" Height="[float]72" Id="39e8352580c84efe93fc0c3468f2e2bd" Left="[float]659" SizeMode="[TextModelSizeMode]Fixed" Text="[string]MONITOREO REMOTO DE CONSUMO&#xD;&#xA;DE ENERGÍA ELÉCTRICA" TextAlignment="[TextAlignment]Center" TextWrapping="[TextWrapping]Wrap" Top="[float]17" Width="[float]456" xmlns="http://www.ni.com/PlatformFramework">
 							<FontSetting FontFamily="Segoe UI" FontSize="18" FontStyle="Bold" Id="8f4d02602929451d861aa578a7bd5d1c" />
 						</Text>
-						<UrlImage Alternate="[string]" BaseName="[string]UrlImage" Height="[float]40" Id="3bac987940174fa4a1c011dd8a6e5823" Label="[UIModel]2b67369a43c24bc2a5e17310e804e762" Left="[float]30" Source="{DataItemBinding Id=875a1e1b04644d7997e2b58ebc018d9c}" Stretch="[SMStretch]UniformToFill" TabIndex="[int]0" Top="[float]22" Width="[float]164" />
-						<Label Height="[float]16" Id="2b67369a43c24bc2a5e17310e804e762" LabelOwner="[UIModel]3bac987940174fa4a1c011dd8a6e5823" Left="[float]30" Text="[string]Logo3G_Image" Top="[float]2" Visible="[bool]False" Width="[float]80" xmlns="http://www.ni.com/PanelCommon" />
-						<Text BaseName="[string]Text" Height="[float]16" Id="4a380470e88b4b60b84c126e35f9d8c3" Left="[float]559" SizeMode="[TextModelSizeMode]Fixed" Text="[string]Desarrollado por 3GE Ltda. Versión 25.09.22 @2025" TextAlignment="[TextAlignment]Center" TextWrapping="[TextWrapping]Wrap" Top="[float]814" Width="[float]470" xmlns="http://www.ni.com/PlatformFramework" />
-						<NumericText BaseName="[string]Numeric" Height="[float]24" Id="6e0512dbe0aa43fb9b87564e329c529c" Interval="[int]1" IsReadOnly="[bool]True" Label="[UIModel]5fe04433150846d8b5c39c7ebf7ffbc5" Left="[float]50" RadixBase="[RadixBase]Decimal" TabIndex="[int]1" Top="[float]1135" Value="{DataItemBinding Id=8f069f812bec40f995a250e3c9a7ace5}" ValueFormatter="[string]DisplayFormat=Decimal:Digits=6:DigitDisplayType=SignificantDigits:MinimumFieldWidth=0:AlwaysShowSign=False:ShowThousandsSeparator=False" ValueType="[Type]Int32" Width="[float]72" />
-						<Label Height="[float]16" Id="5fe04433150846d8b5c39c7ebf7ffbc5" LabelOwner="[UIModel]6e0512dbe0aa43fb9b87564e329c529c" Left="[float]50" Text="[string]loop iteration" Top="[float]1115" Width="[float]72" xmlns="http://www.ni.com/PanelCommon" />
-						<StringControl AcceptsReturn="[bool]True" BaseName="[string]String" Height="[float]24" HorizontalScrollBarVisibility="[ScrollBarVisibility]Hidden" Id="755bab39cc2d439aaf3f4abad229dece" IsReadOnly="[bool]True" Label="[UIModel]db7743a845774db4b40218eae6480fc4" Left="[float]15" TabIndex="[int]2" Text="{DataItemBinding Id=c938fb27b72d49389679895463028035}" Top="[float]175" VerticalScrollBarVisibility="[ScrollBarVisibility]Auto" Width="[float]120" />
-						<Label Height="[float]16" Id="db7743a845774db4b40218eae6480fc4" LabelOwner="[UIModel]755bab39cc2d439aaf3f4abad229dece" Left="[float]15" Text="[string]Fecha | Hora" Top="[float]155" Width="[float]66" xmlns="http://www.ni.com/PanelCommon" />
-						<Chart DataSource="{DataItemBinding Id=9b39ea0f9f3a47aa812a850f34b876f6}" DataSourceType="[Type]Wfm(Double)" Height="[float]296" Id="9cbf37cc52894e45a2b556eea0ecfe18" Label="[UIModel]ff145565139f4b55a636c7aec40d382d" Left="[float]734" MetadataAlwaysOverridesPlotNames="[bool]True" TabIndex="[int]3" Top="[float]478" Width="[float]400">
-							<Axis Adjuster="[RangeAdjuster]ContinuousChart" Id="24fd39f7d66c4ece86a2125128e05e18" Label="[string]Tiempo" MajorDivisions="[UIModel]ebf5af5ace8e4369a520c61f0591b830" MinorTickVisibility="[SMVisibility]Collapsed" Orientation="[SMOrientation]Horizontal" Range="[IRange]0, 3600, System.Double" ValueType="[Type]Double" Visibility="[SMVisibility]Visible">
-								<RangeLabeledDivisions Id="ebf5af5ace8e4369a520c61f0591b830" LabelVisibility="[SMVisibility]Visible" Mode="[RangeDivisionsMode]Count: 2" TickVisibility="[SMVisibility]Visible">
-									<p.LabelPresenter Kind="LVTime" Format="&quot;HH\\:mm\\:ss\ndd\\/MM\\/yy&quot;" FractionalSeconds="0" />
-								</RangeLabeledDivisions>
-							</Axis>
-							<Axis Adjuster="[RangeAdjuster]None" Id="894b536ecbea4ab3bf908427245693b1" Label="[string]Consumo [kWh]" LabelVisibility="[SMVisibility]Visible" Location="[RelativeLocation]Near" MajorDivisions="[UIModel]f76181cea3a044e8b86f93cd346bacd1" MajorGridLines="[UIModel]713ec677a1184f2aa4fc15345eb6bf04" MinorTickVisibility="[SMVisibility]Collapsed" Orientation="[SMOrientation]Vertical" Range="[IRange]0, 10, System.Double" ScaleKind="[RangeScaleKind]Linear" ValueType="[Type]Double">
-								<RangeLabeledDivisions Id="f76181cea3a044e8b86f93cd346bacd1" LabelVisibility="[SMVisibility]Visible" Mode="[RangeDivisionsMode]Auto" TickVisibility="[SMVisibility]Visible">
-									<p.LabelPresenter Kind="LVRelativeSeconds" Format="G3" />
-								</RangeLabeledDivisions>
-								<GridLines Id="713ec677a1184f2aa4fc15345eb6bf04" Visibility="[SMVisibility]Visible" />
-							</Axis>
-							<Plot EnableHover="[bool]True" HorizontalScale="[UIModel]24fd39f7d66c4ece86a2125128e05e18" Id="4bac44de7af340e3a3ea537ff3a6a1b0" Label="[string]Consumo [kWh]" VerticalScale="[UIModel]894b536ecbea4ab3bf908427245693b1" Visibility="[SMVisibility]Visible">
-								<PlotRenderer AreaBaseline="[FillBaseline]Zero" AreaFill="[SMSolidColorBrush]#ff0070bc" AreaInterpolation="[SMInterpolation]None" BarBaseline="[FillBaseline]Zero" Id="98b966e96af741c487627675b872959e" LineThickness="[double]2" />
-							</Plot>
-						</Chart>
-						<ScaleLegend Graph="[UIModel]9cbf37cc52894e45a2b556eea0ecfe18" Height="[float]70" Id="58e5aeb3d4254ce3a051c72c32e091eb" Left="[float]1141" Top="[float]712" Visible="[bool]False" Width="[float]160" />
-						<PlotLegend Graph="[UIModel]9cbf37cc52894e45a2b556eea0ecfe18" Height="[float]42" Id="ff769698037c4c05bdc2d18e7a9b207a" Left="[float]894" Locked="[bool]True" Top="[float]718" Visible="[bool]False" Width="[float]160" />
-						<CursorLegend Graph="[UIModel]9cbf37cc52894e45a2b556eea0ecfe18" Height="[float]200" Id="212c68ca85234a3298aa111784727443" Left="[float]734" Top="[float]823" Visible="[bool]False" Width="[float]320" />
-						<GraphTools Graph="[UIModel]9cbf37cc52894e45a2b556eea0ecfe18" Height="[float]35" Id="80eb711abf0e476bb0e7875007b153d1" Left="[float]734" Top="[float]781" Visible="[bool]False" Width="[float]168" />
-						<Label Height="[float]16" Id="ff145565139f4b55a636c7aec40d382d" LabelOwner="[UIModel]9cbf37cc52894e45a2b556eea0ecfe18" Left="[float]734" Text="[string]ELECTRIC ENERGY (kWh)" Top="[float]458" Width="[float]131" xmlns="http://www.ni.com/PanelCommon" />
-						<LED BaseName="[string]LED" FalseBackground="[SMSolidColorBrush]#ffee1c25" FalseContent="[string]Off" Height="[float]20" Id="1b37db98e8fd42a2ae8275ee46d0d1a8" IsReadOnly="[bool]True" Label="[UIModel]10b99b7ef48744cc86a0e4bcb1746d3b" Left="[float]15" Shape="[LEDShape]Square" TabIndex="[int]4" Top="[float]131" TrueBackground="[SMSolidColorBrush]#ff00ff00" TrueContent="[string]On" Value="{DataItemBinding Id=8d3e4678192c4fc1a9df8bb603e6a127}" Width="[float]20" />
-						<Label Height="[float]16" Id="10b99b7ef48744cc86a0e4bcb1746d3b" LabelOwner="[UIModel]1b37db98e8fd42a2ae8275ee46d0d1a8" Left="[float]15" Text="[string]Server Active" Top="[float]111" Width="[float]69" xmlns="http://www.ni.com/PanelCommon">
+						<UrlImage Alternate="[string]" BaseName="[string]UrlImage" Height="[float]40" Id="3bac987940174fa4a1c011dd8a6e5823" Label="[UIModel]2b67369a43c24bc2a5e17310e804e762" Left="[float]30" Source="{DataItemBinding Id=875a1e1b04644d7997e2b58ebc018d9c}" Stretch="[SMStretch]UniformToFill" TabIndex="[int]0" Top="[float]23" Width="[float]164" />
+						<Label Height="[float]16" Id="2b67369a43c24bc2a5e17310e804e762" LabelOwner="[UIModel]3bac987940174fa4a1c011dd8a6e5823" Left="[float]30" Text="[string]Logo3G_Image" Top="[float]3" Visible="[bool]False" Width="[float]80" xmlns="http://www.ni.com/PanelCommon" />
+						<Text BaseName="[string]Text" Height="[float]16" Id="4a380470e88b4b60b84c126e35f9d8c3" Left="[float]661" SizeMode="[TextModelSizeMode]Fixed" Text="[string]Desarrollado por 3GE Ltda. Versión 25.09.22 @2025" TextAlignment="[TextAlignment]Center" TextWrapping="[TextWrapping]Wrap" Top="[float]822" Width="[float]470" xmlns="http://www.ni.com/PlatformFramework" />
+						<StringControl AcceptsReturn="[bool]True" BaseName="[string]String" Height="[float]24" HorizontalScrollBarVisibility="[ScrollBarVisibility]Hidden" Id="755bab39cc2d439aaf3f4abad229dece" IsReadOnly="[bool]True" Label="[UIModel]db7743a845774db4b40218eae6480fc4" Left="[float]31" TabIndex="[int]1" Text="{DataItemBinding Id=c938fb27b72d49389679895463028035}" Top="[float]176" VerticalScrollBarVisibility="[ScrollBarVisibility]Auto" Width="[float]120" />
+						<Label Height="[float]16" Id="db7743a845774db4b40218eae6480fc4" LabelOwner="[UIModel]755bab39cc2d439aaf3f4abad229dece" Left="[float]31" Text="[string]Fecha | Hora" Top="[float]156" Width="[float]66" xmlns="http://www.ni.com/PanelCommon" />
+						<Label Height="[float]0" Id="1ab873f737ac47a497a10db5a561e454" LabelOwner="[UIModel]7a865983166d4a20b9c4f626ee0de85d" Left="[float]400" Text="[string]Tab_3" Top="[float]70" Visible="[bool]False" Width="[float]0" xmlns="http://www.ni.com/PanelCommon" />
+						<TabControl BaseName="[string]Tab" Height="[float]712" Id="7a865983166d4a20b9c4f626ee0de85d" IncludeInCapture="[bool]False" Label="[UIModel]1ab873f737ac47a497a10db5a561e454" Left="[float]400" SelectedIndex="{DataItemBinding Id=5163e21d72b5460cbf4e6a28d0e550f0}" TabIndex="[int]7" Top="[float]90" Width="[float]1288">
+							<TabItem Header="[string]1 hora" Id="63f69025e51746bead04f8989d1e636e" Left="[float]0" TabIndex="[int]7" Top="[float]0">
+								<LayoutPanel Height="[float]687" Id="e01a90cac94b62b0bd60afd4689dcb" Left="[float]1" MinHeight="[float]30" Top="[float]24" Width="[float]1286">
+									<Chart DataSource="{DataItemBinding Id=ab7d9f0cd2f5450aa3462135b4b461bc}" DataSourceType="[Type]Wfm(Double)" Height="[float]296" Id="a00fb029455345318c62e51896db4a9b" Label="[UIModel]1f9bb333a6924a5dae1b1518bec856c5" Left="[float]15" MetadataAlwaysOverridesPlotNames="[bool]True" TabIndex="[int]0" Top="[float]33" Width="[float]400">
+										<Axis Adjuster="[RangeAdjuster]ContinuousChart" Id="eb6dcccbeb924186869c14a6e121e965" Label="[string]Tiempo" MajorDivisions="[UIModel]1b84fb6c7e6e4a99888fe5811c7c02c1" MinorTickVisibility="[SMVisibility]Collapsed" Orientation="[SMOrientation]Horizontal" Range="[IRange]0, 3600, System.Double" ValueType="[Type]Double" Visibility="[SMVisibility]Visible">
+											<RangeLabeledDivisions Id="1b84fb6c7e6e4a99888fe5811c7c02c1" LabelVisibility="[SMVisibility]Visible" Mode="[RangeDivisionsMode]Count: 2" TickVisibility="[SMVisibility]Visible">
+												<p.LabelPresenter Kind="LVTime" Format="&quot;HH\\:mm\\:ss\ndd\\/MM\\/yy&quot;" FractionalSeconds="0" />
+											</RangeLabeledDivisions>
+										</Axis>
+										<Axis Adjuster="[RangeAdjuster]None" Id="2375597826b94074b12bfcee09f87eb5" Label="[string]Temperatura [°C]" LabelVisibility="[SMVisibility]Visible" Location="[RelativeLocation]Near" MajorDivisions="[UIModel]58f90e85e6dd4928bc007f161acd67e6" MajorGridLines="[UIModel]9165f81ae4945869dca2e497b89529f" MinorTickVisibility="[SMVisibility]Collapsed" Orientation="[SMOrientation]Vertical" Range="[IRange]0, 60, System.Double" ScaleKind="[RangeScaleKind]Linear" ValueType="[Type]Double">
+											<RangeLabeledDivisions Id="58f90e85e6dd4928bc007f161acd67e6" LabelVisibility="[SMVisibility]Visible" Mode="[RangeDivisionsMode]Auto" TickVisibility="[SMVisibility]Visible">
+												<p.LabelPresenter Kind="LVRelativeSeconds" Format="G3" />
+											</RangeLabeledDivisions>
+											<GridLines Id="9165f81ae4945869dca2e497b89529f" Visibility="[SMVisibility]Visible" />
+										</Axis>
+										<Plot EnableHover="[bool]True" HorizontalScale="[UIModel]eb6dcccbeb924186869c14a6e121e965" Id="1614d55ccf4349df822c5f74da1a94b3" Label="[string]Temperatura [°C]" VerticalScale="[UIModel]2375597826b94074b12bfcee09f87eb5" Visibility="[SMVisibility]Visible">
+											<PlotRenderer AreaBaseline="[FillBaseline]Zero" BarBaseline="[FillBaseline]Zero" Id="b4c47c0957f64ff79ba1812cbcfe1d56" LineStroke="[SMSolidColorBrush]#ffee1c25" LineThickness="[double]2" />
+										</Plot>
+									</Chart>
+									<ScaleLegend Graph="[UIModel]a00fb029455345318c62e51896db4a9b" Height="[float]70" Id="a8fc1e4c2b234ef990e6f0307962ea2e" Left="[float]422" Top="[float]267" Visible="[bool]False" Width="[float]160" />
+									<PlotLegend Graph="[UIModel]a00fb029455345318c62e51896db4a9b" Height="[float]42" Id="727680435f36451497a84552040bff86" Left="[float]175" Locked="[bool]True" Top="[float]273" Visible="[bool]False" Width="[float]160" />
+									<CursorLegend Graph="[UIModel]a00fb029455345318c62e51896db4a9b" Height="[float]200" Id="91d069e0301a401399a2ec2e9b46a9e3" Left="[float]15" Top="[float]378" Visible="[bool]False" Width="[float]320" />
+									<GraphTools Graph="[UIModel]a00fb029455345318c62e51896db4a9b" Height="[float]35" Id="528fbcecab024d6487aceba2af6b0e7c" Left="[float]15" Top="[float]336" Visible="[bool]False" Width="[float]168" />
+									<Label Height="[float]16" Id="1f9bb333a6924a5dae1b1518bec856c5" LabelOwner="[UIModel]a00fb029455345318c62e51896db4a9b" Left="[float]15" Text="[string]TEMPERATURE [°C]" Top="[float]13" Width="[float]101" xmlns="http://www.ni.com/PanelCommon" />
+									<Chart DataSource="{DataItemBinding Id=d2031ee8bd8b4ad99d57ff1016e67f6d}" DataSourceType="[Type]Wfm(Single)" Height="[float]296" Id="6666e31183bd4b819f0c08a98f4e48cf" Label="[UIModel]d0adde3e3bdf4ec8ad4366e3cc2bd508" Left="[float]440" MetadataAlwaysOverridesPlotNames="[bool]True" TabIndex="[int]1" Top="[float]33" Width="[float]400">
+										<Axis Adjuster="[RangeAdjuster]ContinuousChart" Id="83b0711fb4304eeebfaf1ae92657ec2c" Label="[string]Tiempo" MajorDivisions="[UIModel]342a3df7c34840ab954b810668eea31c" MinorTickVisibility="[SMVisibility]Collapsed" Orientation="[SMOrientation]Horizontal" Range="[IRange]0, 3600, System.Double" ValueType="[Type]Double" Visibility="[SMVisibility]Visible">
+											<RangeLabeledDivisions Id="342a3df7c34840ab954b810668eea31c" LabelVisibility="[SMVisibility]Visible" Mode="[RangeDivisionsMode]Count: 2" TickVisibility="[SMVisibility]Visible">
+												<p.LabelPresenter Kind="LVTime" Format="&quot;HH\\:mm\\:ss\ndd\\/MM\\/yy&quot;" FractionalSeconds="0" />
+											</RangeLabeledDivisions>
+										</Axis>
+										<Axis Adjuster="[RangeAdjuster]None" Id="c92ef40eac00461682997951c08df303" Label="[string]Corriente [A]" LabelVisibility="[SMVisibility]Visible" Location="[RelativeLocation]Near" MajorDivisions="[UIModel]120c22506a3d4c29adcb89f55a2f0468" MajorGridLines="[UIModel]b3533bca7854476a8422a38feed06569" MinorTickVisibility="[SMVisibility]Collapsed" Orientation="[SMOrientation]Vertical" Range="[IRange]0, 40, System.Double" ScaleKind="[RangeScaleKind]Linear" ValueType="[Type]Double">
+											<RangeLabeledDivisions Id="120c22506a3d4c29adcb89f55a2f0468" LabelVisibility="[SMVisibility]Visible" Mode="[RangeDivisionsMode]Auto" TickVisibility="[SMVisibility]Visible">
+												<p.LabelPresenter Kind="LVRelativeSeconds" Format="G3" />
+											</RangeLabeledDivisions>
+											<GridLines Id="b3533bca7854476a8422a38feed06569" Visibility="[SMVisibility]Visible" />
+										</Axis>
+										<Plot EnableHover="[bool]True" HorizontalScale="[UIModel]83b0711fb4304eeebfaf1ae92657ec2c" Id="36150e256f374262b26b09de264acda5" Label="[string]Corriente [A]" VerticalScale="[UIModel]c92ef40eac00461682997951c08df303" Visibility="[SMVisibility]Visible">
+											<PlotRenderer AreaBaseline="[FillBaseline]Zero" BarBaseline="[FillBaseline]Zero" Id="4d9fe298e1004a6399f8b4131e63b555" LineStroke="[SMSolidColorBrush]#ff00a64f" LineThickness="[double]2" />
+										</Plot>
+									</Chart>
+									<ScaleLegend Graph="[UIModel]6666e31183bd4b819f0c08a98f4e48cf" Height="[float]70" Id="e1e31681c81d49adb3b6981452bed389" Left="[float]847" Top="[float]267" Visible="[bool]False" Width="[float]160" />
+									<PlotLegend Graph="[UIModel]6666e31183bd4b819f0c08a98f4e48cf" Height="[float]42" Id="8e950fd156f24fee843a795e486498da" Left="[float]600" Locked="[bool]True" Top="[float]273" Visible="[bool]False" Width="[float]160" />
+									<CursorLegend Graph="[UIModel]6666e31183bd4b819f0c08a98f4e48cf" Height="[float]200" Id="ad0c373a899b4b1ca3822ab3aa8bdaeb" Left="[float]440" Top="[float]378" Visible="[bool]False" Width="[float]320" />
+									<GraphTools Graph="[UIModel]6666e31183bd4b819f0c08a98f4e48cf" Height="[float]35" Id="d25342f62c3d4d828b84b7917215b1de" Left="[float]440" Top="[float]336" Visible="[bool]False" Width="[float]168" />
+									<Label Height="[float]16" Id="d0adde3e3bdf4ec8ad4366e3cc2bd508" LabelOwner="[UIModel]6666e31183bd4b819f0c08a98f4e48cf" Left="[float]440" Text="[string]CURRENT (A)" Top="[float]13" Width="[float]70" xmlns="http://www.ni.com/PanelCommon" />
+									<Chart DataSource="{DataItemBinding Id=e9a7469cb2554784833aafbeac406f42}" DataSourceType="[Type]Wfm(Single)" Height="[float]296" Id="2b5d43a50d7640c7bc865c777ad6a766" Label="[UIModel]fc379c2cefdb4142b31e309b9da23ae4" Left="[float]865" MetadataAlwaysOverridesPlotNames="[bool]True" TabIndex="[int]2" Top="[float]33" Width="[float]400">
+										<Axis Adjuster="[RangeAdjuster]ContinuousChart" Id="f7a4bafbeacf48dda1c4981f26f2b211" Label="[string]Tiempo" MajorDivisions="[UIModel]fc11042de9724c4cbc08cfb07fd9db3e" MinorTickVisibility="[SMVisibility]Collapsed" Orientation="[SMOrientation]Horizontal" Range="[IRange]0, 3600, System.Double" ValueType="[Type]Double" Visibility="[SMVisibility]Visible">
+											<RangeLabeledDivisions Id="fc11042de9724c4cbc08cfb07fd9db3e" LabelVisibility="[SMVisibility]Visible" Mode="[RangeDivisionsMode]Count: 2" TickVisibility="[SMVisibility]Visible">
+												<p.LabelPresenter Kind="LVTime" Format="&quot;HH\\:mm\\:ss\ndd\\/MM\\/yy&quot;" FractionalSeconds="0" />
+											</RangeLabeledDivisions>
+										</Axis>
+										<Axis Adjuster="[RangeAdjuster]None" Id="1f52be7762934b0685a44c934831ecff" Label="[string]Potencia Activa [kW]" LabelVisibility="[SMVisibility]Visible" Location="[RelativeLocation]Near" MajorDivisions="[UIModel]ca5244724b424f17af53d9763abefca9" MajorGridLines="[UIModel]44be68939094fc0b7b762d5b0b5759b" MinorTickVisibility="[SMVisibility]Collapsed" Orientation="[SMOrientation]Vertical" Range="[IRange]0, 20, System.Double" ScaleKind="[RangeScaleKind]Linear" ValueType="[Type]Double">
+											<RangeLabeledDivisions Id="ca5244724b424f17af53d9763abefca9" LabelVisibility="[SMVisibility]Visible" Mode="[RangeDivisionsMode]Auto" TickVisibility="[SMVisibility]Visible">
+												<p.LabelPresenter Kind="LVRelativeSeconds" Format="G3" />
+											</RangeLabeledDivisions>
+											<GridLines Id="44be68939094fc0b7b762d5b0b5759b" Visibility="[SMVisibility]Visible" />
+										</Axis>
+										<Plot EnableHover="[bool]True" HorizontalScale="[UIModel]f7a4bafbeacf48dda1c4981f26f2b211" Id="b913cc1429f4be49ee3bf00d67574c0" Label="[string]Pot. Activa [A]" VerticalScale="[UIModel]1f52be7762934b0685a44c934831ecff" Visibility="[SMVisibility]Visible">
+											<PlotRenderer AreaBaseline="[FillBaseline]Zero" BarBaseline="[FillBaseline]Zero" Id="938aa7fee8574682b26c0361bd45f66b" LineStroke="[SMSolidColorBrush]#ffed0c8c" LineThickness="[double]2" />
+										</Plot>
+									</Chart>
+									<ScaleLegend Graph="[UIModel]2b5d43a50d7640c7bc865c777ad6a766" Height="[float]70" Id="8cc33ac17c648cea4691200fdd5b69e" Left="[float]1272" Top="[float]267" Visible="[bool]False" Width="[float]160" />
+									<PlotLegend Graph="[UIModel]2b5d43a50d7640c7bc865c777ad6a766" Height="[float]42" Id="3429eff896af45d08db01050a6f53cb3" Left="[float]1025" Locked="[bool]True" Top="[float]273" Visible="[bool]False" Width="[float]160" />
+									<CursorLegend Graph="[UIModel]2b5d43a50d7640c7bc865c777ad6a766" Height="[float]200" Id="de298ef61d194ffcb1e8a6a6e1c15e96" Left="[float]865" Top="[float]378" Visible="[bool]False" Width="[float]320" />
+									<GraphTools Graph="[UIModel]2b5d43a50d7640c7bc865c777ad6a766" Height="[float]35" Id="125a51f96f584d40b4351eb3b37dd5eb" Left="[float]865" Top="[float]336" Visible="[bool]False" Width="[float]168" />
+									<Label Height="[float]16" Id="fc379c2cefdb4142b31e309b9da23ae4" LabelOwner="[UIModel]2b5d43a50d7640c7bc865c777ad6a766" Left="[float]865" Text="[string]ACTIVE POWER [kW]" Top="[float]13" Width="[float]109" xmlns="http://www.ni.com/PanelCommon" />
+									<Chart DataSource="{DataItemBinding Id=a55541ce4f564e23aa2eaae49597997e}" DataSourceType="[Type]Wfm(Single)" Height="[float]296" Id="11a81141810f46afa933da7825a6005b" Label="[UIModel]b0dd0fec79c45bab1f53452a1e08801" Left="[float]865" MetadataAlwaysOverridesPlotNames="[bool]True" TabIndex="[int]3" Top="[float]364" Width="[float]400">
+										<Axis Adjuster="[RangeAdjuster]ContinuousChart" Id="a24044aef8a6455ca4886ac41781843c" Label="[string]Tiempo" MajorDivisions="[UIModel]c06f3a1122a8463ba125af990d5ab720" MinorTickVisibility="[SMVisibility]Collapsed" Orientation="[SMOrientation]Horizontal" Range="[IRange]0, 3600, System.Double" ValueType="[Type]Double" Visibility="[SMVisibility]Visible">
+											<RangeLabeledDivisions Id="c06f3a1122a8463ba125af990d5ab720" LabelVisibility="[SMVisibility]Visible" Mode="[RangeDivisionsMode]Count: 2" TickVisibility="[SMVisibility]Visible">
+												<p.LabelPresenter Kind="LVTime" Format="&quot;HH\\:mm\\:ss\ndd\\/MM\\/yy&quot;" FractionalSeconds="0" />
+											</RangeLabeledDivisions>
+										</Axis>
+										<Axis Adjuster="[RangeAdjuster]None" Id="a8e01b2ff9304474a13b5862396fb918" Label="[string]Potencia Aparente [kVA]" LabelVisibility="[SMVisibility]Visible" Location="[RelativeLocation]Near" MajorDivisions="[UIModel]3797cbd3f146458784d05146ab364fbd" MajorGridLines="[UIModel]49cea20c044a41a8ac4ac659ffe6c5d0" MinorTickVisibility="[SMVisibility]Collapsed" Orientation="[SMOrientation]Vertical" Range="[IRange]0, 20, System.Double" ScaleKind="[RangeScaleKind]Linear" ValueType="[Type]Double">
+											<RangeLabeledDivisions Id="3797cbd3f146458784d05146ab364fbd" LabelVisibility="[SMVisibility]Visible" Mode="[RangeDivisionsMode]Auto" TickVisibility="[SMVisibility]Visible">
+												<p.LabelPresenter Kind="LVRelativeSeconds" Format="G3" />
+											</RangeLabeledDivisions>
+											<GridLines Id="49cea20c044a41a8ac4ac659ffe6c5d0" Visibility="[SMVisibility]Visible" />
+										</Axis>
+										<Plot EnableHover="[bool]True" HorizontalScale="[UIModel]a24044aef8a6455ca4886ac41781843c" Id="3145ee9c19f04c17921561a3b84427df" Label="[string]Pot. Aparente [kVA]" VerticalScale="[UIModel]a8e01b2ff9304474a13b5862396fb918" Visibility="[SMVisibility]Visible">
+											<PlotRenderer AreaBaseline="[FillBaseline]Zero" BarBaseline="[FillBaseline]Zero" Id="1114b9a356644292b2cf9d15cb6695ff" LineStroke="[SMSolidColorBrush]#ff706dc0" LineThickness="[double]2" />
+										</Plot>
+									</Chart>
+									<ScaleLegend Graph="[UIModel]11a81141810f46afa933da7825a6005b" Height="[float]70" Id="8b77dcd38e6449cb8dad235158ee66b4" Left="[float]1272" Top="[float]598" Visible="[bool]False" Width="[float]160" />
+									<PlotLegend Graph="[UIModel]11a81141810f46afa933da7825a6005b" Height="[float]42" Id="2c0e74c0ec4741a9a32e892904e4459a" Left="[float]1025" Locked="[bool]True" Top="[float]604" Visible="[bool]False" Width="[float]160" />
+									<CursorLegend Graph="[UIModel]11a81141810f46afa933da7825a6005b" Height="[float]200" Id="9f48b9897274e4eb9e190b6f8f4e01c" Left="[float]865" Top="[float]709" Visible="[bool]False" Width="[float]320" />
+									<GraphTools Graph="[UIModel]11a81141810f46afa933da7825a6005b" Height="[float]35" Id="542bb54022884a2086d2e790f1d3f4fe" Left="[float]865" Top="[float]667" Visible="[bool]False" Width="[float]168" />
+									<Label Height="[float]16" Id="b0dd0fec79c45bab1f53452a1e08801" LabelOwner="[UIModel]11a81141810f46afa933da7825a6005b" Left="[float]865" Text="[string]APPARENT POWER (kVA)" Top="[float]344" Width="[float]131" xmlns="http://www.ni.com/PanelCommon" />
+									<Chart DataSource="{DataItemBinding Id=9b39ea0f9f3a47aa812a850f34b876f6}" DataSourceType="[Type]Wfm(Double)" Height="[float]296" Id="9cbf37cc52894e45a2b556eea0ecfe18" Label="[UIModel]ff145565139f4b55a636c7aec40d382d" Left="[float]440" MetadataAlwaysOverridesPlotNames="[bool]True" TabIndex="[int]4" Top="[float]364" Width="[float]400">
+										<Axis Adjuster="[RangeAdjuster]ContinuousChart" Id="24fd39f7d66c4ece86a2125128e05e18" Label="[string]Tiempo" MajorDivisions="[UIModel]ebf5af5ace8e4369a520c61f0591b830" MinorTickVisibility="[SMVisibility]Collapsed" Orientation="[SMOrientation]Horizontal" Range="[IRange]0, 3600, System.Double" ValueType="[Type]Double" Visibility="[SMVisibility]Visible">
+											<RangeLabeledDivisions Id="ebf5af5ace8e4369a520c61f0591b830" LabelVisibility="[SMVisibility]Visible" Mode="[RangeDivisionsMode]Count: 2" TickVisibility="[SMVisibility]Visible">
+												<p.LabelPresenter Kind="LVTime" Format="&quot;HH\\:mm\\:ss\ndd\\/MM\\/yy&quot;" FractionalSeconds="0" />
+											</RangeLabeledDivisions>
+										</Axis>
+										<Axis Adjuster="[RangeAdjuster]None" Id="894b536ecbea4ab3bf908427245693b1" Label="[string]Consumo [kWh]" LabelVisibility="[SMVisibility]Visible" Location="[RelativeLocation]Near" MajorDivisions="[UIModel]f76181cea3a044e8b86f93cd346bacd1" MajorGridLines="[UIModel]713ec677a1184f2aa4fc15345eb6bf04" MinorTickVisibility="[SMVisibility]Collapsed" Orientation="[SMOrientation]Vertical" Range="[IRange]0, 10, System.Double" ScaleKind="[RangeScaleKind]Linear" ValueType="[Type]Double">
+											<RangeLabeledDivisions Id="f76181cea3a044e8b86f93cd346bacd1" LabelVisibility="[SMVisibility]Visible" Mode="[RangeDivisionsMode]Auto" TickVisibility="[SMVisibility]Visible">
+												<p.LabelPresenter Kind="LVRelativeSeconds" Format="G3" />
+											</RangeLabeledDivisions>
+											<GridLines Id="713ec677a1184f2aa4fc15345eb6bf04" Visibility="[SMVisibility]Visible" />
+										</Axis>
+										<Plot EnableHover="[bool]True" HorizontalScale="[UIModel]24fd39f7d66c4ece86a2125128e05e18" Id="4bac44de7af340e3a3ea537ff3a6a1b0" Label="[string]Consumo [kWh]" VerticalScale="[UIModel]894b536ecbea4ab3bf908427245693b1" Visibility="[SMVisibility]Visible">
+											<PlotRenderer AreaBaseline="[FillBaseline]Zero" AreaFill="[SMSolidColorBrush]#fff8941c" AreaInterpolation="[SMInterpolation]None" BarBaseline="[FillBaseline]Zero" Id="98b966e96af741c487627675b872959e" LineThickness="[double]2" />
+										</Plot>
+									</Chart>
+									<ScaleLegend Graph="[UIModel]9cbf37cc52894e45a2b556eea0ecfe18" Height="[float]70" Id="58e5aeb3d4254ce3a051c72c32e091eb" Left="[float]847" Top="[float]598" Visible="[bool]False" Width="[float]160" />
+									<PlotLegend Graph="[UIModel]9cbf37cc52894e45a2b556eea0ecfe18" Height="[float]42" Id="ff769698037c4c05bdc2d18e7a9b207a" Left="[float]600" Locked="[bool]True" Top="[float]604" Visible="[bool]False" Width="[float]160" />
+									<CursorLegend Graph="[UIModel]9cbf37cc52894e45a2b556eea0ecfe18" Height="[float]200" Id="212c68ca85234a3298aa111784727443" Left="[float]440" Top="[float]709" Visible="[bool]False" Width="[float]320" />
+									<GraphTools Graph="[UIModel]9cbf37cc52894e45a2b556eea0ecfe18" Height="[float]35" Id="80eb711abf0e476bb0e7875007b153d1" Left="[float]440" Top="[float]667" Visible="[bool]False" Width="[float]168" />
+									<Label Height="[float]16" Id="ff145565139f4b55a636c7aec40d382d" LabelOwner="[UIModel]9cbf37cc52894e45a2b556eea0ecfe18" Left="[float]440" Text="[string]ELECTRIC ENERGY (kWh)" Top="[float]344" Width="[float]131" xmlns="http://www.ni.com/PanelCommon" />
+									<Chart DataSource="{DataItemBinding Id=785d7f1089e24a22a83df588efca8c4e}" DataSourceType="[Type]Wfm(Double)" Height="[float]296" Id="1bfc117e17d74e9bb46eb02d4bd123df" Label="[UIModel]ecd02c6ecbe6463990713ae501ab75be" Left="[float]15" MetadataAlwaysOverridesPlotNames="[bool]True" TabIndex="[int]5" Top="[float]364" Width="[float]400">
+										<Axis Adjuster="[RangeAdjuster]ContinuousChart" Id="60726a3b664a481db72d5825aa9f3930" Label="[string]Tiempo" MajorDivisions="[UIModel]dcefcb8d249948e89c23cb1f8c460eac" MinorTickVisibility="[SMVisibility]Collapsed" Orientation="[SMOrientation]Horizontal" Range="[IRange]0, 3600, System.Double" ValueType="[Type]Double" Visibility="[SMVisibility]Visible">
+											<RangeLabeledDivisions Id="dcefcb8d249948e89c23cb1f8c460eac" LabelVisibility="[SMVisibility]Visible" Mode="[RangeDivisionsMode]Count: 2" TickVisibility="[SMVisibility]Visible">
+												<p.LabelPresenter Kind="LVTime" Format="&quot;HH\\:mm\\:ss\ndd\\/MM\\/yy&quot;" FractionalSeconds="0" />
+											</RangeLabeledDivisions>
+										</Axis>
+										<Axis Adjuster="[RangeAdjuster]None" Id="5e1eca36d1cd42298807aff81e2be6cd" Label="[string]Humedad [%]" LabelVisibility="[SMVisibility]Visible" Location="[RelativeLocation]Near" MajorDivisions="[UIModel]51a147e0da5644eabf79da3c7f6c33a5" MajorGridLines="[UIModel]a6e1e44f86504e32aaecf00563276cca" MinorTickVisibility="[SMVisibility]Collapsed" Orientation="[SMOrientation]Vertical" Range="[IRange]0, 100, System.Double" ScaleKind="[RangeScaleKind]Linear" ValueType="[Type]Double">
+											<RangeLabeledDivisions Id="51a147e0da5644eabf79da3c7f6c33a5" LabelVisibility="[SMVisibility]Visible" Mode="[RangeDivisionsMode]Auto" TickVisibility="[SMVisibility]Visible">
+												<p.LabelPresenter Kind="LVRelativeSeconds" Format="G3" />
+											</RangeLabeledDivisions>
+											<GridLines Id="a6e1e44f86504e32aaecf00563276cca" Visibility="[SMVisibility]Visible" />
+										</Axis>
+										<Plot EnableHover="[bool]True" HorizontalScale="[UIModel]60726a3b664a481db72d5825aa9f3930" Id="3c72268634384048bfe2f8bb625a11e4" Label="[string]Humedad [%]" VerticalScale="[UIModel]5e1eca36d1cd42298807aff81e2be6cd" Visibility="[SMVisibility]Visible">
+											<PlotRenderer AreaBaseline="[FillBaseline]Zero" BarBaseline="[FillBaseline]Zero" Id="fe8ecd76ad654391afb7755d15f02b4d" LineStroke="[SMSolidColorBrush]#ff0070bc" LineThickness="[double]2" />
+										</Plot>
+									</Chart>
+									<ScaleLegend Graph="[UIModel]1bfc117e17d74e9bb46eb02d4bd123df" Height="[float]70" Id="7db2c56cb0174f01891d1417ff1de153" Left="[float]422" Top="[float]598" Visible="[bool]False" Width="[float]160" />
+									<PlotLegend Graph="[UIModel]1bfc117e17d74e9bb46eb02d4bd123df" Height="[float]42" Id="c6401a5b6c764d488512dd1b1c8f23a9" Left="[float]175" Locked="[bool]True" Top="[float]604" Visible="[bool]False" Width="[float]160" />
+									<CursorLegend Graph="[UIModel]1bfc117e17d74e9bb46eb02d4bd123df" Height="[float]200" Id="672ce6d9a2c1473babd77428519698d5" Left="[float]15" Top="[float]709" Visible="[bool]False" Width="[float]320" />
+									<GraphTools Graph="[UIModel]1bfc117e17d74e9bb46eb02d4bd123df" Height="[float]35" Id="6c82ae86aae34e38bb71473bc2339114" Left="[float]15" Top="[float]667" Visible="[bool]False" Width="[float]168" />
+									<Label Height="[float]16" Id="ecd02c6ecbe6463990713ae501ab75be" LabelOwner="[UIModel]1bfc117e17d74e9bb46eb02d4bd123df" Left="[float]15" Text="[string]HUMIDITY [%]" Top="[float]344" Width="[float]76" xmlns="http://www.ni.com/PanelCommon" />
+								</LayoutPanel>
+							</TabItem>
+							<TabItem Header="[string]10 min" Id="831836147e04df7a0af74108cbc0aba" Left="[float]0" TabIndex="[int]7" Top="[float]0">
+								<LayoutPanel Height="[float]687" Id="32f2fb17d7b543259b6f2e03c56f2dd7" Left="[float]1" MinHeight="[float]30" Top="[float]24" Width="[float]1286">
+									<Chart DataSource="{DataItemBinding Id=93d63224965b4622b02fc9056776afac}" DataSourceType="[Type]Wfm(Double)" Height="[float]296" Id="87a12cfdd2f84d98807fca1e8104e18a" Label="[UIModel]5702cbf876f94a56bb0f6179d0eda426" Left="[float]15" MetadataAlwaysOverridesPlotNames="[bool]True" TabIndex="[int]0" Top="[float]33" Width="[float]400">
+										<Axis Adjuster="[RangeAdjuster]ContinuousChart" Id="b6e4a2e6e4aa43dcb98eab211af588de" Label="[string]Tiempo" MajorDivisions="[UIModel]8957e5f331094776b9351f6b7d17a7e7" MinorTickVisibility="[SMVisibility]Collapsed" Orientation="[SMOrientation]Horizontal" Range="[IRange]0, 600, System.Double" ValueType="[Type]Double" Visibility="[SMVisibility]Visible">
+											<RangeLabeledDivisions Id="8957e5f331094776b9351f6b7d17a7e7" LabelVisibility="[SMVisibility]Visible" Mode="[RangeDivisionsMode]Count: 2" TickVisibility="[SMVisibility]Visible">
+												<p.LabelPresenter Kind="LVTime" Format="&quot;HH\\:mm\\:ss\ndd\\/MM\\/yy&quot;" FractionalSeconds="0" />
+											</RangeLabeledDivisions>
+										</Axis>
+										<Axis Adjuster="[RangeAdjuster]None" Id="57e85bf979ad436dbe96c85495e5e88f" Label="[string]Temperatura [°C]" LabelVisibility="[SMVisibility]Visible" Location="[RelativeLocation]Near" MajorDivisions="[UIModel]3b5eea0297564a9f958e5f325ab054b9" MajorGridLines="[UIModel]2b0c3d87c5ca4468962d3b45ebcf43e0" MinorTickVisibility="[SMVisibility]Collapsed" Orientation="[SMOrientation]Vertical" Range="[IRange]0, 60, System.Double" ScaleKind="[RangeScaleKind]Linear" ValueType="[Type]Double">
+											<RangeLabeledDivisions Id="3b5eea0297564a9f958e5f325ab054b9" LabelVisibility="[SMVisibility]Visible" Mode="[RangeDivisionsMode]Auto" TickVisibility="[SMVisibility]Visible">
+												<p.LabelPresenter Kind="LVRelativeSeconds" Format="G3" />
+											</RangeLabeledDivisions>
+											<GridLines Id="2b0c3d87c5ca4468962d3b45ebcf43e0" Visibility="[SMVisibility]Visible" />
+										</Axis>
+										<Plot EnableHover="[bool]True" HorizontalScale="[UIModel]b6e4a2e6e4aa43dcb98eab211af588de" Id="8147421573fc41529bedbca99c3fabd1" Label="[string]Temperatura [°C]" VerticalScale="[UIModel]57e85bf979ad436dbe96c85495e5e88f" Visibility="[SMVisibility]Visible">
+											<PlotRenderer AreaBaseline="[FillBaseline]Zero" BarBaseline="[FillBaseline]Zero" Id="de222aaf63554c02844283b02fbde76f" LineStroke="[SMSolidColorBrush]#ffee1c25" LineThickness="[double]2" />
+										</Plot>
+									</Chart>
+									<ScaleLegend Graph="[UIModel]87a12cfdd2f84d98807fca1e8104e18a" Height="[float]70" Id="f04e9dbf83f34b199eaef32776db5d73" Left="[float]422" Top="[float]267" Visible="[bool]False" Width="[float]160" />
+									<PlotLegend Graph="[UIModel]87a12cfdd2f84d98807fca1e8104e18a" Height="[float]42" Id="ae3571d38d054125b1747f6a2eafc573" Left="[float]175" Locked="[bool]True" Top="[float]273" Visible="[bool]False" Width="[float]160" />
+									<CursorLegend Graph="[UIModel]87a12cfdd2f84d98807fca1e8104e18a" Height="[float]200" Id="64c94fdf0e8745a98e60d8d6b483012f" Left="[float]15" Top="[float]378" Visible="[bool]False" Width="[float]320" />
+									<GraphTools Graph="[UIModel]87a12cfdd2f84d98807fca1e8104e18a" Height="[float]35" Id="93ea4542d89e49cf8ca927edbefd5338" Left="[float]15" Top="[float]336" Visible="[bool]False" Width="[float]168" />
+									<Label Height="[float]16" Id="5702cbf876f94a56bb0f6179d0eda426" LabelOwner="[UIModel]87a12cfdd2f84d98807fca1e8104e18a" Left="[float]15" Text="[string]TEMPERATURE [°C]_2" Top="[float]13" Width="[float]112" xmlns="http://www.ni.com/PanelCommon" />
+									<Chart DataSource="{DataItemBinding Id=16752047b30c48d59b05f2644a2469ad}" DataSourceType="[Type]Wfm(Double)" Height="[float]296" Id="3f9ba87afa5442289fff2a20d275545d" Label="[UIModel]1f8a1d7cefd54ef6bb76fba38477d726" Left="[float]15" MetadataAlwaysOverridesPlotNames="[bool]True" TabIndex="[int]1" Top="[float]364" Width="[float]400">
+										<Axis Adjuster="[RangeAdjuster]ContinuousChart" Id="2c6450fae62243ce87c037a36f39a301" Label="[string]Tiempo" MajorDivisions="[UIModel]5630e4dad9f3479dbc7517e808dee0a0" MinorTickVisibility="[SMVisibility]Collapsed" Orientation="[SMOrientation]Horizontal" Range="[IRange]0, 600, System.Double" ValueType="[Type]Double" Visibility="[SMVisibility]Visible">
+											<RangeLabeledDivisions Id="5630e4dad9f3479dbc7517e808dee0a0" LabelVisibility="[SMVisibility]Visible" Mode="[RangeDivisionsMode]Count: 2" TickVisibility="[SMVisibility]Visible">
+												<p.LabelPresenter Kind="LVTime" Format="&quot;HH\\:mm\\:ss\ndd\\/MM\\/yy&quot;" FractionalSeconds="0" />
+											</RangeLabeledDivisions>
+										</Axis>
+										<Axis Adjuster="[RangeAdjuster]None" Id="f6ef571ec16f4574a5f37f6e57d249af" Label="[string]Humedad [%]" LabelVisibility="[SMVisibility]Visible" Location="[RelativeLocation]Near" MajorDivisions="[UIModel]8f67def065d749cdbf2207870a4d963a" MajorGridLines="[UIModel]86ffe588dfad4936ac25c937caf270e6" MinorTickVisibility="[SMVisibility]Collapsed" Orientation="[SMOrientation]Vertical" Range="[IRange]0, 100, System.Double" ScaleKind="[RangeScaleKind]Linear" ValueType="[Type]Double">
+											<RangeLabeledDivisions Id="8f67def065d749cdbf2207870a4d963a" LabelVisibility="[SMVisibility]Visible" Mode="[RangeDivisionsMode]Auto" TickVisibility="[SMVisibility]Visible">
+												<p.LabelPresenter Kind="LVRelativeSeconds" Format="G3" />
+											</RangeLabeledDivisions>
+											<GridLines Id="86ffe588dfad4936ac25c937caf270e6" Visibility="[SMVisibility]Visible" />
+										</Axis>
+										<Plot EnableHover="[bool]True" HorizontalScale="[UIModel]2c6450fae62243ce87c037a36f39a301" Id="a16ecfa2694d4b7db229a8f84ade59ee" Label="[string]Humedad [%]" VerticalScale="[UIModel]f6ef571ec16f4574a5f37f6e57d249af" Visibility="[SMVisibility]Visible">
+											<PlotRenderer AreaBaseline="[FillBaseline]Zero" BarBaseline="[FillBaseline]Zero" Id="1b326403f8944dee99398fb784448fea" LineStroke="[SMSolidColorBrush]#ff0070bc" LineThickness="[double]2" />
+										</Plot>
+									</Chart>
+									<ScaleLegend Graph="[UIModel]3f9ba87afa5442289fff2a20d275545d" Height="[float]70" Id="5baa46c1e9464a389a56f24b7d626c5c" Left="[float]422" Top="[float]598" Visible="[bool]False" Width="[float]160" />
+									<PlotLegend Graph="[UIModel]3f9ba87afa5442289fff2a20d275545d" Height="[float]42" Id="d8ba7f917c844e008c4b5a06636acb33" Left="[float]175" Locked="[bool]True" Top="[float]604" Visible="[bool]False" Width="[float]160" />
+									<CursorLegend Graph="[UIModel]3f9ba87afa5442289fff2a20d275545d" Height="[float]200" Id="dbadf1954c8452d9dcae5bdb042cbae" Left="[float]15" Top="[float]709" Visible="[bool]False" Width="[float]320" />
+									<GraphTools Graph="[UIModel]3f9ba87afa5442289fff2a20d275545d" Height="[float]35" Id="9428fb1d9475497dba89921597125a5a" Left="[float]15" Top="[float]667" Visible="[bool]False" Width="[float]168" />
+									<Label Height="[float]16" Id="1f8a1d7cefd54ef6bb76fba38477d726" LabelOwner="[UIModel]3f9ba87afa5442289fff2a20d275545d" Left="[float]15" Text="[string]HUMIDITY [%]_2" Top="[float]344" Width="[float]88" xmlns="http://www.ni.com/PanelCommon" />
+									<Chart DataSource="{DataItemBinding Id=385b2ee340f84a6baaa8779f47cf60d6}" DataSourceType="[Type]Wfm(Single)" Height="[float]296" Id="97d13f8b2fc74502b6234a1537aafdb2" Label="[UIModel]dc396338110e47bd993d7e34a2b6214e" Left="[float]440" MetadataAlwaysOverridesPlotNames="[bool]True" TabIndex="[int]2" Top="[float]33" Width="[float]400">
+										<Axis Adjuster="[RangeAdjuster]ContinuousChart" Id="af71f2bc403e44a9a95855e0bca8d5e0" Label="[string]Tiempo" MajorDivisions="[UIModel]ab5602bf558d4ac5b8bb8f6376fd0c7e" MinorTickVisibility="[SMVisibility]Collapsed" Orientation="[SMOrientation]Horizontal" Range="[IRange]0, 600, System.Double" ValueType="[Type]Double" Visibility="[SMVisibility]Visible">
+											<RangeLabeledDivisions Id="ab5602bf558d4ac5b8bb8f6376fd0c7e" LabelVisibility="[SMVisibility]Visible" Mode="[RangeDivisionsMode]Count: 2" TickVisibility="[SMVisibility]Visible">
+												<p.LabelPresenter Kind="LVTime" Format="&quot;HH\\:mm\\:ss\ndd\\/MM\\/yy&quot;" FractionalSeconds="0" />
+											</RangeLabeledDivisions>
+										</Axis>
+										<Axis Adjuster="[RangeAdjuster]None" Id="49708f318119471bb3dcb571c0f00667" Label="[string]Corriente [A]" LabelVisibility="[SMVisibility]Visible" Location="[RelativeLocation]Near" MajorDivisions="[UIModel]456e808d211142a5904343dcfdfbb8e3" MajorGridLines="[UIModel]243fd3c6836e425cb2b002d7bafdd045" MinorTickVisibility="[SMVisibility]Collapsed" Orientation="[SMOrientation]Vertical" Range="[IRange]0, 40, System.Double" ScaleKind="[RangeScaleKind]Linear" ValueType="[Type]Double">
+											<RangeLabeledDivisions Id="456e808d211142a5904343dcfdfbb8e3" LabelVisibility="[SMVisibility]Visible" Mode="[RangeDivisionsMode]Auto" TickVisibility="[SMVisibility]Visible">
+												<p.LabelPresenter Kind="LVRelativeSeconds" Format="G3" />
+											</RangeLabeledDivisions>
+											<GridLines Id="243fd3c6836e425cb2b002d7bafdd045" Visibility="[SMVisibility]Visible" />
+										</Axis>
+										<Plot EnableHover="[bool]True" HorizontalScale="[UIModel]af71f2bc403e44a9a95855e0bca8d5e0" Id="2447c689610840739bd3973cb319e322" Label="[string]Corriente [A]" VerticalScale="[UIModel]49708f318119471bb3dcb571c0f00667" Visibility="[SMVisibility]Visible">
+											<PlotRenderer AreaBaseline="[FillBaseline]Zero" BarBaseline="[FillBaseline]Zero" Id="55b9112bb3d245e9b26415ca1314b915" LineStroke="[SMSolidColorBrush]#ff00a64f" LineThickness="[double]2" />
+										</Plot>
+									</Chart>
+									<ScaleLegend Graph="[UIModel]97d13f8b2fc74502b6234a1537aafdb2" Height="[float]70" Id="1e38c8051455459fa555e64b092898e4" Left="[float]847" Top="[float]267" Visible="[bool]False" Width="[float]160" />
+									<PlotLegend Graph="[UIModel]97d13f8b2fc74502b6234a1537aafdb2" Height="[float]42" Id="e8789af711e34102af78c9295063111d" Left="[float]600" Locked="[bool]True" Top="[float]273" Visible="[bool]False" Width="[float]160" />
+									<CursorLegend Graph="[UIModel]97d13f8b2fc74502b6234a1537aafdb2" Height="[float]200" Id="a193fcea252d46bc8d51b6b89d9b27aa" Left="[float]440" Top="[float]378" Visible="[bool]False" Width="[float]320" />
+									<GraphTools Graph="[UIModel]97d13f8b2fc74502b6234a1537aafdb2" Height="[float]35" Id="e86ae008dd1f4287b3e5f4b2ab06c00b" Left="[float]440" Top="[float]336" Visible="[bool]False" Width="[float]168" />
+									<Label Height="[float]16" Id="dc396338110e47bd993d7e34a2b6214e" LabelOwner="[UIModel]97d13f8b2fc74502b6234a1537aafdb2" Left="[float]440" Text="[string]CURRENT (A)_2" Top="[float]13" Width="[float]82" xmlns="http://www.ni.com/PanelCommon" />
+									<Chart DataSource="{DataItemBinding Id=f1699a811c794ae8a350f55497a8b337}" DataSourceType="[Type]Wfm(Double)" Height="[float]296" Id="10d380bd418849f8a27e95cb7c9af29b" Label="[UIModel]17b2fea6660f4fa5bdc7798563f64c13" Left="[float]440" MetadataAlwaysOverridesPlotNames="[bool]True" TabIndex="[int]3" Top="[float]364" Width="[float]400">
+										<Axis Adjuster="[RangeAdjuster]ContinuousChart" Id="1ac075195ed94f998b0a7d20ca52e3bf" Label="[string]Tiempo" MajorDivisions="[UIModel]8807b516dbec4731b1250e08ddab3e22" MinorTickVisibility="[SMVisibility]Collapsed" Orientation="[SMOrientation]Horizontal" Range="[IRange]0, 600, System.Double" ValueType="[Type]Double" Visibility="[SMVisibility]Visible">
+											<RangeLabeledDivisions Id="8807b516dbec4731b1250e08ddab3e22" LabelVisibility="[SMVisibility]Visible" Mode="[RangeDivisionsMode]Count: 2" TickVisibility="[SMVisibility]Visible">
+												<p.LabelPresenter Kind="LVTime" Format="&quot;HH\\:mm\\:ss\ndd\\/MM\\/yy&quot;" FractionalSeconds="0" />
+											</RangeLabeledDivisions>
+										</Axis>
+										<Axis Adjuster="[RangeAdjuster]None" Id="2a51ae0f7f3d4eaf961ce59321297291" Label="[string]Consumo Energía [kWh]" LabelVisibility="[SMVisibility]Visible" Location="[RelativeLocation]Near" MajorDivisions="[UIModel]b66d2fa5987d4430a0814128c9e738bf" MajorGridLines="[UIModel]84808dfafd1a4631ae893739162aad55" MinorTickVisibility="[SMVisibility]Collapsed" Orientation="[SMOrientation]Vertical" Range="[IRange]0, 10, System.Double" ScaleKind="[RangeScaleKind]Linear" ValueType="[Type]Double">
+											<RangeLabeledDivisions Id="b66d2fa5987d4430a0814128c9e738bf" LabelVisibility="[SMVisibility]Visible" Mode="[RangeDivisionsMode]Auto" TickVisibility="[SMVisibility]Visible">
+												<p.LabelPresenter Kind="LVRelativeSeconds" Format="G3" />
+											</RangeLabeledDivisions>
+											<GridLines Id="84808dfafd1a4631ae893739162aad55" Visibility="[SMVisibility]Visible" />
+										</Axis>
+										<Plot EnableHover="[bool]True" HorizontalScale="[UIModel]1ac075195ed94f998b0a7d20ca52e3bf" Id="e07981a31a7047b69ba406864119203a" Label="[string]Consumo [kWh]" VerticalScale="[UIModel]2a51ae0f7f3d4eaf961ce59321297291" Visibility="[SMVisibility]Visible">
+											<PlotRenderer AreaBaseline="[FillBaseline]Zero" AreaFill="[SMSolidColorBrush]#fff8941c" AreaInterpolation="[SMInterpolation]None" BarBaseline="[FillBaseline]Zero" Id="1132809b073f48b2bd5ba4680c42815e" LineThickness="[double]2" />
+										</Plot>
+									</Chart>
+									<ScaleLegend Graph="[UIModel]10d380bd418849f8a27e95cb7c9af29b" Height="[float]70" Id="d05c3ea42de4d61b51c4a8f116518c9" Left="[float]847" Top="[float]598" Visible="[bool]False" Width="[float]160" />
+									<PlotLegend Graph="[UIModel]10d380bd418849f8a27e95cb7c9af29b" Height="[float]42" Id="6c0815f459874336a93c433e9f35d637" Left="[float]600" Locked="[bool]True" Top="[float]604" Visible="[bool]False" Width="[float]160" />
+									<CursorLegend Graph="[UIModel]10d380bd418849f8a27e95cb7c9af29b" Height="[float]200" Id="c7c4fbb93ffc48699f01538ef7345121" Left="[float]440" Top="[float]709" Visible="[bool]False" Width="[float]320" />
+									<GraphTools Graph="[UIModel]10d380bd418849f8a27e95cb7c9af29b" Height="[float]35" Id="71b96c7b09714cc0b94860bb149f8745" Left="[float]440" Top="[float]667" Visible="[bool]False" Width="[float]168" />
+									<Label Height="[float]16" Id="17b2fea6660f4fa5bdc7798563f64c13" LabelOwner="[UIModel]10d380bd418849f8a27e95cb7c9af29b" Left="[float]440" Text="[string]ELECTRIC ENERGY (kWh)_2" Top="[float]344" Width="[float]142" xmlns="http://www.ni.com/PanelCommon" />
+									<Chart DataSource="{DataItemBinding Id=99d962aa87a34ef885aec36e5d7cdc60}" DataSourceType="[Type]Wfm(Single)" Height="[float]296" Id="3398167c132844a5aa34a3dc5de3f156" Label="[UIModel]f7946c694fbe4031af6d2fc1e7539bea" Left="[float]865" MetadataAlwaysOverridesPlotNames="[bool]True" TabIndex="[int]4" Top="[float]33" Width="[float]400">
+										<Axis Adjuster="[RangeAdjuster]ContinuousChart" Id="10573970c10c4554a51b1dad01204fbf" Label="[string]Tiempo" MajorDivisions="[UIModel]e0b5d74035e545aa92ab1d331c19766d" MinorTickVisibility="[SMVisibility]Collapsed" Orientation="[SMOrientation]Horizontal" Range="[IRange]0, 600, System.Double" ValueType="[Type]Double" Visibility="[SMVisibility]Visible">
+											<RangeLabeledDivisions Id="e0b5d74035e545aa92ab1d331c19766d" LabelVisibility="[SMVisibility]Visible" Mode="[RangeDivisionsMode]Count: 2" TickVisibility="[SMVisibility]Visible">
+												<p.LabelPresenter Kind="LVTime" Format="&quot;HH\\:mm\\:ss\ndd\\/MM\\/yy&quot;" FractionalSeconds="0" />
+											</RangeLabeledDivisions>
+										</Axis>
+										<Axis Adjuster="[RangeAdjuster]None" Id="4e89b211cea24b3d8391b0df68092503" Label="[string]Potencia Activa [kW]" LabelVisibility="[SMVisibility]Visible" Location="[RelativeLocation]Near" MajorDivisions="[UIModel]16fc9eadbc494e5d8c202fc3964d9263" MajorGridLines="[UIModel]2a1cb1e4798045119faf54dff1cd504e" MinorTickVisibility="[SMVisibility]Collapsed" Orientation="[SMOrientation]Vertical" Range="[IRange]0, 20, System.Double" ScaleKind="[RangeScaleKind]Linear" ValueType="[Type]Double">
+											<RangeLabeledDivisions Id="16fc9eadbc494e5d8c202fc3964d9263" LabelVisibility="[SMVisibility]Visible" Mode="[RangeDivisionsMode]Auto" TickVisibility="[SMVisibility]Visible">
+												<p.LabelPresenter Kind="LVRelativeSeconds" Format="G3" />
+											</RangeLabeledDivisions>
+											<GridLines Id="2a1cb1e4798045119faf54dff1cd504e" Visibility="[SMVisibility]Visible" />
+										</Axis>
+										<Plot EnableHover="[bool]True" HorizontalScale="[UIModel]10573970c10c4554a51b1dad01204fbf" Id="39c6b53f8a7e4bf9b63321404b20d03a" Label="[string]Pot. Activa [kW]" VerticalScale="[UIModel]4e89b211cea24b3d8391b0df68092503" Visibility="[SMVisibility]Visible">
+											<PlotRenderer AreaBaseline="[FillBaseline]Zero" BarBaseline="[FillBaseline]Zero" Id="3935b9c9f5c34fdfa9e63f9d92367839" LineStroke="[SMSolidColorBrush]#ffed0c8c" LineThickness="[double]2" />
+										</Plot>
+									</Chart>
+									<ScaleLegend Graph="[UIModel]3398167c132844a5aa34a3dc5de3f156" Height="[float]70" Id="b2d5070c2c914e1ba4d656365119f454" Left="[float]1272" Top="[float]267" Visible="[bool]False" Width="[float]160" />
+									<PlotLegend Graph="[UIModel]3398167c132844a5aa34a3dc5de3f156" Height="[float]42" Id="61e5a7b8732742b8ba73b74ec1a1ca5d" Left="[float]1025" Locked="[bool]True" Top="[float]273" Visible="[bool]False" Width="[float]160" />
+									<CursorLegend Graph="[UIModel]3398167c132844a5aa34a3dc5de3f156" Height="[float]200" Id="252941f4cee84f40a6084e46c8986018" Left="[float]865" Top="[float]378" Visible="[bool]False" Width="[float]320" />
+									<GraphTools Graph="[UIModel]3398167c132844a5aa34a3dc5de3f156" Height="[float]35" Id="1c83b8ac6b61426ab378431d6defbefd" Left="[float]865" Top="[float]336" Visible="[bool]False" Width="[float]168" />
+									<Label Height="[float]16" Id="f7946c694fbe4031af6d2fc1e7539bea" LabelOwner="[UIModel]3398167c132844a5aa34a3dc5de3f156" Left="[float]865" Text="[string]ACTIVE POWER [kW]_2" Top="[float]13" Width="[float]121" xmlns="http://www.ni.com/PanelCommon" />
+									<Chart DataSource="{DataItemBinding Id=7bd82c73e7f946c5a05d15a73809a432}" DataSourceType="[Type]Wfm(Single)" Height="[float]296" Id="8b1693158455440dbfb690c2dbfb27a8" Label="[UIModel]dc4b57fd38464eeab9774a67e0daf348" Left="[float]865" MetadataAlwaysOverridesPlotNames="[bool]True" TabIndex="[int]5" Top="[float]364" Width="[float]400">
+										<Axis Adjuster="[RangeAdjuster]ContinuousChart" Id="dbd54e42a3fb45ba9a46e1bbd2af27e3" Label="[string]Tiempo" MajorDivisions="[UIModel]30630bb589934ca6b37560235f259133" MinorTickVisibility="[SMVisibility]Collapsed" Orientation="[SMOrientation]Horizontal" Range="[IRange]0, 600, System.Double" ValueType="[Type]Double" Visibility="[SMVisibility]Visible">
+											<RangeLabeledDivisions Id="30630bb589934ca6b37560235f259133" LabelVisibility="[SMVisibility]Visible" Mode="[RangeDivisionsMode]Count: 2" TickVisibility="[SMVisibility]Visible">
+												<p.LabelPresenter Kind="LVTime" Format="&quot;HH\\:mm\\:ss\ndd\\/MM\\/yy&quot;" FractionalSeconds="0" />
+											</RangeLabeledDivisions>
+										</Axis>
+										<Axis Adjuster="[RangeAdjuster]None" Id="8f5da32a5d4848ea83b4d44739db3148" Label="[string]Potencia Aparente [kVA]" LabelVisibility="[SMVisibility]Visible" Location="[RelativeLocation]Near" MajorDivisions="[UIModel]a7f91589bb664c5dbc8c98aaf86b62ac" MajorGridLines="[UIModel]1cbad7a7e2294fdd97fe667b22ce4b50" MinorTickVisibility="[SMVisibility]Collapsed" Orientation="[SMOrientation]Vertical" Range="[IRange]0, 20, System.Double" ScaleKind="[RangeScaleKind]Linear" ValueType="[Type]Double">
+											<RangeLabeledDivisions Id="a7f91589bb664c5dbc8c98aaf86b62ac" LabelVisibility="[SMVisibility]Visible" Mode="[RangeDivisionsMode]Auto" TickVisibility="[SMVisibility]Visible">
+												<p.LabelPresenter Kind="LVRelativeSeconds" Format="G3" />
+											</RangeLabeledDivisions>
+											<GridLines Id="1cbad7a7e2294fdd97fe667b22ce4b50" Visibility="[SMVisibility]Visible" />
+										</Axis>
+										<Plot EnableHover="[bool]True" HorizontalScale="[UIModel]dbd54e42a3fb45ba9a46e1bbd2af27e3" Id="25c1bbfc52f6403c878727c2303ddcae" Label="[string]Pot. Aparente [kVA]" VerticalScale="[UIModel]8f5da32a5d4848ea83b4d44739db3148" Visibility="[SMVisibility]Visible">
+											<PlotRenderer AreaBaseline="[FillBaseline]Zero" BarBaseline="[FillBaseline]Zero" Id="1aafb514887b48a0a6e4c7a5c4a7f20f" LineStroke="[SMSolidColorBrush]#ff706dc0" LineThickness="[double]2" />
+										</Plot>
+									</Chart>
+									<ScaleLegend Graph="[UIModel]8b1693158455440dbfb690c2dbfb27a8" Height="[float]70" Id="9504710e16384274bbee9b910d93d765" Left="[float]1272" Top="[float]598" Visible="[bool]False" Width="[float]160" />
+									<PlotLegend Graph="[UIModel]8b1693158455440dbfb690c2dbfb27a8" Height="[float]42" Id="53fdc89b3b2b48c485520b5dfd47db51" Left="[float]1025" Locked="[bool]True" Top="[float]604" Visible="[bool]False" Width="[float]160" />
+									<CursorLegend Graph="[UIModel]8b1693158455440dbfb690c2dbfb27a8" Height="[float]200" Id="d600e24e935a4d6ca2479ff05de533af" Left="[float]865" Top="[float]709" Visible="[bool]False" Width="[float]320" />
+									<GraphTools Graph="[UIModel]8b1693158455440dbfb690c2dbfb27a8" Height="[float]35" Id="316fabd19cf9468c82b6b5ea4cdb2fcc" Left="[float]865" Top="[float]667" Visible="[bool]False" Width="[float]168" />
+									<Label Height="[float]16" Id="dc4b57fd38464eeab9774a67e0daf348" LabelOwner="[UIModel]8b1693158455440dbfb690c2dbfb27a8" Left="[float]865" Text="[string]APPARENT POWER (kVA)_2" Top="[float]344" Width="[float]143" xmlns="http://www.ni.com/PanelCommon" />
+								</LayoutPanel>
+							</TabItem>
+						</TabControl>
+						<LED BaseName="[string]LED" FalseBackground="[SMSolidColorBrush]#ffee1c25" FalseContent="[string]Off" Height="[float]20" Id="1b37db98e8fd42a2ae8275ee46d0d1a8" IsReadOnly="[bool]True" Label="[UIModel]10b99b7ef48744cc86a0e4bcb1746d3b" Left="[float]31" Shape="[LEDShape]Square" TabIndex="[int]2" Top="[float]132" TrueBackground="[SMSolidColorBrush]#ff00ff00" TrueContent="[string]On" Value="{DataItemBinding Id=8d3e4678192c4fc1a9df8bb603e6a127}" Width="[float]20" />
+						<Label Height="[float]16" Id="10b99b7ef48744cc86a0e4bcb1746d3b" LabelOwner="[UIModel]1b37db98e8fd42a2ae8275ee46d0d1a8" Left="[float]31" Text="[string]Server Active" Top="[float]112" Width="[float]69" xmlns="http://www.ni.com/PanelCommon">
 							<FontSetting FontFamily="Segoe UI" FontSize="9" Id="2ca08683ef5c447097c4beec9705154e" xmlns="http://www.ni.com/PlatformFramework" />
 						</Label>
-						<UrlImage Alternate="[string]" BaseName="[string]UrlImage" Height="[float]40" Id="47f039d6740540b7b0fb53eccdab0a1e" Label="[UIModel]6a5f8c18038e452e907879bfcee94676" Left="[float]1352" Source="{DataItemBinding Id=9cac17ab17e94ce4bc7b713c2db0af4c}" Stretch="[SMStretch]Uniform" TabIndex="[int]5" Top="[float]22" Width="[float]180" />
-						<Label Height="[float]16" Id="6a5f8c18038e452e907879bfcee94676" LabelOwner="[UIModel]47f039d6740540b7b0fb53eccdab0a1e" Left="[float]1352" Text="[string]URL Image" Top="[float]2" Visible="[bool]False" Width="[float]58" xmlns="http://www.ni.com/PanelCommon" />
-						<Chart DataSource="{DataItemBinding Id=d2031ee8bd8b4ad99d57ff1016e67f6d}" DataSourceType="[Type]Wfm(Single)" Height="[float]296" Id="6666e31183bd4b819f0c08a98f4e48cf" Label="[UIModel]d0adde3e3bdf4ec8ad4366e3cc2bd508" Left="[float]734" MetadataAlwaysOverridesPlotNames="[bool]True" TabIndex="[int]6" Top="[float]142" Width="[float]400">
-							<Axis Adjuster="[RangeAdjuster]ContinuousChart" Id="83b0711fb4304eeebfaf1ae92657ec2c" Label="[string]Tiempo" MajorDivisions="[UIModel]342a3df7c34840ab954b810668eea31c" MinorTickVisibility="[SMVisibility]Collapsed" Orientation="[SMOrientation]Horizontal" Range="[IRange]0, 3600, System.Double" ValueType="[Type]Double" Visibility="[SMVisibility]Visible">
-								<RangeLabeledDivisions Id="342a3df7c34840ab954b810668eea31c" LabelVisibility="[SMVisibility]Visible" Mode="[RangeDivisionsMode]Count: 2" TickVisibility="[SMVisibility]Visible">
-									<p.LabelPresenter Kind="LVTime" Format="&quot;HH\\:mm\\:ss\ndd\\/MM\\/yy&quot;" FractionalSeconds="0" />
-								</RangeLabeledDivisions>
-							</Axis>
-							<Axis Adjuster="[RangeAdjuster]None" Id="c92ef40eac00461682997951c08df303" Label="[string]Corriente [A]" LabelVisibility="[SMVisibility]Visible" Location="[RelativeLocation]Near" MajorDivisions="[UIModel]120c22506a3d4c29adcb89f55a2f0468" MajorGridLines="[UIModel]b3533bca7854476a8422a38feed06569" MinorTickVisibility="[SMVisibility]Collapsed" Orientation="[SMOrientation]Vertical" Range="[IRange]0, 40, System.Double" ScaleKind="[RangeScaleKind]Linear" ValueType="[Type]Double">
-								<RangeLabeledDivisions Id="120c22506a3d4c29adcb89f55a2f0468" LabelVisibility="[SMVisibility]Visible" Mode="[RangeDivisionsMode]Auto" TickVisibility="[SMVisibility]Visible">
-									<p.LabelPresenter Kind="LVRelativeSeconds" Format="G3" />
-								</RangeLabeledDivisions>
-								<GridLines Id="b3533bca7854476a8422a38feed06569" Visibility="[SMVisibility]Visible" />
-							</Axis>
-							<Plot EnableHover="[bool]True" HorizontalScale="[UIModel]83b0711fb4304eeebfaf1ae92657ec2c" Id="36150e256f374262b26b09de264acda5" Label="[string]Corriente [A]" VerticalScale="[UIModel]c92ef40eac00461682997951c08df303" Visibility="[SMVisibility]Visible">
-								<PlotRenderer AreaBaseline="[FillBaseline]Zero" BarBaseline="[FillBaseline]Zero" Id="4d9fe298e1004a6399f8b4131e63b555" LineStroke="[SMSolidColorBrush]#ff0070bc" LineThickness="[double]2" />
-							</Plot>
-						</Chart>
-						<ScaleLegend Graph="[UIModel]6666e31183bd4b819f0c08a98f4e48cf" Height="[float]70" Id="e1e31681c81d49adb3b6981452bed389" Left="[float]1141" Top="[float]376" Visible="[bool]False" Width="[float]160" />
-						<PlotLegend Graph="[UIModel]6666e31183bd4b819f0c08a98f4e48cf" Height="[float]42" Id="8e950fd156f24fee843a795e486498da" Left="[float]894" Locked="[bool]True" Top="[float]382" Visible="[bool]False" Width="[float]160" />
-						<CursorLegend Graph="[UIModel]6666e31183bd4b819f0c08a98f4e48cf" Height="[float]200" Id="ad0c373a899b4b1ca3822ab3aa8bdaeb" Left="[float]734" Top="[float]487" Visible="[bool]False" Width="[float]320" />
-						<GraphTools Graph="[UIModel]6666e31183bd4b819f0c08a98f4e48cf" Height="[float]35" Id="d25342f62c3d4d828b84b7917215b1de" Left="[float]734" Top="[float]445" Visible="[bool]False" Width="[float]168" />
-						<Label Height="[float]16" Id="d0adde3e3bdf4ec8ad4366e3cc2bd508" LabelOwner="[UIModel]6666e31183bd4b819f0c08a98f4e48cf" Left="[float]734" Text="[string]CURRENT (A)" Top="[float]122" Width="[float]70" xmlns="http://www.ni.com/PanelCommon" />
-						<Cluster BaseName="[string]Cluster" BorderThickness="[SMThickness]1,1,1,1" ClusterType="[Type]@4ba5152885c1417cb41dbbed7bd50763" Height="[float]320" Id="6036398512624cde8c66b76717eb7e82" Label="[UIModel]3df3465cd9bb47db8057d9b460d361db" Left="[float]15" TabIndex="[int]7" Top="[float]227" Value="{DataItemBinding Id=f09ef11902de4593816d906611a9e5a5}" Width="[float]250" xmlns="http://www.ni.com/PanelCommon">
+						<UrlImage Alternate="[string]" BaseName="[string]UrlImage" Height="[float]40" Id="47f039d6740540b7b0fb53eccdab0a1e" Label="[UIModel]6a5f8c18038e452e907879bfcee94676" Left="[float]1553" Source="{DataItemBinding Id=9cac17ab17e94ce4bc7b713c2db0af4c}" Stretch="[SMStretch]Uniform" TabIndex="[int]3" Top="[float]23" Width="[float]180" />
+						<Label Height="[float]16" Id="6a5f8c18038e452e907879bfcee94676" LabelOwner="[UIModel]47f039d6740540b7b0fb53eccdab0a1e" Left="[float]1553" Text="[string]URL Image" Top="[float]3" Visible="[bool]False" Width="[float]58" xmlns="http://www.ni.com/PanelCommon" />
+						<Cluster BaseName="[string]Cluster" BorderThickness="[SMThickness]1,1,1,1" ClusterType="[Type]@4ba5152885c1417cb41dbbed7bd50763" Height="[float]320" Id="6036398512624cde8c66b76717eb7e82" Label="[UIModel]3df3465cd9bb47db8057d9b460d361db" Left="[float]31" TabIndex="[int]4" Top="[float]228" Value="{DataItemBinding Id=f09ef11902de4593816d906611a9e5a5}" Width="[float]250" xmlns="http://www.ni.com/PanelCommon">
 							<NumericText BaseName="[string]Numeric" Height="[float]24" Id="32072927dc2c436382d828efe4e09fe1" Interval="[float]1" IsReadOnly="[bool]True" Label="[UIModel]4b8d48a158fe4d0bbab998fe046d186c" Left="[float]4" Top="[float]24" Value="{ClusterBinding FieldName=phase\ voltage\ (V)}" ValueFormatter="[string]DisplayFormat=Automatic:Digits=6:DigitDisplayType=SignificantDigits:MinimumFieldWidth=0:AlwaysShowSign=False:ShowThousandsSeparator=False" ValueType="[Type]Single" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
 							<Label Height="[float]16" Id="4b8d48a158fe4d0bbab998fe046d186c" LabelOwner="[UIModel]32072927dc2c436382d828efe4e09fe1" Left="[float]4" Text="[string]phase voltage (V)" Top="[float]4" Width="[float]92" />
 							<NumericText BaseName="[string]Numeric" Height="[float]24" Id="1176f00d639e46609cf5148ce3c415c6" Interval="[float]1" IsReadOnly="[bool]True" Label="[UIModel]15c59ebf96364f07b344a063f59bb752" Left="[float]4" Top="[float]76" Value="{ClusterBinding FieldName=phase\ current\ (A)}" ValueFormatter="[string]DisplayFormat=Automatic:Digits=6:DigitDisplayType=SignificantDigits:MinimumFieldWidth=0:AlwaysShowSign=False:ShowThousandsSeparator=False" ValueType="[Type]Single" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
@@ -1392,124 +1656,40 @@
 							<NumericText BaseName="[string]Numeric" Height="[float]24" Id="6255b97eed91401d9ee584fa4f7896c4" Interval="[float]1" IsReadOnly="[bool]True" Label="[UIModel]e29d971cd5be4315aa32aa109181a0f6" Left="[float]4" Top="[float]284" Value="{ClusterBinding FieldName=phase\ power\ factor}" ValueFormatter="[string]DisplayFormat=Automatic:Digits=6:DigitDisplayType=SignificantDigits:MinimumFieldWidth=0:AlwaysShowSign=False:ShowThousandsSeparator=False" ValueType="[Type]Single" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
 							<Label Height="[float]16" Id="e29d971cd5be4315aa32aa109181a0f6" LabelOwner="[UIModel]6255b97eed91401d9ee584fa4f7896c4" Left="[float]4" Text="[string]phase power factor" Top="[float]264" Width="[float]102" />
 						</Cluster>
-						<Label Height="[float]16" Id="3df3465cd9bb47db8057d9b460d361db" LabelOwner="[UIModel]6036398512624cde8c66b76717eb7e82" Left="[float]15" Text="[string]data cluster 1" Top="[float]207" Width="[float]72" xmlns="http://www.ni.com/PanelCommon" />
-						<Cluster BaseName="[string]Cluster" BorderThickness="[SMThickness]1,1,1,1" ClusterType="[Type]@9b8e5b9ece6e4ece83b96e8237d4c937" Height="[float]112" Id="eb473d0499f74f37b939c000b5d7e33f" Label="[UIModel]e85c028838348c59c9251b1208fd7cf" Left="[float]15" TabIndex="[int]8" Top="[float]573" Value="{DataItemBinding Id=f540df73aeb849e3b59863c26709e3b4}" Width="[float]250" xmlns="http://www.ni.com/PanelCommon">
+						<Label Height="[float]16" Id="3df3465cd9bb47db8057d9b460d361db" LabelOwner="[UIModel]6036398512624cde8c66b76717eb7e82" Left="[float]31" Text="[string]data cluster 1" Top="[float]208" Width="[float]72" xmlns="http://www.ni.com/PanelCommon" />
+						<Cluster BaseName="[string]Cluster" BorderThickness="[SMThickness]1,1,1,1" ClusterType="[Type]@9b8e5b9ece6e4ece83b96e8237d4c937" Height="[float]112" Id="eb473d0499f74f37b939c000b5d7e33f" Label="[UIModel]e85c028838348c59c9251b1208fd7cf" Left="[float]31" TabIndex="[int]5" Top="[float]574" Value="{DataItemBinding Id=f540df73aeb849e3b59863c26709e3b4}" Width="[float]250" xmlns="http://www.ni.com/PanelCommon">
 							<NumericText BaseName="[string]Numeric" Height="[float]24" Id="feb65b3c159c4933b778c89a7d5e955e" IsReadOnly="[bool]True" Label="[UIModel]57dcc75bd0ca470db779571604df187f" Left="[float]4" Top="[float]24" Value="{ClusterBinding FieldName=active\ electric\ energy\ (kWh)}" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
 							<Label Height="[float]16" Id="57dcc75bd0ca470db779571604df187f" LabelOwner="[UIModel]feb65b3c159c4933b778c89a7d5e955e" Left="[float]4" Text="[string]active electric energy (kWh)" Top="[float]4" Width="[float]146" />
 							<NumericText BaseName="[string]Numeric" Height="[float]24" Id="91decf70f320406dbe92df931dc11d62" IsReadOnly="[bool]True" Label="[UIModel]f24d0e3391a34958b89b5641931bf80c" Left="[float]4" Top="[float]76" Value="{ClusterBinding FieldName=valor\ instantáneo\ (clp)}" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
 							<Label Height="[float]16" Id="f24d0e3391a34958b89b5641931bf80c" LabelOwner="[UIModel]91decf70f320406dbe92df931dc11d62" Left="[float]4" Text="[string]valor instantáneo (clp)" Top="[float]56" Width="[float]118" />
 						</Cluster>
-						<Label Height="[float]16" Id="e85c028838348c59c9251b1208fd7cf" LabelOwner="[UIModel]eb473d0499f74f37b939c000b5d7e33f" Left="[float]15" Text="[string]data cluster 2" Top="[float]553" Width="[float]72" xmlns="http://www.ni.com/PanelCommon" />
-						<Chart DataSource="{DataItemBinding Id=e9a7469cb2554784833aafbeac406f42}" DataSourceType="[Type]Wfm(Single)" Height="[float]296" Id="2b5d43a50d7640c7bc865c777ad6a766" Label="[UIModel]fc379c2cefdb4142b31e309b9da23ae4" Left="[float]1156" MetadataAlwaysOverridesPlotNames="[bool]True" TabIndex="[int]9" Top="[float]142" Width="[float]400">
-							<Axis Adjuster="[RangeAdjuster]ContinuousChart" Id="f7a4bafbeacf48dda1c4981f26f2b211" Label="[string]Tiempo" MajorDivisions="[UIModel]fc11042de9724c4cbc08cfb07fd9db3e" MinorTickVisibility="[SMVisibility]Collapsed" Orientation="[SMOrientation]Horizontal" Range="[IRange]0, 3600, System.Double" ValueType="[Type]Double" Visibility="[SMVisibility]Visible">
-								<RangeLabeledDivisions Id="fc11042de9724c4cbc08cfb07fd9db3e" LabelVisibility="[SMVisibility]Visible" Mode="[RangeDivisionsMode]Count: 2" TickVisibility="[SMVisibility]Visible">
-									<p.LabelPresenter Kind="LVTime" Format="&quot;HH\\:mm\\:ss\ndd\\/MM\\/yy&quot;" FractionalSeconds="0" />
-								</RangeLabeledDivisions>
-							</Axis>
-							<Axis Adjuster="[RangeAdjuster]None" Id="1f52be7762934b0685a44c934831ecff" Label="[string]Potencia Activa [kW]" LabelVisibility="[SMVisibility]Visible" Location="[RelativeLocation]Near" MajorDivisions="[UIModel]ca5244724b424f17af53d9763abefca9" MajorGridLines="[UIModel]44be68939094fc0b7b762d5b0b5759b" MinorTickVisibility="[SMVisibility]Collapsed" Orientation="[SMOrientation]Vertical" Range="[IRange]0, 20, System.Double" ScaleKind="[RangeScaleKind]Linear" ValueType="[Type]Double">
-								<RangeLabeledDivisions Id="ca5244724b424f17af53d9763abefca9" LabelVisibility="[SMVisibility]Visible" Mode="[RangeDivisionsMode]Auto" TickVisibility="[SMVisibility]Visible">
-									<p.LabelPresenter Kind="LVRelativeSeconds" Format="G3" />
-								</RangeLabeledDivisions>
-								<GridLines Id="44be68939094fc0b7b762d5b0b5759b" Visibility="[SMVisibility]Visible" />
-							</Axis>
-							<Plot EnableHover="[bool]True" HorizontalScale="[UIModel]f7a4bafbeacf48dda1c4981f26f2b211" Id="b913cc1429f4be49ee3bf00d67574c0" Label="[string]Corriente [A]" VerticalScale="[UIModel]1f52be7762934b0685a44c934831ecff" Visibility="[SMVisibility]Visible">
-								<PlotRenderer AreaBaseline="[FillBaseline]Zero" BarBaseline="[FillBaseline]Zero" Id="938aa7fee8574682b26c0361bd45f66b" LineStroke="[SMSolidColorBrush]#ff0070bc" LineThickness="[double]2" />
-							</Plot>
-						</Chart>
-						<ScaleLegend Graph="[UIModel]2b5d43a50d7640c7bc865c777ad6a766" Height="[float]70" Id="8cc33ac17c648cea4691200fdd5b69e" Left="[float]1563" Top="[float]376" Visible="[bool]False" Width="[float]160" />
-						<PlotLegend Graph="[UIModel]2b5d43a50d7640c7bc865c777ad6a766" Height="[float]42" Id="3429eff896af45d08db01050a6f53cb3" Left="[float]1316" Locked="[bool]True" Top="[float]382" Visible="[bool]False" Width="[float]160" />
-						<CursorLegend Graph="[UIModel]2b5d43a50d7640c7bc865c777ad6a766" Height="[float]200" Id="de298ef61d194ffcb1e8a6a6e1c15e96" Left="[float]1156" Top="[float]487" Visible="[bool]False" Width="[float]320" />
-						<GraphTools Graph="[UIModel]2b5d43a50d7640c7bc865c777ad6a766" Height="[float]35" Id="125a51f96f584d40b4351eb3b37dd5eb" Left="[float]1156" Top="[float]445" Visible="[bool]False" Width="[float]168" />
-						<Label Height="[float]16" Id="fc379c2cefdb4142b31e309b9da23ae4" LabelOwner="[UIModel]2b5d43a50d7640c7bc865c777ad6a766" Left="[float]1156" Text="[string]ACTIVE POWER [kW]" Top="[float]122" Width="[float]109" xmlns="http://www.ni.com/PanelCommon" />
-						<Chart DataSource="{DataItemBinding Id=a55541ce4f564e23aa2eaae49597997e}" DataSourceType="[Type]Wfm(Single)" Height="[float]296" Id="11a81141810f46afa933da7825a6005b" Label="[UIModel]b0dd0fec79c45bab1f53452a1e08801" Left="[float]1156" MetadataAlwaysOverridesPlotNames="[bool]True" TabIndex="[int]10" Top="[float]478" Width="[float]400">
-							<Axis Adjuster="[RangeAdjuster]ContinuousChart" Id="a24044aef8a6455ca4886ac41781843c" Label="[string]Tiempo" MajorDivisions="[UIModel]c06f3a1122a8463ba125af990d5ab720" MinorTickVisibility="[SMVisibility]Collapsed" Orientation="[SMOrientation]Horizontal" Range="[IRange]0, 3600, System.Double" ValueType="[Type]Double" Visibility="[SMVisibility]Visible">
-								<RangeLabeledDivisions Id="c06f3a1122a8463ba125af990d5ab720" LabelVisibility="[SMVisibility]Visible" Mode="[RangeDivisionsMode]Count: 2" TickVisibility="[SMVisibility]Visible">
-									<p.LabelPresenter Kind="LVTime" Format="&quot;HH\\:mm\\:ss\ndd\\/MM\\/yy&quot;" FractionalSeconds="0" />
-								</RangeLabeledDivisions>
-							</Axis>
-							<Axis Adjuster="[RangeAdjuster]None" Id="a8e01b2ff9304474a13b5862396fb918" Label="[string]Potencia Aparente [kVA]" LabelVisibility="[SMVisibility]Visible" Location="[RelativeLocation]Near" MajorDivisions="[UIModel]3797cbd3f146458784d05146ab364fbd" MajorGridLines="[UIModel]49cea20c044a41a8ac4ac659ffe6c5d0" MinorTickVisibility="[SMVisibility]Collapsed" Orientation="[SMOrientation]Vertical" Range="[IRange]0, 20, System.Double" ScaleKind="[RangeScaleKind]Linear" ValueType="[Type]Double">
-								<RangeLabeledDivisions Id="3797cbd3f146458784d05146ab364fbd" LabelVisibility="[SMVisibility]Visible" Mode="[RangeDivisionsMode]Auto" TickVisibility="[SMVisibility]Visible">
-									<p.LabelPresenter Kind="LVRelativeSeconds" Format="G3" />
-								</RangeLabeledDivisions>
-								<GridLines Id="49cea20c044a41a8ac4ac659ffe6c5d0" Visibility="[SMVisibility]Visible" />
-							</Axis>
-							<Plot EnableHover="[bool]True" HorizontalScale="[UIModel]a24044aef8a6455ca4886ac41781843c" Id="3145ee9c19f04c17921561a3b84427df" Label="[string]Corriente [A]" VerticalScale="[UIModel]a8e01b2ff9304474a13b5862396fb918" Visibility="[SMVisibility]Visible">
-								<PlotRenderer AreaBaseline="[FillBaseline]Zero" BarBaseline="[FillBaseline]Zero" Id="1114b9a356644292b2cf9d15cb6695ff" LineStroke="[SMSolidColorBrush]#ff0070bc" LineThickness="[double]2" />
-							</Plot>
-						</Chart>
-						<ScaleLegend Graph="[UIModel]11a81141810f46afa933da7825a6005b" Height="[float]70" Id="8b77dcd38e6449cb8dad235158ee66b4" Left="[float]1563" Top="[float]712" Visible="[bool]False" Width="[float]160" />
-						<PlotLegend Graph="[UIModel]11a81141810f46afa933da7825a6005b" Height="[float]42" Id="2c0e74c0ec4741a9a32e892904e4459a" Left="[float]1316" Locked="[bool]True" Top="[float]718" Visible="[bool]False" Width="[float]160" />
-						<CursorLegend Graph="[UIModel]11a81141810f46afa933da7825a6005b" Height="[float]200" Id="9f48b9897274e4eb9e190b6f8f4e01c" Left="[float]1156" Top="[float]823" Visible="[bool]False" Width="[float]320" />
-						<GraphTools Graph="[UIModel]11a81141810f46afa933da7825a6005b" Height="[float]35" Id="542bb54022884a2086d2e790f1d3f4fe" Left="[float]1156" Top="[float]781" Visible="[bool]False" Width="[float]168" />
-						<Label Height="[float]16" Id="b0dd0fec79c45bab1f53452a1e08801" LabelOwner="[UIModel]11a81141810f46afa933da7825a6005b" Left="[float]1156" Text="[string]APPARENT POWER (kVA)" Top="[float]458" Width="[float]131" xmlns="http://www.ni.com/PanelCommon" />
-						<Chart DataSource="{DataItemBinding Id=ab7d9f0cd2f5450aa3462135b4b461bc}" DataSourceType="[Type]Wfm(Double)" Height="[float]296" Id="a00fb029455345318c62e51896db4a9b" Label="[UIModel]1f9bb333a6924a5dae1b1518bec856c5" Left="[float]312" MetadataAlwaysOverridesPlotNames="[bool]True" TabIndex="[int]11" Top="[float]142" Width="[float]400">
-							<Axis Adjuster="[RangeAdjuster]ContinuousChart" Id="eb6dcccbeb924186869c14a6e121e965" Label="[string]Tiempo" MajorDivisions="[UIModel]1b84fb6c7e6e4a99888fe5811c7c02c1" MinorTickVisibility="[SMVisibility]Collapsed" Orientation="[SMOrientation]Horizontal" Range="[IRange]0, 3600, System.Double" ValueType="[Type]Double" Visibility="[SMVisibility]Visible">
-								<RangeLabeledDivisions Id="1b84fb6c7e6e4a99888fe5811c7c02c1" LabelVisibility="[SMVisibility]Visible" Mode="[RangeDivisionsMode]Count: 2" TickVisibility="[SMVisibility]Visible">
-									<p.LabelPresenter Kind="LVTime" Format="&quot;HH\\:mm\\:ss\ndd\\/MM\\/yy&quot;" FractionalSeconds="0" />
-								</RangeLabeledDivisions>
-							</Axis>
-							<Axis Adjuster="[RangeAdjuster]None" Id="2375597826b94074b12bfcee09f87eb5" Label="[string]Temperatura [°C]" LabelVisibility="[SMVisibility]Visible" Location="[RelativeLocation]Near" MajorDivisions="[UIModel]58f90e85e6dd4928bc007f161acd67e6" MajorGridLines="[UIModel]9165f81ae4945869dca2e497b89529f" MinorTickVisibility="[SMVisibility]Collapsed" Orientation="[SMOrientation]Vertical" Range="[IRange]0, 60, System.Double" ScaleKind="[RangeScaleKind]Linear" ValueType="[Type]Double">
-								<RangeLabeledDivisions Id="58f90e85e6dd4928bc007f161acd67e6" LabelVisibility="[SMVisibility]Visible" Mode="[RangeDivisionsMode]Auto" TickVisibility="[SMVisibility]Visible">
-									<p.LabelPresenter Kind="LVRelativeSeconds" Format="G3" />
-								</RangeLabeledDivisions>
-								<GridLines Id="9165f81ae4945869dca2e497b89529f" Visibility="[SMVisibility]Visible" />
-							</Axis>
-							<Plot EnableHover="[bool]True" HorizontalScale="[UIModel]eb6dcccbeb924186869c14a6e121e965" Id="1614d55ccf4349df822c5f74da1a94b3" Label="[string]Corriente [A]" VerticalScale="[UIModel]2375597826b94074b12bfcee09f87eb5" Visibility="[SMVisibility]Visible">
-								<PlotRenderer AreaBaseline="[FillBaseline]Zero" BarBaseline="[FillBaseline]Zero" Id="b4c47c0957f64ff79ba1812cbcfe1d56" LineStroke="[SMSolidColorBrush]#ff0070bc" LineThickness="[double]2" />
-							</Plot>
-						</Chart>
-						<ScaleLegend Graph="[UIModel]a00fb029455345318c62e51896db4a9b" Height="[float]70" Id="a8fc1e4c2b234ef990e6f0307962ea2e" Left="[float]719" Top="[float]376" Visible="[bool]False" Width="[float]160" />
-						<PlotLegend Graph="[UIModel]a00fb029455345318c62e51896db4a9b" Height="[float]42" Id="727680435f36451497a84552040bff86" Left="[float]472" Locked="[bool]True" Top="[float]382" Visible="[bool]False" Width="[float]160" />
-						<CursorLegend Graph="[UIModel]a00fb029455345318c62e51896db4a9b" Height="[float]200" Id="91d069e0301a401399a2ec2e9b46a9e3" Left="[float]312" Top="[float]487" Visible="[bool]False" Width="[float]320" />
-						<GraphTools Graph="[UIModel]a00fb029455345318c62e51896db4a9b" Height="[float]35" Id="528fbcecab024d6487aceba2af6b0e7c" Left="[float]312" Top="[float]445" Visible="[bool]False" Width="[float]168" />
-						<Label Height="[float]16" Id="1f9bb333a6924a5dae1b1518bec856c5" LabelOwner="[UIModel]a00fb029455345318c62e51896db4a9b" Left="[float]312" Text="[string]TEMPERATURE [°C]" Top="[float]122" Width="[float]101" xmlns="http://www.ni.com/PanelCommon" />
-						<Chart DataSource="{DataItemBinding Id=785d7f1089e24a22a83df588efca8c4e}" DataSourceType="[Type]Wfm(Double)" Height="[float]296" Id="1bfc117e17d74e9bb46eb02d4bd123df" Label="[UIModel]ecd02c6ecbe6463990713ae501ab75be" Left="[float]312" MetadataAlwaysOverridesPlotNames="[bool]True" TabIndex="[int]12" Top="[float]478" Width="[float]400">
-							<Axis Adjuster="[RangeAdjuster]ContinuousChart" Id="60726a3b664a481db72d5825aa9f3930" Label="[string]Tiempo" MajorDivisions="[UIModel]dcefcb8d249948e89c23cb1f8c460eac" MinorTickVisibility="[SMVisibility]Collapsed" Orientation="[SMOrientation]Horizontal" Range="[IRange]0, 3600, System.Double" ValueType="[Type]Double" Visibility="[SMVisibility]Visible">
-								<RangeLabeledDivisions Id="dcefcb8d249948e89c23cb1f8c460eac" LabelVisibility="[SMVisibility]Visible" Mode="[RangeDivisionsMode]Count: 2" TickVisibility="[SMVisibility]Visible">
-									<p.LabelPresenter Kind="LVTime" Format="&quot;HH\\:mm\\:ss\ndd\\/MM\\/yy&quot;" FractionalSeconds="0" />
-								</RangeLabeledDivisions>
-							</Axis>
-							<Axis Adjuster="[RangeAdjuster]None" Id="5e1eca36d1cd42298807aff81e2be6cd" Label="[string]Humedad [%]" LabelVisibility="[SMVisibility]Visible" Location="[RelativeLocation]Near" MajorDivisions="[UIModel]51a147e0da5644eabf79da3c7f6c33a5" MajorGridLines="[UIModel]a6e1e44f86504e32aaecf00563276cca" MinorTickVisibility="[SMVisibility]Collapsed" Orientation="[SMOrientation]Vertical" Range="[IRange]0, 100, System.Double" ScaleKind="[RangeScaleKind]Linear" ValueType="[Type]Double">
-								<RangeLabeledDivisions Id="51a147e0da5644eabf79da3c7f6c33a5" LabelVisibility="[SMVisibility]Visible" Mode="[RangeDivisionsMode]Auto" TickVisibility="[SMVisibility]Visible">
-									<p.LabelPresenter Kind="LVRelativeSeconds" Format="G3" />
-								</RangeLabeledDivisions>
-								<GridLines Id="a6e1e44f86504e32aaecf00563276cca" Visibility="[SMVisibility]Visible" />
-							</Axis>
-							<Plot EnableHover="[bool]True" HorizontalScale="[UIModel]60726a3b664a481db72d5825aa9f3930" Id="3c72268634384048bfe2f8bb625a11e4" Label="[string]Corriente [A]" VerticalScale="[UIModel]5e1eca36d1cd42298807aff81e2be6cd" Visibility="[SMVisibility]Visible">
-								<PlotRenderer AreaBaseline="[FillBaseline]Zero" BarBaseline="[FillBaseline]Zero" Id="fe8ecd76ad654391afb7755d15f02b4d" LineStroke="[SMSolidColorBrush]#ff0070bc" LineThickness="[double]2" />
-							</Plot>
-						</Chart>
-						<ScaleLegend Graph="[UIModel]1bfc117e17d74e9bb46eb02d4bd123df" Height="[float]70" Id="7db2c56cb0174f01891d1417ff1de153" Left="[float]719" Top="[float]712" Visible="[bool]False" Width="[float]160" />
-						<PlotLegend Graph="[UIModel]1bfc117e17d74e9bb46eb02d4bd123df" Height="[float]42" Id="c6401a5b6c764d488512dd1b1c8f23a9" Left="[float]472" Locked="[bool]True" Top="[float]718" Visible="[bool]False" Width="[float]160" />
-						<CursorLegend Graph="[UIModel]1bfc117e17d74e9bb46eb02d4bd123df" Height="[float]200" Id="672ce6d9a2c1473babd77428519698d5" Left="[float]312" Top="[float]823" Visible="[bool]False" Width="[float]320" />
-						<GraphTools Graph="[UIModel]1bfc117e17d74e9bb46eb02d4bd123df" Height="[float]35" Id="6c82ae86aae34e38bb71473bc2339114" Left="[float]312" Top="[float]781" Visible="[bool]False" Width="[float]168" />
-						<Label Height="[float]16" Id="ecd02c6ecbe6463990713ae501ab75be" LabelOwner="[UIModel]1bfc117e17d74e9bb46eb02d4bd123df" Left="[float]312" Text="[string]HUMIDITY [%]" Top="[float]458" Width="[float]76" xmlns="http://www.ni.com/PanelCommon" />
-						<Cluster BaseName="[string]Cluster" BorderThickness="[SMThickness]1,1,1,1" ClusterType="[Type]@ce81a2007e074973ae317820c30a162e" Height="[float]112" Id="dee32608f28b4dc1bc692ee6d85e9525" Label="[UIModel]70851442eece41a0a2fca2ae46b5308f" Left="[float]15" TabIndex="[int]13" Top="[float]710" Value="{DataItemBinding Id=7d5e3eb07b2d431c8cbb2e6fe3ddc777}" Width="[float]250" xmlns="http://www.ni.com/PanelCommon">
+						<Label Height="[float]16" Id="e85c028838348c59c9251b1208fd7cf" LabelOwner="[UIModel]eb473d0499f74f37b939c000b5d7e33f" Left="[float]31" Text="[string]data cluster 2" Top="[float]554" Width="[float]72" xmlns="http://www.ni.com/PanelCommon" />
+						<Cluster BaseName="[string]Cluster" BorderThickness="[SMThickness]1,1,1,1" ClusterType="[Type]@ce81a2007e074973ae317820c30a162e" Height="[float]112" Id="dee32608f28b4dc1bc692ee6d85e9525" Label="[UIModel]70851442eece41a0a2fca2ae46b5308f" Left="[float]31" TabIndex="[int]6" Top="[float]711" Value="{DataItemBinding Id=7d5e3eb07b2d431c8cbb2e6fe3ddc777}" Width="[float]250" xmlns="http://www.ni.com/PanelCommon">
 							<NumericText BaseName="[string]Numeric" Height="[float]24" Id="3e86e1af06b24d73a8acf5953bbe28e2" IsReadOnly="[bool]True" Label="[UIModel]117be58818d4698920c7aeb9d16a98c" Left="[float]4" Top="[float]24" Value="{ClusterBinding FieldName=temperatura\ (°C)}" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
 							<Label Height="[float]16" Id="117be58818d4698920c7aeb9d16a98c" LabelOwner="[UIModel]3e86e1af06b24d73a8acf5953bbe28e2" Left="[float]4" Text="[string]temperatura (°C)" Top="[float]4" Width="[float]88" />
 							<NumericText BaseName="[string]Numeric" Height="[float]24" Id="fd653c58fd0740248c79f28c48b9d6c6" IsReadOnly="[bool]True" Label="[UIModel]55da1eb9eef34c14af486dd0b08f77e4" Left="[float]4" Top="[float]76" Value="{ClusterBinding FieldName=humedad\ (%)}" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
 							<Label Height="[float]16" Id="55da1eb9eef34c14af486dd0b08f77e4" LabelOwner="[UIModel]fd653c58fd0740248c79f28c48b9d6c6" Left="[float]4" Text="[string]humedad (%)" Top="[float]56" Width="[float]71" />
 						</Cluster>
-						<Label Height="[float]16" Id="70851442eece41a0a2fca2ae46b5308f" LabelOwner="[UIModel]dee32608f28b4dc1bc692ee6d85e9525" Left="[float]15" Text="[string]data cluster 3" Top="[float]690" Width="[float]72" xmlns="http://www.ni.com/PanelCommon" />
+						<Label Height="[float]16" Id="70851442eece41a0a2fca2ae46b5308f" LabelOwner="[UIModel]dee32608f28b4dc1bc692ee6d85e9525" Left="[float]31" Text="[string]data cluster 3" Top="[float]691" Width="[float]72" xmlns="http://www.ni.com/PanelCommon" />
 					</LayoutPanel>
 				</TabItem>
 				<TabItem Header="[string]Main2" Id="74dba3a0c2574b549c63c98b3b2a6e23" Left="[float]0" Top="[float]0">
-					<LayoutPanel Height="[float]868" Id="8a6a4b49e8274df68b7fda9576872258" Left="[float]1" MinHeight="[float]53" Top="[float]1" Width="[float]1578">
-						<Text BaseName="[string]Text" Height="[float]32" Id="65206a3e9df9469ea60bc8ba30936c8b" Left="[float]279" SizeMode="[TextModelSizeMode]Fixed" Text="[string]MONITORING ARC-FLASH SYSTEM" TextAlignment="[TextAlignment]Center" TextWrapping="[TextWrapping]Wrap" Top="[float]20" Width="[float]400" xmlns="http://www.ni.com/PlatformFramework">
+					<LayoutPanel Height="[float]855" Id="8a6a4b49e8274df68b7fda9576872258" Left="[float]1" MinHeight="[float]53" Top="[float]1" Width="[float]1778">
+						<Text BaseName="[string]Text" Height="[float]32" Id="65206a3e9df9469ea60bc8ba30936c8b" Left="[float]279" SizeMode="[TextModelSizeMode]Fixed" Text="[string]MONITORING ARC-FLASH SYSTEM" TextAlignment="[TextAlignment]Center" TextWrapping="[TextWrapping]Wrap" Top="[float]74" Width="[float]400" xmlns="http://www.ni.com/PlatformFramework">
 							<FontSetting FontFamily="Segoe UI" FontSize="18" FontStyle="Bold" Id="fbff11f2ae36407eb15c33fe3e777fbf" />
 						</Text>
-						<UrlImage Alternate="[string]" BaseName="[string]UrlImage" Height="[float]40" Id="10d6a5d5cdd84171a702e5d2dcd9b1e2" Label="[UIModel]80c92a329a964ffaa2a3883c880d6949" Left="[float]434" Source="{DataItemBinding Id=9adaf35b8bf1449bb971447497c584c6}" Stretch="[SMStretch]Uniform" TabIndex="[int]0" Top="[float]132" Width="[float]100" />
-						<UrlImage Alternate="[string]" BaseName="[string]UrlImage" Height="[float]40" Id="3ef4d14e6e64fb398ae677344476a69" Label="[UIModel]4496a5217e67466a95445054bb498543" Left="[float]282" Source="{DataItemBinding Id=426bbac7c9a45498b3f24dc3ef8e130}" Stretch="[SMStretch]Uniform" TabIndex="[int]1" Top="[float]84" Width="[float]100" />
-						<UrlImage Alternate="[string]" BaseName="[string]UrlImage" Height="[float]40" Id="fe5dcdce0377450188c20d5fde3703a1" Label="[UIModel]657c5cd4726941ef8c3d09fd4c696f9c" Left="[float]392" Source="{DataItemBinding Id=81ac7ecbdf214ebda7b63920e493dfed}" Stretch="[SMStretch]Uniform" TabIndex="[int]2" Top="[float]84" Width="[float]100" />
-						<UrlImage Alternate="[string]" BaseName="[string]UrlImage" Height="[float]40" Id="b0c09a77e6e84fb7b842e6def3b2716a" Label="[UIModel]e6125528cc8c4b4299e9256c05acd3a7" Left="[float]499" Source="{DataItemBinding Id=ba047b7c809540a8bddaf8c5e19cc426}" Stretch="[SMStretch]Uniform" TabIndex="[int]3" Top="[float]84" Width="[float]100" />
-						<Label Height="[float]16" Id="80c92a329a964ffaa2a3883c880d6949" LabelOwner="[UIModel]10d6a5d5cdd84171a702e5d2dcd9b1e2" Left="[float]434" Text="[string]Logo3G_Image_3" Top="[float]112" Visible="[bool]False" Width="[float]91" xmlns="http://www.ni.com/PanelCommon" />
-						<Label Height="[float]16" Id="4496a5217e67466a95445054bb498543" LabelOwner="[UIModel]3ef4d14e6e64fb398ae677344476a69" Left="[float]282" Text="[string]LogoEecol_Image_3" Top="[float]64" Visible="[bool]False" Width="[float]105" xmlns="http://www.ni.com/PanelCommon" />
-						<Label Height="[float]16" Id="657c5cd4726941ef8c3d09fd4c696f9c" LabelOwner="[UIModel]fe5dcdce0377450188c20d5fde3703a1" Left="[float]392" Text="[string]LogoLF_Image_3" Top="[float]64" Visible="[bool]False" Width="[float]88" xmlns="http://www.ni.com/PanelCommon" />
-						<Label Height="[float]16" Id="e6125528cc8c4b4299e9256c05acd3a7" LabelOwner="[UIModel]b0c09a77e6e84fb7b842e6def3b2716a" Left="[float]499" Text="[string]LogoPHOC_Image_3" Top="[float]64" Visible="[bool]False" Width="[float]108" xmlns="http://www.ni.com/PanelCommon" />
-						<UrlImage Alternate="[string]" BaseName="[string]UrlImage" Height="[float]25" Id="5e1af51dd06148268b6f78b3d29501fb" Label="[UIModel]20884b2462a245fc8d82290d8142bef0" Left="[float]602" Source="{DataItemBinding Id=5966018fa7374d7a9b62b8e66f3fc0a2}" Stretch="[SMStretch]Uniform" TabIndex="[int]4" Top="[float]92" Width="[float]68" />
-						<Label Height="[float]16" Id="20884b2462a245fc8d82290d8142bef0" LabelOwner="[UIModel]5e1af51dd06148268b6f78b3d29501fb" Left="[float]602" Text="[string]URL Image_4" Top="[float]72" Visible="[bool]False" Width="[float]69" xmlns="http://www.ni.com/PanelCommon" />
-						<Text BaseName="[string]Text" Height="[float]16" Id="14789c7498794f5382558d4178de8131" Left="[float]249" SizeMode="[TextModelSizeMode]Fixed" Text="[string]Desarrollado por 3GE Ltda. Versión 24.08.22 para Eecol Electric @2024" TextAlignment="[TextAlignment]Center" TextWrapping="[TextWrapping]Wrap" Top="[float]734" Width="[float]470" xmlns="http://www.ni.com/PlatformFramework" />
-						<TabControl BaseName="[string]Tab" Height="[float]500" Id="5bbb858b902949a59c180a446ba5da31" IncludeInCapture="[bool]False" Label="[UIModel]f46b5a1f73af4b2ca6dd200ab90808d1" LabelLinked="[bool]False" Left="[float]264" SelectedIndex="{DataItemBinding Id=138d10b75ba343e886dd99da7702b55e}" TabIndex="[int]5" Top="[float]190" Width="[float]440">
+						<UrlImage Alternate="[string]" BaseName="[string]UrlImage" Height="[float]40" Id="10d6a5d5cdd84171a702e5d2dcd9b1e2" Label="[UIModel]80c92a329a964ffaa2a3883c880d6949" Left="[float]434" Source="{DataItemBinding Id=9adaf35b8bf1449bb971447497c584c6}" Stretch="[SMStretch]Uniform" TabIndex="[int]0" Top="[float]186" Width="[float]100" />
+						<UrlImage Alternate="[string]" BaseName="[string]UrlImage" Height="[float]40" Id="3ef4d14e6e64fb398ae677344476a69" Label="[UIModel]4496a5217e67466a95445054bb498543" Left="[float]282" Source="{DataItemBinding Id=426bbac7c9a45498b3f24dc3ef8e130}" Stretch="[SMStretch]Uniform" TabIndex="[int]1" Top="[float]138" Width="[float]100" />
+						<UrlImage Alternate="[string]" BaseName="[string]UrlImage" Height="[float]40" Id="fe5dcdce0377450188c20d5fde3703a1" Label="[UIModel]657c5cd4726941ef8c3d09fd4c696f9c" Left="[float]392" Source="{DataItemBinding Id=81ac7ecbdf214ebda7b63920e493dfed}" Stretch="[SMStretch]Uniform" TabIndex="[int]2" Top="[float]138" Width="[float]100" />
+						<UrlImage Alternate="[string]" BaseName="[string]UrlImage" Height="[float]40" Id="b0c09a77e6e84fb7b842e6def3b2716a" Label="[UIModel]e6125528cc8c4b4299e9256c05acd3a7" Left="[float]499" Source="{DataItemBinding Id=ba047b7c809540a8bddaf8c5e19cc426}" Stretch="[SMStretch]Uniform" TabIndex="[int]3" Top="[float]138" Width="[float]100" />
+						<Label Height="[float]16" Id="80c92a329a964ffaa2a3883c880d6949" LabelOwner="[UIModel]10d6a5d5cdd84171a702e5d2dcd9b1e2" Left="[float]434" Text="[string]Logo3G_Image_3" Top="[float]166" Visible="[bool]False" Width="[float]91" xmlns="http://www.ni.com/PanelCommon" />
+						<Label Height="[float]16" Id="4496a5217e67466a95445054bb498543" LabelOwner="[UIModel]3ef4d14e6e64fb398ae677344476a69" Left="[float]282" Text="[string]LogoEecol_Image_3" Top="[float]118" Visible="[bool]False" Width="[float]105" xmlns="http://www.ni.com/PanelCommon" />
+						<Label Height="[float]16" Id="657c5cd4726941ef8c3d09fd4c696f9c" LabelOwner="[UIModel]fe5dcdce0377450188c20d5fde3703a1" Left="[float]392" Text="[string]LogoLF_Image_3" Top="[float]118" Visible="[bool]False" Width="[float]88" xmlns="http://www.ni.com/PanelCommon" />
+						<Label Height="[float]16" Id="e6125528cc8c4b4299e9256c05acd3a7" LabelOwner="[UIModel]b0c09a77e6e84fb7b842e6def3b2716a" Left="[float]499" Text="[string]LogoPHOC_Image_3" Top="[float]118" Visible="[bool]False" Width="[float]108" xmlns="http://www.ni.com/PanelCommon" />
+						<UrlImage Alternate="[string]" BaseName="[string]UrlImage" Height="[float]25" Id="5e1af51dd06148268b6f78b3d29501fb" Label="[UIModel]20884b2462a245fc8d82290d8142bef0" Left="[float]602" Source="{DataItemBinding Id=5966018fa7374d7a9b62b8e66f3fc0a2}" Stretch="[SMStretch]Uniform" TabIndex="[int]4" Top="[float]146" Width="[float]68" />
+						<Label Height="[float]16" Id="20884b2462a245fc8d82290d8142bef0" LabelOwner="[UIModel]5e1af51dd06148268b6f78b3d29501fb" Left="[float]602" Text="[string]URL Image_4" Top="[float]126" Visible="[bool]False" Width="[float]69" xmlns="http://www.ni.com/PanelCommon" />
+						<Text BaseName="[string]Text" Height="[float]16" Id="14789c7498794f5382558d4178de8131" Left="[float]249" SizeMode="[TextModelSizeMode]Fixed" Text="[string]Desarrollado por 3GE Ltda. Versión 24.08.22 para Eecol Electric @2024" TextAlignment="[TextAlignment]Center" TextWrapping="[TextWrapping]Wrap" Top="[float]788" Width="[float]470" xmlns="http://www.ni.com/PlatformFramework" />
+						<TabControl BaseName="[string]Tab" Height="[float]500" Id="5bbb858b902949a59c180a446ba5da31" IncludeInCapture="[bool]False" Label="[UIModel]f46b5a1f73af4b2ca6dd200ab90808d1" LabelLinked="[bool]False" Left="[float]264" SelectedIndex="{DataItemBinding Id=138d10b75ba343e886dd99da7702b55e}" TabIndex="[int]5" Top="[float]244" Width="[float]440">
 							<TabItem Header="[string]Layout" Id="271f00ceb5404ff595caeb8af049add4" Left="[float]0" TabIndex="[int]5" Top="[float]0">
 								<LayoutPanel Height="[float]475" Id="9258b64f50044e949490a52c00498832" Left="[float]1" MinHeight="[float]30" Top="[float]24" Width="[float]438">
 									<UrlImage Alternate="[string]" BaseName="[string]UrlImage" Height="[float]294" Id="d2883221074547c6aead7d90d206c2ec" Label="[UIModel]9e8a1bf84d014ca7bdc30dab0d82bbcb" Left="[float]15" Source="{DataItemBinding Id=664540b6e2f04394b259f3e8b4ae1097}" Stretch="[SMStretch]Uniform" TabIndex="[int]0" Top="[float]56" Width="[float]400" />
@@ -1536,13 +1716,13 @@
 								<LayoutPanel Height="[float]475" Id="b292a300b3164d5eaa1e4b3803b906c5" Left="[float]1" MinHeight="[float]30" Top="[float]24" Width="[float]438" />
 							</TabItem>
 						</TabControl>
-						<Label Height="[float]16" Id="f46b5a1f73af4b2ca6dd200ab90808d1" LabelOwner="[UIModel]5bbb858b902949a59c180a446ba5da31" Left="[float]264" Text="[string]Tab_app" Top="[float]170" Visible="[bool]False" Width="[float]44" xmlns="http://www.ni.com/PanelCommon" />
-						<UrlImage Alternate="[string]" BaseName="[string]UrlImage" Height="[float]40" Id="85fe86f52f1c425d919a3df8e82ff2ea" Label="[UIModel]61ffea653fe84eaaa3a29a651430914b" Left="[float]432" Source="{DataItemBinding Id=ede2f8653f854406818e5a13084923a2}" Stretch="[SMStretch]Uniform" TabIndex="[int]6" Top="[float]766" Width="[float]100" />
-						<Label Height="[float]16" Id="61ffea653fe84eaaa3a29a651430914b" LabelOwner="[UIModel]85fe86f52f1c425d919a3df8e82ff2ea" Left="[float]432" Text="[string]Logo3G_Image_4" Top="[float]746" Visible="[bool]False" Width="[float]91" xmlns="http://www.ni.com/PanelCommon" />
+						<Label Height="[float]16" Id="f46b5a1f73af4b2ca6dd200ab90808d1" LabelOwner="[UIModel]5bbb858b902949a59c180a446ba5da31" Left="[float]264" Text="[string]Tab_app" Top="[float]224" Visible="[bool]False" Width="[float]44" xmlns="http://www.ni.com/PanelCommon" />
+						<UrlImage Alternate="[string]" BaseName="[string]UrlImage" Height="[float]40" Id="85fe86f52f1c425d919a3df8e82ff2ea" Label="[UIModel]61ffea653fe84eaaa3a29a651430914b" Left="[float]432" Source="{DataItemBinding Id=ede2f8653f854406818e5a13084923a2}" Stretch="[SMStretch]Uniform" TabIndex="[int]6" Top="[float]820" Width="[float]100" />
+						<Label Height="[float]16" Id="61ffea653fe84eaaa3a29a651430914b" LabelOwner="[UIModel]85fe86f52f1c425d919a3df8e82ff2ea" Left="[float]432" Text="[string]Logo3G_Image_4" Top="[float]800" Visible="[bool]False" Width="[float]91" xmlns="http://www.ni.com/PanelCommon" />
 					</LayoutPanel>
 				</TabItem>
 			</TabControl>
-			<Label Height="[float]16" Id="93cb089f08ec42a38223a2296ef42265" LabelOwner="[UIModel]24b8c35e328643628a9faf2ea61cfd3e" Left="[float]11" Text="[string]Tab" Top="[float]-15" Visible="[bool]False" Width="[float]19" xmlns="http://www.ni.com/PanelCommon" />
+			<Label Height="[float]16" Id="93cb089f08ec42a38223a2296ef42265" LabelOwner="[UIModel]24b8c35e328643628a9faf2ea61cfd3e" Left="[float]11" Text="[string]Tab" Top="[float]-16" Visible="[bool]False" Width="[float]19" xmlns="http://www.ni.com/PanelCommon" />
 		</HtmlFrontPanel>
 		<DataItem AdaptToDiagramType="True" DataType="Int32" Id="6664d0eb76e74e13b431729c94a580fa" Name="Tab" xmlns="http://www.ni.com/MocCommon">
 			<p.DefaultValue>0</p.DefaultValue>
@@ -1637,6 +1817,15 @@
 		<DataItem AdaptToDiagramType="True" DataType="@ce81a2007e074973ae317820c30a162e" Id="7d5e3eb07b2d431c8cbb2e6fe3ddc777" Name="data cluster 3" xmlns="http://www.ni.com/MocCommon">
 			<p.DefaultValue>0x0_0x0_</p.DefaultValue>
 		</DataItem>
+		<DataItem AdaptToDiagramType="True" DataType="Int32" Id="5163e21d72b5460cbf4e6a28d0e550f0" Name="Tab_3" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>0</p.DefaultValue>
+		</DataItem>
+		<DataItem AdaptToDiagramType="True" BufferSize="3000" DataType="Wfm(Double)" Id="93d63224965b4622b02fc9056776afac" Name="TEMPERATURE [°C]_2" xmlns="http://www.ni.com/MocCommon" />
+		<DataItem AdaptToDiagramType="True" BufferSize="3000" DataType="Wfm(Double)" Id="16752047b30c48d59b05f2644a2469ad" Name="HUMIDITY [%]_2" xmlns="http://www.ni.com/MocCommon" />
+		<DataItem AdaptToDiagramType="True" BufferSize="3000" DataType="Wfm(Single)" Id="385b2ee340f84a6baaa8779f47cf60d6" Name="CURRENT (A)_2" xmlns="http://www.ni.com/MocCommon" />
+		<DataItem AdaptToDiagramType="True" BufferSize="3000" DataType="Wfm(Double)" Id="f1699a811c794ae8a350f55497a8b337" Name="ELECTRIC ENERGY (kWh)_2" xmlns="http://www.ni.com/MocCommon" />
+		<DataItem AdaptToDiagramType="True" BufferSize="3000" DataType="Wfm(Single)" Id="99d962aa87a34ef885aec36e5d7cdc60" Name="ACTIVE POWER [kW]_2" xmlns="http://www.ni.com/MocCommon" />
+		<DataItem AdaptToDiagramType="True" BufferSize="3000" DataType="Wfm(Single)" Id="7bd82c73e7f946c5a05d15a73809a432" Name="APPARENT POWER (kVA)_2" xmlns="http://www.ni.com/MocCommon" />
 	</VirtualInstrument>
 	<DataTypeReferenceTable xmlns="http://www.ni.com/PlatformFramework">
 		<p.TypeReference TypeId="4685d26350d14827a3385252395a6214">
