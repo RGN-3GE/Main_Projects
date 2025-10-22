@@ -9,33 +9,42 @@ xmlns="http://www.w3.org/TR/REC-html40">
 <meta name=ProgId content=Word.Document>
 <meta name=Generator content="Microsoft Word 15">
 <meta name=Originator content="Microsoft Word 15">
-<link rel=File-List href="RGN%20TEST%20HTML_archivos/filelist.xml">
-<link href="video-js.css" rel="stylesheet">
-<!--[if gte mso 9]><xml>
+<link rel=File-List href="index_archivos/filelist.xml">
+<link rel=Edit-Time-Data href="index_archivos/editdata.mso">
+<!--[if !mso]>
+<style>
+v\:* {behavior:url(#default#VML);}
+o\:* {behavior:url(#default#VML);}
+w\:* {behavior:url(#default#VML);}
+.shape {behavior:url(#default#VML);}
+</style>
+<![endif]--><!--[if gte mso 9]><xml>
  <o:DocumentProperties>
   <o:Author>RGN</o:Author>
   <o:LastAuthor>RGN</o:LastAuthor>
-  <o:Revision>2</o:Revision>
-  <o:TotalTime>1</o:TotalTime>
-  <o:Created>2025-10-07T23:46:00Z</o:Created>
-  <o:LastSaved>2025-10-07T23:46:00Z</o:LastSaved>
+  <o:Revision>5</o:Revision>
+  <o:TotalTime>17</o:TotalTime>
+  <o:Created>2025-08-18T00:01:00Z</o:Created>
+  <o:LastSaved>2025-09-21T03:04:00Z</o:LastSaved>
   <o:Pages>1</o:Pages>
-  <o:Words>2</o:Words>
-  <o:Characters>17</o:Characters>
-  <o:Lines>1</o:Lines>
+  <o:Words>76</o:Words>
+  <o:Characters>419</o:Characters>
+  <o:Lines>3</o:Lines>
   <o:Paragraphs>1</o:Paragraphs>
-  <o:CharactersWithSpaces>18</o:CharactersWithSpaces>
+  <o:CharactersWithSpaces>494</o:CharactersWithSpaces>
   <o:Version>16.00</o:Version>
  </o:DocumentProperties>
  <o:OfficeDocumentSettings>
   <o:AllowPNG/>
  </o:OfficeDocumentSettings>
 </xml><![endif]-->
-<link rel=themeData href="RGN%20TEST%20HTML_archivos/themedata.thmx">
-<link rel=colorSchemeMapping
-href="RGN%20TEST%20HTML_archivos/colorschememapping.xml">
+<link rel=themeData href="index_archivos/themedata.thmx">
+<link rel=colorSchemeMapping href="index_archivos/colorschememapping.xml">
 <!--[if gte mso 9]><xml>
  <w:WordDocument>
+  <w:View>Print</w:View>
+  <w:SpellingState>Clean</w:SpellingState>
+  <w:GrammarState>Clean</w:GrammarState>
   <w:TrackMoves>false</w:TrackMoves>
   <w:TrackFormatting/>
   <w:HyphenationZone>21</w:HyphenationZone>
@@ -59,6 +68,7 @@ href="RGN%20TEST%20HTML_archivos/colorschememapping.xml">
    <w:DontFlipMirrorIndents/>
    <w:OverrideTableStyleHps/>
   </w:Compatibility>
+  <w:BrowserLevel>MicrosoftInternetExplorer4</w:BrowserLevel>
   <m:mathPr>
    <m:mathFont m:val="Cambria Math"/>
    <m:brkBin m:val="before"/>
@@ -659,6 +669,13 @@ href="RGN%20TEST%20HTML_archivos/colorschememapping.xml">
 	mso-generic-font-family:swiss;
 	mso-font-pitch:variable;
 	mso-font-signature:-469750017 -1073732485 9 0 511 0;}
+@font-face
+	{font-family:Monotxt;
+	panose-1:0 0 4 0 0 0 0 0 0 0;
+	mso-font-charset:0;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:-1610601849 0 0 0 511 0;}
  /* Style Definitions */
  p.MsoNormal, li.MsoNormal, div.MsoNormal
 	{mso-style-unhide:no;
@@ -668,7 +685,7 @@ href="RGN%20TEST%20HTML_archivos/colorschememapping.xml">
 	margin-right:0cm;
 	margin-bottom:8.0pt;
 	margin-left:0cm;
-	line-height:107%;
+	line-height:105%;
 	mso-pagination:widow-orphan;
 	font-size:11.0pt;
 	font-family:"Calibri",sans-serif;
@@ -681,9 +698,133 @@ href="RGN%20TEST%20HTML_archivos/colorschememapping.xml">
 	mso-bidi-font-family:"Times New Roman";
 	mso-bidi-theme-font:minor-bidi;
 	mso-fareast-language:EN-US;}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:#0563C1;
+	mso-themecolor:hyperlink;
+	text-decoration:underline;
+	text-underline:single;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-noshow:yes;
+	mso-style-priority:99;
+	color:#954F72;
+	mso-themecolor:followedhyperlink;
+	text-decoration:underline;
+	text-underline:single;}
+p.MsoListParagraph, li.MsoListParagraph, div.MsoListParagraph
+	{mso-style-priority:34;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:8.0pt;
+	margin-left:36.0pt;
+	mso-add-space:auto;
+	line-height:105%;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:Calibri;
+	mso-fareast-theme-font:minor-latin;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;
+	mso-fareast-language:EN-US;}
+p.MsoListParagraphCxSpFirst, li.MsoListParagraphCxSpFirst, div.MsoListParagraphCxSpFirst
+	{mso-style-priority:34;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-type:export-only;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:36.0pt;
+	margin-bottom:.0001pt;
+	mso-add-space:auto;
+	line-height:105%;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:Calibri;
+	mso-fareast-theme-font:minor-latin;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;
+	mso-fareast-language:EN-US;}
+p.MsoListParagraphCxSpMiddle, li.MsoListParagraphCxSpMiddle, div.MsoListParagraphCxSpMiddle
+	{mso-style-priority:34;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-type:export-only;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:36.0pt;
+	margin-bottom:.0001pt;
+	mso-add-space:auto;
+	line-height:105%;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:Calibri;
+	mso-fareast-theme-font:minor-latin;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;
+	mso-fareast-language:EN-US;}
+p.MsoListParagraphCxSpLast, li.MsoListParagraphCxSpLast, div.MsoListParagraphCxSpLast
+	{mso-style-priority:34;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-type:export-only;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:8.0pt;
+	margin-left:36.0pt;
+	mso-add-space:auto;
+	line-height:105%;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:Calibri;
+	mso-fareast-theme-font:minor-latin;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;
+	mso-fareast-language:EN-US;}
+p.msonormal0, li.msonormal0, div.msonormal0
+	{mso-style-name:msonormal;
+	mso-style-unhide:no;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;}
+span.SpellE
+	{mso-style-name:"";
+	mso-spl-e:yes;}
 .MsoChpDefault
 	{mso-style-type:export-only;
 	mso-default-props:yes;
+	font-size:10.0pt;
+	mso-ansi-font-size:10.0pt;
+	mso-bidi-font-size:10.0pt;
 	font-family:"Calibri",sans-serif;
 	mso-ascii-font-family:Calibri;
 	mso-ascii-theme-font:minor-latin;
@@ -695,10 +836,6 @@ href="RGN%20TEST%20HTML_archivos/colorschememapping.xml">
 	mso-bidi-theme-font:minor-bidi;
 	mso-ansi-language:EN-US;
 	mso-fareast-language:EN-US;}
-.MsoPapDefault
-	{mso-style-type:export-only;
-	margin-bottom:8.0pt;
-	line-height:107%;}
 @page WordSection1
 	{size:612.0pt 792.0pt;
 	margin:70.85pt 3.0cm 70.85pt 3.0cm;
@@ -720,13 +857,10 @@ div.WordSection1
 	mso-style-priority:99;
 	mso-style-parent:"";
 	mso-padding-alt:0cm 5.4pt 0cm 5.4pt;
-	mso-para-margin-top:0cm;
-	mso-para-margin-right:0cm;
-	mso-para-margin-bottom:8.0pt;
-	mso-para-margin-left:0cm;
-	line-height:107%;
+	mso-para-margin:0cm;
+	mso-para-margin-bottom:.0001pt;
 	mso-pagination:widow-orphan;
-	font-size:11.0pt;
+	font-size:10.0pt;
 	font-family:"Calibri",sans-serif;
 	mso-ascii-font-family:Calibri;
 	mso-ascii-theme-font:minor-latin;
@@ -745,29 +879,104 @@ div.WordSection1
  </o:shapelayout></xml><![endif]-->
 </head>
 
-<body lang=ES-CL style='tab-interval:36.0pt'>
-
-<iframe src="https://186.79.196.158:8080/videojs/index.html" width="655" height="375" scrolling="no" style="position:absolute; top:270px; left:200px; border:1" allowfullscreen="false" ></iframe>
+<body lang=ES-CL link="#0563C1" vlink="#954F72" style='tab-interval:36.0pt'>
 
 <div class=WordSection1>
 
-<p class=MsoNormal><span lang=ES-MX style='mso-ansi-language:ES-MX'>TEST CAMERA
-HTML<o:p></o:p></span></p>
+<p class=MsoNormal><b style='mso-bidi-font-weight:normal'><span lang=ES-MX
+style='font-size:28.0pt;line-height:105%;font-family:"Times New Roman",serif;
+mso-ansi-language:ES-MX'><o:p>&nbsp;</o:p></span></b></p>
+
+<p class=MsoNormal><b style='mso-bidi-font-weight:normal'><span lang=ES-MX
+style='font-size:28.0pt;line-height:105%;font-family:"Times New Roman",serif;
+mso-ansi-language:ES-MX'>Repositorio Proyectos Web-App de 3GE Ltda.<o:p></o:p></span></b></p>
 
 <p class=MsoNormal><span lang=ES-MX style='mso-ansi-language:ES-MX'><o:p>&nbsp;</o:p></span></p>
 
-<p class=MsoNormal><span lang=ES-MX style='mso-ansi-language:ES-MX'><o:p>&nbsp;</o:p></span></p>
+<p class=MsoNormal><span class=SpellE><b style='mso-bidi-font-weight:normal'><span
+lang=EN-US style='font-size:16.0pt;line-height:105%;font-family:"Times New Roman",serif;
+mso-ansi-language:EN-US'>Proyectos</span></b></span><b style='mso-bidi-font-weight:
+normal'><span lang=EN-US style='font-size:16.0pt;line-height:105%;font-family:
+"Times New Roman",serif;mso-ansi-language:EN-US'>:<o:p></o:p></span></b></p>
 
+<p class=MsoNormal><span lang=EN-US style='mso-ansi-language:EN-US'><o:p>&nbsp;</o:p></span></p>
 
+<p class=MsoNormal><a
+href="https://3geprojects.cl/arc-flash-relay-project/Builds/WebApp_Default%20Web%20Server/index_2.html"><b
+style='mso-bidi-font-weight:normal'><span lang=EN-US style='font-family:Monotxt;
+mso-ansi-language:EN-US'>Demo Arc Flash System</span></b></a><span
+class=MsoHyperlink><b style='mso-bidi-font-weight:normal'><span lang=EN-US
+style='font-family:Monotxt;color:windowtext;mso-ansi-language:EN-US'><o:p></o:p></span></b></span></p>
 
+<p class=MsoNormal><b style='mso-bidi-font-weight:normal'><span lang=EN-US
+style='font-family:Monotxt;mso-ansi-language:EN-US'><a
+href="https://3geprojects.cl/demo-estanque-project/Builds/WebApp_Default%20Web%20Server/index_2.html">Level-Tank
+System</a></span></b><span lang=EN-US style='mso-ansi-language:EN-US'><o:p></o:p></span></p>
 
+<p class=MsoNormal><b style='mso-bidi-font-weight:normal'><span lang=ES-MX
+style='font-family:Monotxt;mso-ansi-language:ES-MX'><a
+href="https://3geprojects.cl/demo-energy-project/Builds/WebApp_Default%20Web%20Server/index.html"><span
+class=SpellE>Energy</span> <span class=SpellE>Consumption</span> Meter</a><o:p></o:p></span></b></p>
+
+<p class=MsoNormal style='margin-right:751.45pt'><span lang=ES-MX
+style='mso-ansi-language:ES-MX'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-right:751.45pt'><span lang=ES-MX
+style='mso-ansi-language:ES-MX'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-right:751.45pt'><span lang=ES-MX
+style='mso-ansi-language:ES-MX'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-right:751.45pt'><a href="https://3ge.cl/"><span
+style='color:windowtext;mso-fareast-language:ES-CL;mso-no-proof:yes;text-decoration:
+none;text-underline:none'><!--[if gte vml 1]><v:shapetype id="_x0000_t75"
+ coordsize="21600,21600" o:spt="75" o:preferrelative="t" path="m@4@5l@4@11@9@11@9@5xe"
+ filled="f" stroked="f">
+ <v:stroke joinstyle="miter"/>
+ <v:formulas>
+  <v:f eqn="if lineDrawn pixelLineWidth 0"/>
+  <v:f eqn="sum @0 1 0"/>
+  <v:f eqn="sum 0 0 @1"/>
+  <v:f eqn="prod @2 1 2"/>
+  <v:f eqn="prod @3 21600 pixelWidth"/>
+  <v:f eqn="prod @3 21600 pixelHeight"/>
+  <v:f eqn="sum @0 0 1"/>
+  <v:f eqn="prod @6 1 2"/>
+  <v:f eqn="prod @7 21600 pixelWidth"/>
+  <v:f eqn="sum @8 21600 0"/>
+  <v:f eqn="prod @7 21600 pixelHeight"/>
+  <v:f eqn="sum @10 21600 0"/>
+ </v:formulas>
+ <v:path o:extrusionok="f" gradientshapeok="t" o:connecttype="rect"/>
+ <o:lock v:ext="edit" aspectratio="t"/>
+</v:shapetype><v:shape id="Imagen_x0020_1" o:spid="_x0000_i1025" type="#_x0000_t75"
+ href="https://3ge.cl/" style='width:150pt;height:48pt;visibility:visible;
+ mso-wrap-style:square' o:button="t">
+ <v:fill o:detectmouseclick="t"/>
+ <v:imagedata src="index_archivos/image001.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><span style='mso-ignore:vglayout'><img
+border=0 width=200 height=64 src="index_archivos/image001.png" v:shapes="Imagen_x0020_1"></span><![endif]></span></a><span
+lang=ES-MX style='mso-ansi-language:ES-MX'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-right:751.45pt'><span lang=ES-MX
+style='mso-ansi-language:ES-MX'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-right:751.45pt'><span lang=ES-MX
+style='mso-ansi-language:ES-MX'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-right:751.45pt'><span lang=ES-MX
+style='mso-ansi-language:ES-MX'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-right:751.45pt;text-indent:36.0pt'><span
+lang=ES-MX style='mso-ansi-language:ES-MX'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-right:751.45pt'><span lang=ES-MX
+style='mso-ansi-language:ES-MX'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-right:751.45pt'><span lang=ES-MX
+style='mso-ansi-language:ES-MX'><o:p>&nbsp;</o:p></span></p>
 
 </div>
-<script src="video.js"></script>
-<script src="videojs-contrib-hls.min.js"></script>
-<script>
-var player = videojs('myHLS');
-</script>
 
 </body>
 
