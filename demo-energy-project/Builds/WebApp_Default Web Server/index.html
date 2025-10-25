@@ -4,8 +4,8 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>index</title>
-    <link href="ni-webvi-resource-v0/favicon.ico" type="image/x-icon" rel="icon">
+    <title>3GE Energy Meter</title>
+    <link href="favicon/favicon.ico" type="image/x-icon" rel="icon">
 <link href="ni-webvi-resource-v0/Web/dist/Styles/niBase.DeployedRun.min.css" type="text/css" rel="stylesheet">
 <script src="ni-webvi-resource-v0/BrowserDetection.js" type="text/javascript" nomodule=""></script>
 <script src="ni-webvi-resource-v0/DeployedRun.min.js" type="module"></script>
@@ -244,6 +244,7 @@ DE ENERGÍA ELÉCTRICA'></ni-text>
                         <ni-string-control accepts-return='true' binding-info='{"accessMode": "writeOnly", "dataItem": "dataItem_FechaHora", "dco": 9, "isLatched": false, "prop": "text", "sync": false, "unplacedOrDisabled": false}' control-resize-mode='fixed' escaped-display-mode='default' follower-ids='["200"]' label-alignment='top-left' label-id='200' ni-control-id='201' read-only='true' text=''></ni-string-control>
                         <ni-label control-resize-mode='fixed' label-alignment='top-left' ni-control-id='200' text='Fecha | Hora'></ni-label>
                         <ni-label class='ni-hidden' control-resize-mode='fixed' label-alignment='top-left' ni-control-id='199' text='Tab_3'></ni-label>
+						
                         <ni-tab-control binding-info='{"accessMode": "readOnly", "dataItem": "dataItem_Tab_3", "dco": 21, "isLatched": false, "prop": "selectedIndex", "sync": false, "unplacedOrDisabled": true}' control-resize-mode='both-directions' follower-ids='["199"]' label-alignment='top-left' label-id='199' ni-control-id='38' selected-index='0' tab-strip-placement='Top' tabindex='0'>
                             <ni-tab-item control-resize-mode='fixed' header='1 hour' layout='absolute' ni-control-id='119' tab-position='0'>
                                 <ni-layout-panel control-resize-mode='fixed' ni-control-id='120'>
@@ -409,19 +410,24 @@ dd\/MM\/yy.' grid-lines='true' label='Tiempo' maximum='600' minimum='0' ni-contr
                                     <ni-label control-resize-mode='fixed' label-alignment='top-left' ni-control-id='41' text='APPARENT POWER (kVA)_2'></ni-label>
                                 </ni-layout-panel>
                             </ni-tab-item>
-                            <ni-tab-item control-resize-mode='fixed' header='Camera' layout='absolute' ni-control-id='226' tab-position='2'>
+                <!-- CAMERA TAB CONTROL -->
+							<ni-tab-item control-resize-mode='fixed' header='Camera' layout='absolute' ni-control-id='226' tab-position='2'>
                                 <ni-layout-panel control-resize-mode='fixed' ni-control-id='227'>
                                     <ni-text control-resize-mode='fixed' ni-control-id='230' text='HERE CAMERA'></ni-text>
 									<iframe src="https://3gserver.ddns.net/live/index.html" width="655" height="375" scrolling="no" style="position:absolute; top:150px; left:300px; border:0" allowfullscreen="false" ></iframe>
                                 </ni-layout-panel>
                             </ni-tab-item>
-                            <ni-tab-item control-resize-mode='fixed' header='Location Map' layout='absolute' ni-control-id='228' tab-position='3'>
+                
+				<!-- MAP TAB CONTROL -->
+							<ni-tab-item control-resize-mode='fixed' header='Location Map' layout='absolute' ni-control-id='228' tab-position='3'>
                                 <ni-layout-panel control-resize-mode='fixed' ni-control-id='229'>
                                     <ni-text control-resize-mode='fixed' ni-control-id='231' text='HERE MAP'></ni-text>
-									<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9460.200131112979!2d-71.52546135132245!3d-33.03840651813419!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9689de8af503f029%3A0x85f95491f27c1ee5!2sC.%20Limache%203117%2C%202562126%20Vi%C3%B1a%20del%20Mar%2C%20Valpara%C3%ADso!5e0!3m2!1ses!2scl!4v1759101167986!5m2!1ses!2scl" width="800" height="600" style="border:0; position:absolute; top:50px; left:200px" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+									<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9460.200131112979!2d-71.52546135132245!3d-33.03840651813419!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9689de8af503f029%3A0x85f95491f27c1ee5!2sC.%20Limache%203117%2C%202562126%20Vi%C3%B1a%20del%20Mar%2C%20Valpara%C3%ADso!5e0!3m2!1ses!2scl!4v1759101167986!5m2!1ses!2scl" width="800" height="600" style="border:0; position:absolute; top:50px; left:250px" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                                 </ni-layout-panel>
                             </ni-tab-item>
+				
                         </ni-tab-control>
+						
                         <jqx-led binding-info='{"accessMode": "writeOnly", "dataItem": "dataItem_ServerActive", "dco": 10, "isLatched": false, "prop": "value", "sync": false, "unplacedOrDisabled": false}' click-mode='release' control-resize-mode='fixed' false-content='Off' follower-ids='["35"]' label-alignment='top-left' label-id='35' ni-control-id='37' readonly='true' shape='square' true-content='On'></jqx-led>
                         <ni-label control-resize-mode='fixed' label-alignment='top-left' ni-control-id='35' text='Server Active'></ni-label>
                         <ni-url-image alternate='' binding-info='{"accessMode": "writeOnly", "dataItem": "dataItem_URLImage", "dco": 11, "isLatched": false, "prop": "source", "sync": false, "unplacedOrDisabled": true}' control-resize-mode='fixed' follower-ids='["33"]' href='' label-alignment='top-left' label-id='33' ni-control-id='34' read-only='true' source='Image/logo_acrel_vectorized.png' stretch='uniform' target='_self'></ni-url-image>
